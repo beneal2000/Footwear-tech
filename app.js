@@ -48,10 +48,13 @@ function render() {
 
   // Patents: brand filter over both real records and search entries
   renderBrandChips($("#patentBrandChips"), [...(DATA.patents || []), ...DATA.patent_searches], patentBrand, v => patentBrand = v);
-  $("#patentGrid").innerHTML = (DATA.patents || []).filter(p => brandMatch(p, patentBrand) && hit(p.title, p.number, p.brand, brandOf(p).join(" ")))
+  $("#patentGrid").innerHTML = (DATA.patents || []).filter(p => brandMatch(p, patentBrand) && hit(p.title, p.title_zh, p.number, p.brand, p.applicant, brandOf(p).join(" ")))
     .map(p => `<a class="card" href="${esc(p.url)}" target="_blank" rel="noopener">
-      <div class="meta"><span>${esc(p.date)}</span><span class="tag">${esc(p.source || "")}</span><span>${esc(p.number || "")}</span></div>
-      <h3>${esc(p.title)}</h3><p>${esc(p.abstract || "")}</p><span class="go">查看专利原文 ›</span></a>`).join("");
+      <div class="meta"><span>${esc(p.date)}</span><span class="tag">${esc(p.source || "")}</span><span>${esc(p.number || "")}</span><span class="brand">${esc(brandOf(p).join(" / "))}</span></div>
+      <h3>${esc(p.title_zh || p.title)}</h3>
+      ${p.title_zh && p.title_zh !== p.title ? `<p class="orig">${esc(p.title)}</p>` : ""}
+      <p>${esc(p.abstract_zh || p.abstract || "")}</p>
+      <div class="meta"><span>${esc(p.applicant || "")}</span></div><span class="go">查看专利原文 ›</span></a>`).join("");
 
   // Patent search entries per brand
   const searches = DATA.patent_searches.filter(s => brandMatch(s, patentBrand) && hit(s.brand, s.applicant, (s.cpc || []).join(" ")));
