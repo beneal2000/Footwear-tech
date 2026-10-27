@@ -1888,7 +1888,776 @@
    ]
   }
  ],
- "patents": [],
+ "patents": [
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Sole and shoes",
+   "title_zh": "鞋底和鞋子",
+   "number": "CN122604154A",
+   "date": "2026-08-21",
+   "applicant": "安踏（中国）有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122604154A/en",
+   "brands": [
+    "安踏"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Molding apparatus, method and products thereof",
+   "title_zh": "成型装置、方法及其产品",
+   "number": "CN122606793A",
+   "date": "2026-08-21",
+   "applicant": "中山珩圣智能集成科技有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122606793A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Shoe upper with functional and guiding elements",
+   "title_zh": "鞋面带有功能和导向元素",
+   "number": "CN122604161A",
+   "date": "2026-08-21",
+   "applicant": "阿迪达斯股份公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122604161A/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Footwear Products Including Data Transmission Capabilities",
+   "title_zh": "包括数据传输功能的鞋类产品",
+   "number": "US20260247053A1",
+   "date": "2026-08-20",
+   "applicant": "Nike, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260247053A1/en",
+   "brands": [
+    "Nike"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Monoalkyl tin trialkoxides and/or monoalkyl tin triamides with low metal …",
+   "title_zh": "低金属单烷基锡三烷氧基和/或单烷基锡三酰胺…",
+   "number": "US20260244094A1",
+   "date": "2026-08-20",
+   "applicant": "Inpria Corporation",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260244094A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Method for Operating a Semantic System",
+   "title_zh": "操作语义系统的方法",
+   "number": "US20260241550A1",
+   "date": "2026-08-20",
+   "applicant": "Lucomm Technologies, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260241550A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Upper for a shoe with functional and guiding elements",
+   "title_zh": "鞋面，用于具有功能和导向元素的鞋子",
+   "number": "US20260240284A1",
+   "date": "2026-08-20",
+   "applicant": "Adidas Ag",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260240284A1/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A high-elasticity, impact-resistant microporous foam material",
+   "title_zh": "一种高弹性、耐冲击的微孔泡沫材料",
+   "number": "CN122587460A",
+   "date": "2026-08-18",
+   "applicant": "广东省蝴蝶夫体育用品有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122587460A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A high-resilience, low-compression-deformation ETPU midsole and its preparation …",
+   "title_zh": "高回弹、低压缩变形的ETPU中底及其制备方法……",
+   "number": "CN122587462A",
+   "date": "2026-08-18",
+   "applicant": "江博士(集团)有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122587462A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Modified natural rubber base material based on flower extract, and preparation …",
+   "title_zh": "基于花卉提取物的改性天然橡胶基材及其制备方法…",
+   "number": "CN122563182A",
+   "date": "2026-08-14",
+   "applicant": "苏州盛仙龙草商贸有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122563182A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Liquid TPU stencil printing",
+   "title_zh": "液体TPU模板印刷",
+   "number": "CN122560317A",
+   "date": "2026-08-14",
+   "applicant": "阿迪达斯股份公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122560317A/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Article of footwear and sole structure with sensory node elements disposed at …",
+   "title_zh": "鞋类和鞋底结构制品，感觉节点元件布置在……",
+   "number": "US20260232074A1",
+   "date": "2026-08-13",
+   "applicant": "Nike, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260232074A1/en",
+   "brands": [
+    "Nike"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Gesture recognition",
+   "title_zh": "手势识别",
+   "number": "US20260236106A1",
+   "date": "2026-08-13",
+   "applicant": "Nike, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260236106A1/en",
+   "brands": [
+    "Nike"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Devices, systems and methods for using and monitoring sports equipment and …",
+   "title_zh": "用于使用和监控运动器材和……的设备、系统和方法",
+   "number": "US20260233058A1",
+   "date": "2026-08-13",
+   "applicant": "Canary Medical Switzerland Ag",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260233058A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Battery module with reinforced safety",
+   "title_zh": "安全强化的电池模块",
+   "number": "US20260237842A1",
+   "date": "2026-08-13",
+   "applicant": "Lg Energy Solution, Ltd.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260237842A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Device control using gaze information",
+   "title_zh": "使用凝视信息的设备控制",
+   "number": "US20260236096A1",
+   "date": "2026-08-13",
+   "applicant": "Apple Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260236096A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Reduced-size interfaces for managing alerts",
+   "title_zh": "用于管理警报的缩小尺寸界面",
+   "number": "US20260236115A1",
+   "date": "2026-08-13",
+   "applicant": "Apple Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260236115A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Liquid tpu texturing during and after curing",
+   "title_zh": "固化期间和之后的液体tpu纹理",
+   "number": "US20260232072A1",
+   "date": "2026-08-13",
+   "applicant": "Adidas Ag",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260232072A1/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A high-damping carbon dioxide-based foamed thermoplastic polyurethane and its …",
+   "title_zh": "一种高阻尼二氧化碳基泡沫热塑性聚氨酯及其…",
+   "number": "CN122541671A",
+   "date": "2026-08-11",
+   "applicant": "杭州硼茂新材料科技有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122541671A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A thermoplastic polyurethane foam and its continuous production method and …",
+   "title_zh": "一种热塑性聚氨酯泡沫及其连续生产方法和…",
+   "number": "CN122539576A",
+   "date": "2026-08-11",
+   "applicant": "湖南望城海绵原料制品有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122539576A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A flexible product with a dual-scale porous structure and its preparation …",
+   "title_zh": "一种具有双尺度多孔结构的柔性产品及其制备方法……",
+   "number": "CN122518745A",
+   "date": "2026-08-07",
+   "applicant": "河南谱凌科技有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122518745A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Shoe sole plate containing metal plate and its manufacturing method",
+   "title_zh": "含有金属板的鞋底板及其制造方法",
+   "number": "CN122515541A",
+   "date": "2026-08-07",
+   "applicant": "阿迪达斯股份公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122515541A/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Shoes with soles featuring a stabilizing structure",
+   "title_zh": "鞋底采用稳定结构的鞋子",
+   "number": "CN122515540A",
+   "date": "2026-08-07",
+   "applicant": "阿迪达斯股份公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122515540A/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "…  and Adaptability Evaluation Methods, Systems and Devices for Sports Shoes",
+   "title_zh": "…和运动鞋的适应性评估方法、系统和设备",
+   "number": "CN122515549A",
+   "date": "2026-08-07",
+   "applicant": "李宁体育科技(北京)有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122515549A/en",
+   "brands": [
+    "李宁"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Sole structure for article of footwear",
+   "title_zh": "鞋类物品的鞋底结构",
+   "number": "US20260223984A1",
+   "date": "2026-08-06",
+   "applicant": "Nike, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260223984A1/en",
+   "brands": [
+    "Nike"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Respiratory therapy apparatus having filter housing with supplemental oxygen …",
+   "title_zh": "具有过滤器外壳和补充氧气的呼吸治疗设备……",
+   "number": "US20260224829A1",
+   "date": "2026-08-06",
+   "applicant": "Hill-Rom Services Pte. Ltd.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260224829A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "System and Network for Outfit Planning and Wardrobe Management",
+   "title_zh": "服装规划和衣柜管理系统和网络",
+   "number": "US20260228811A1",
+   "date": "2026-08-06",
+   "applicant": "Lutzy Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260228811A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Methods and systems for parsing a mix of features and instructions into a …",
+   "title_zh": "用于将功能和指令的混合解析为……的方法和系统",
+   "number": "US20260228431A1",
+   "date": "2026-08-06",
+   "applicant": "Shopify Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260228431A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A method for preparing thermoplastic polyester elastomer foam material, shoe …",
+   "title_zh": "一种制备热塑性聚酯弹性体泡沫材料、鞋…",
+   "number": "CN122502710A",
+   "date": "2026-08-04",
+   "applicant": "安踏（中国）有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122502710A/en",
+   "brands": [
+    "安踏"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A low-carbon, circular, functionalized shoe material granule continuous …",
+   "title_zh": "低碳、圆形、功能化的鞋材颗粒连续……",
+   "number": "CN122483386A",
+   "date": "2026-07-31",
+   "applicant": "安徽玉丰新材料科技股份有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122483386A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Fully convertible high heel-to-flat shoe",
+   "title_zh": "全敞篷高跟平底鞋",
+   "number": "US20260215540A1",
+   "date": "2026-07-30",
+   "applicant": "Pashion Footwear, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260215540A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Golf shoes with lace tightening system for closure and comfortable fit",
+   "title_zh": "高尔夫球鞋，搭配蕾丝紧固系统，合身舒适",
+   "number": "US20260215544A1",
+   "date": "2026-07-30",
+   "applicant": "Acushnet Company",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260215544A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Shipment monitoring with asset-affixed tracking devices, gateway communication, …",
+   "title_zh": "通过固定资产跟踪设备、网关通信……进行货运监控",
+   "number": "US20260219356A1",
+   "date": "2026-07-30",
+   "applicant": "Locatorx, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260219356A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Article of footwear having a sole plate",
+   "title_zh": "有鞋底板的鞋类物品",
+   "number": "US20260206916A1",
+   "date": "2026-07-23",
+   "applicant": "Puma SE",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260206916A1/en",
+   "brands": [
+    "PUMA"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Article of footwear having a sole plate",
+   "title_zh": "有鞋底板的鞋类物品",
+   "number": "US20260206915A1",
+   "date": "2026-07-23",
+   "applicant": "Puma SE",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260206915A1/en",
+   "brands": [
+    "PUMA"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Article of footwear with closure system",
+   "title_zh": "带闭合系统的鞋类产品",
+   "number": "KR20260112966A",
+   "date": "2026-07-21",
+   "applicant": "아쿠쉬네트 컴퍼니",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/KR20260112966A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Sole comprising a reinforcing structure, shoe with such a sole, and method for …",
+   "title_zh": "包括加固结构的鞋底、具有这种鞋底的鞋以及用于……的方法",
+   "number": "US20260198647A1",
+   "date": "2026-07-16",
+   "applicant": "Adidas Ag",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260198647A1/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Rapid-entry footwear comprised of a unified material",
+   "title_zh": "由统一材料组成的快速进入鞋类",
+   "number": "US20260198646A1",
+   "date": "2026-07-16",
+   "applicant": "Fast Ip, Llc",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260198646A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Athletic activity monitoring methods and systems",
+   "title_zh": "体育活动监测方法和系统",
+   "number": "US20260204383A1",
+   "date": "2026-07-16",
+   "applicant": "Adidas Ag",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260204383A1/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Lithium-ion rechargeable battery",
+   "title_zh": "锂离子可充电电池",
+   "number": "JP7888893B1",
+   "date": "2026-07-13",
+   "applicant": "株式会社半導体エネルギー研究所",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/JP7888893B1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "System and method for providing cryptographically secured digital assets",
+   "title_zh": "用于提供加密保护的数字资产的系统和方法",
+   "number": "US20260197166A1",
+   "date": "2026-07-09",
+   "applicant": "Nike, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260197166A1/en",
+   "brands": [
+    "Nike"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Dampeners for sporting equipment and sporting equipment including the same",
+   "title_zh": "用于运动器材的阻尼器和运动器材，包括相同的",
+   "number": "US20260192169A1",
+   "date": "2026-07-09",
+   "applicant": "VT Advantec, L.L.C.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260192169A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Article of footwear incorporating a knitted component",
+   "title_zh": "包含针织部件的鞋类产品",
+   "number": "US20260182697A1",
+   "date": "2026-07-02",
+   "applicant": "Nike, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260182697A1/en",
+   "brands": [
+    "Nike"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Bioprocessing methods for cell therapy",
+   "title_zh": "用于细胞治疗的生物加工方法",
+   "number": "JP2026110644A",
+   "date": "2026-07-02",
+   "applicant": "グローバル・ライフ・サイエンシズ・ソリューションズ・ユーエスエー・エルエルシー",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/JP2026110644A/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Soles for sports shoes",
+   "title_zh": "运动鞋鞋底",
+   "number": "US20260182701A1",
+   "date": "2026-07-02",
+   "applicant": "Adidas Ag",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260182701A1/en",
+   "brands": [
+    "adidas"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Protein polyurethane alloys and layered materials including the same",
+   "title_zh": "蛋白质聚氨酯合金和包括其的层状材料",
+   "number": "US20260184923A1",
+   "date": "2026-07-02",
+   "applicant": "Modern Meadow, Inc.",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260184923A1/en",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "A device for measuring the compression recovery properties of midsole materials",
+   "title_zh": "一种测量中底材料压缩恢复特性的装置",
+   "number": "CN122282475A",
+   "date": "2026-06-26",
+   "applicant": "李宁体育科技(北京)有限公司",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/CN122282475A/en",
+   "brands": [
+    "李宁"
+   ]
+  },
+  {
+   "type": "patent",
+   "source": "Google Patents",
+   "brand": "",
+   "title": "Modular footwear and methods of making the same",
+   "title_zh": "模块化鞋类及其制造方法",
+   "number": "US20260174182A1",
+   "date": "2026-06-25",
+   "applicant": "Adidas Ag",
+   "abstract": "",
+   "abstract_zh": "",
+   "url": "https://patents.google.com/patent/US20260174182A1/en",
+   "brands": [
+    "adidas"
+   ]
+  }
+ ],
  "patent_searches": [
   {
    "type": "patent_search",
