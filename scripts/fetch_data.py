@@ -337,11 +337,14 @@ def enrich_patents(recs):
     for r in recs:
         old = cache.get(r.get("number", ""), {})
         if not r.get("abstract") and old.get("abstract"): r["abstract"] = old["abstract"]
-        # "/thumbnails/" URLs are tokenized for Google's own front-end and
-        # 403 when hotlinked — never reuse them, always take a drawing URL.
-        if not r.get("image") and old.get("image") and "/thumbnails/" not in old["image"]:
+        # Only hash-segment drawing URLs are publicly readable: "/thumbnails/"
+        # URLs are tokenized for Google's own front-end (403), and the bare
+        # /{pub}/{file} form is ACL-denied. Reuse a cached image only when it
+        # has the hash-segment shape (>=7 "/" segments); drop anything else.
+        def _good_img(u): return bool(u) and "/thumbnails/" not in u and len(u.split("/")) >= 7
+        if not r.get("image") and _good_img(old.get("image", "")):
             r["image"] = old["image"]
-        if r.get("image") and "/thumbnails/" in r["image"]: r["image"] = ""
+        if r.get("image") and not _good_img(r["image"]): r["image"] = ""
         if r.get("abstract") and r.get("image"): continue
         if fails >= 5:  # detail pages are rate-limiting this IP; stop and let tomorrow's run continue
             continue
@@ -366,10 +369,23 @@ def enrich_patents(recs):
                 txt = _html.unescape(re.sub(r"<[^>]+>", " ", m.group(1)))
                 r["abstract"] = re.sub(r"\s+", " ", txt).strip()[:600]
         if not r.get("image"):
-            imgs = [u for u in dict.fromkeys(re.findall(
+            # Several patentimages URL forms appear in the page and most are
+            # NOT publicly readable (thumbnails are tokenized; the bare
+            # /{pub}/{file} form is ACL-denied). The real drawings live under
+            # hash-segment paths. Verify candidates with a real GET and only
+            # keep one that actually returns an image.
+            cands = [u for u in dict.fromkeys(re.findall(
                 r'https://patentimages\.storage\.googleapis\.com/[^\s"\'<>]+?\.(?:png|jpg|jpeg)', page))
                 if "/thumbnails/" not in u]
-            if imgs: r["image"] = imgs[0]
+            cands.sort(key=lambda u: -len(u.split("/")))
+            for u in cands[:4]:
+                try:
+                    req = urllib.request.Request(u, headers=_BROWSER_UA)
+                    with urllib.request.urlopen(req, timeout=15) as resp:
+                        if resp.status == 200 and "image" in (resp.headers.get("Content-Type") or ""):
+                            r["image"] = u; break
+                except Exception:
+                    continue
         time.sleep(1.5)
     return recs
 
