@@ -1,1 +1,55 @@
+name: Daily update & deploy
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # UTC 00:00 = 北京时间 08:00，每日一次
+  workflow_dispatch:       # 也可在 Actions 页手动触发
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest papers / news / patents
+        env:
+          # 免费注册后填到仓库 Settings → Secrets and variables → Actions：
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}   # OpenAlex 免费 key（无 key 时共享额度常耗尽，脚本会自动改走 PubMed+Crossref）
+          LENS_TOKEN: ${{ secrets.LENS_TOKEN }}               # 可选：Lens.org 专利 Token
+          EPO_OPS_KEY: ${{ secrets.EPO_OPS_KEY }}             # 可选：EPO OPS consumer key
+          EPO_OPS_SECRET: ${{ secrets.EPO_OPS_SECRET }}       # 可选：EPO OPS consumer secret
+        run: python scripts/fetch_data.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "footwear-tech-bot"
+          git config user.email "actions@github.com"
+          git add data/data.json
+          git diff --cached --quiet || git commit -m "Daily data update"
+          git push || true
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
 
