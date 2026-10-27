@@ -267,6 +267,62 @@ def patents_ops_lens():
         print("[ops] EPO_OPS_KEY present: OPS OAuth fetch is configured in scripts/fetch_patents_ops.py", file=sys.stderr)
     return records
 
+# ---------------- Chinese translation ----------------
+CJK = re.compile(r"[\u4e00-\u9fff]")
+def is_zh(s):
+    return len(CJK.findall(s or "")) >= 4
+
+def _mm_chunk(text):
+    url = "https://api.mymemory.translated.net/get?" + urllib.parse.urlencode(
+        {"q": text, "langpair": "en|zh-CN"})
+    d = get_json(url, timeout=12)
+    return (d.get("responseData") or {}).get("translatedText", "") or ""
+
+def translate_en_zh(text):
+    """Best-effort EN->zh via MyMemory free API (chunked at 450 chars).
+    Returns '' on failure; the UI then falls back to the English original."""
+    if not text or is_zh(text): return text or ""
+    chunks, buf = [], ""
+    for part in re.split(r"(?<=[.!?])\s+", text):
+        if len(buf) + len(part) > 450:
+            if buf: chunks.append(buf)
+            buf = part
+        else:
+            buf = (buf + " " + part).strip()
+    if buf: chunks.append(buf)
+    out = []
+    try:
+        for c in chunks:
+            if len(c) > 450:  # hard split very long sentences
+                subs = [c[i:i+450] for i in range(0, len(c), 450)]
+            else:
+                subs = [c]
+            for s in subs:
+                out.append(_mm_chunk(s)); time.sleep(0.15)
+    except Exception as e:
+        print(f"[translate] {e}", file=sys.stderr); return ""
+    return " ".join(x for x in out if x).strip()
+
+def add_translations(items):
+    """Fill title_zh / abstract_zh. Reuses translations from the previous
+    data.json (matched by exact source text) so daily runs only translate
+    genuinely new items and stay within free translation quotas."""
+    cache = {}
+    try:
+        prev = json.load(open(OUT, encoding="utf-8"))
+        for kind in ("papers", "news"):
+            for x in prev.get(kind, []):
+                if x.get("title_zh"): cache[("t", x["title"])] = x["title_zh"]
+                if x.get("abstract_zh"): cache[("a", x.get("abstract", ""))] = x["abstract_zh"]
+    except Exception:
+        pass
+    for x in items:
+        x["title_zh"] = x["title"] if is_zh(x["title"]) else \
+            cache.get(("t", x["title"])) or translate_en_zh(x["title"])
+        a = x.get("abstract", "")
+        x["abstract_zh"] = a if is_zh(a) else \
+            (cache.get(("a", a)) or translate_en_zh(a)) if a else ""
+
 def main():
     papers, seen = [], set()
     for fn in (papers_openalex, papers_pubmed, papers_crossref):
@@ -282,6 +338,8 @@ def main():
         if k in nseen: continue
         nseen.add(k); uniq_news.append(n)
     uniq_news.sort(key=lambda x: x["date"] or "", reverse=True)
+    add_translations(papers[:60])
+    add_translations(uniq_news[:80])
     data = {"updated_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="minutes"),
             "papers": papers[:60], "news": uniq_news[:80],
             "patents": patents_ops_lens(), "patent_searches": patent_search_entries(),
