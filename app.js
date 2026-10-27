@@ -6,11 +6,13 @@ const hit = (...txt) => !query || txt.join(" ").toLowerCase().includes(query);
 
 function render() {
   // News
-  const news = DATA.news.filter(n => hit(n.title, n.abstract, n.source));
+  const news = DATA.news.filter(n => hit(n.title, n.title_zh, n.abstract, n.abstract_zh, n.source));
   $("#newsGrid").innerHTML = news.map(n => `
     <a class="card" href="${esc(n.url)}" target="_blank" rel="noopener">
       <div class="meta"><span>${esc(n.date)}</span><span class="tag">${esc(n.source)}</span></div>
-      <h3>${esc(n.title)}</h3><p>${esc(n.abstract)}</p><span class="go">阅读原文 ›</span></a>`).join("");
+      <h3>${esc(n.title_zh || n.title)}</h3>
+      ${n.title_zh && n.title_zh !== n.title ? `<p class="orig">${esc(n.title)}</p>` : ""}
+      <p>${esc(n.abstract_zh || n.abstract)}</p><span class="go">阅读原文 ›</span></a>`).join("");
   $("#newsEmpty").hidden = news.length > 0;
 
   // Papers
@@ -19,13 +21,14 @@ function render() {
     `<button class="chip ${t === paperTag ? "on" : ""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   document.querySelectorAll(".chip").forEach(c => c.onclick = () => { paperTag = c.dataset.tag; render(); });
   const papers = DATA.papers.filter(p =>
-    (paperTag === "全部" || p.tag === paperTag) && hit(p.title, p.abstract, p.venue, (p.authors || []).join(" "), p.doi));
+    (paperTag === "全部" || p.tag === paperTag) && hit(p.title, p.title_zh, p.abstract, p.abstract_zh, p.venue, (p.authors || []).join(" "), p.doi));
   $("#paperGrid").innerHTML = papers.map(p => `
     <a class="card" href="${esc(p.url)}" target="_blank" rel="noopener">
       <div class="meta"><span>${esc(p.date)}</span><span class="tag">${esc(p.tag || "")}</span><span>${esc(p.source)}</span></div>
-      <h3>${esc(p.title)}</h3>
+      <h3>${esc(p.title_zh || p.title)}</h3>
+      ${p.title_zh && p.title_zh !== p.title ? `<p class="orig">${esc(p.title)}</p>` : ""}
       <p class="authors">${esc((p.authors || []).join(", "))}${p.venue ? " · " + esc(p.venue) : ""}</p>
-      ${p.abstract ? `<p>${esc(p.abstract)}</p>` : ""}
+      ${p.abstract || p.abstract_zh ? `<p>${esc(p.abstract_zh || p.abstract)}</p>` : ""}
       ${p.doi ? `<p>DOI: ${esc(p.doi)}</p>` : ""}
       <span class="go">查看论文 ›</span></a>`).join("");
   $("#paperEmpty").hidden = papers.length > 0;
