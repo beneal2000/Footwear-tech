@@ -314,6 +314,60 @@ def patents_google():
     out.sort(key=lambda x: x["date"] or "", reverse=True)
     return out[:48]
 
+_BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+               "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9"}
+
+def enrich_patents(recs):
+    """Fill abstract + main drawing image from each patent's Google Patents
+    page. The search endpoint returns neither, so open the detail page:
+    abstract from the DC.description meta (fallbacks below), main image =
+    first patentimages PNG (the representative drawing)."""
+    import html as _html
+    # Reuse abstracts/images fetched on previous days (patents stay in the
+    # list for days, so steady-state only new records need a page fetch —
+    # important because the detail pages rate-limit rapid sequences).
+    cache = {}
+    try:
+        prev = json.load(open(OUT, encoding="utf-8"))
+        for p in prev.get("patents", []):
+            cache[p.get("number", "")] = p
+    except Exception:
+        pass
+    fails = 0
+    for r in recs:
+        old = cache.get(r.get("number", ""), {})
+        if not r.get("abstract") and old.get("abstract"): r["abstract"] = old["abstract"]
+        if not r.get("image") and old.get("image"): r["image"] = old["image"]
+        if r.get("abstract") and r.get("image"): continue
+        if fails >= 5:  # detail pages are rate-limiting this IP; stop and let tomorrow's run continue
+            continue
+        page = None
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(r["url"], headers=_BROWSER_UA)
+                page = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
+                break
+            except Exception as e:
+                if attempt == 2: print(f"[gpatent-page] {r['number']}: {e}", file=sys.stderr)
+                time.sleep(10 * (attempt + 1))
+        if not page:
+            fails += 1; continue
+        fails = 0
+        if not r.get("abstract"):
+            m = (re.search(r'<meta[^>]*DC\.description[^>]*content="([^"]+)"', page)
+                 or re.search(r'<meta[^>]*content="([^"]+)"[^>]*DC\.description', page)
+                 or re.search(r'itemprop="abstract"[^>]*>(.*?)</(?:section|div)>', page, re.S)
+                 or re.search(r'<div class="abstract"[^>]*>(.*?)</div>', page, re.S))
+            if m:
+                txt = _html.unescape(re.sub(r"<[^>]+>", " ", m.group(1)))
+                r["abstract"] = re.sub(r"\s+", " ", txt).strip()[:600]
+        if not r.get("image"):
+            imgs = list(dict.fromkeys(re.findall(
+                r'https://patentimages\.storage\.googleapis\.com/[^\s"\'<>]+?\.(?:png|jpg|jpeg)', page)))
+            if imgs: r["image"] = imgs[0]
+        time.sleep(1.5)
+    return recs
+
 # ---------------- Brand classification ----------------
 # Brand list starts from the applicant map in footwear-patent-sources.md,
 # extended with common model/material names so news and papers can be
@@ -434,6 +488,7 @@ def main():
     add_brands(papers[:60])
     add_brands(uniq_news[:80])
     patent_recs = patents_google() + patents_ops_lens()
+    enrich_patents(patent_recs)
     add_translations(patent_recs)
     add_brands(patent_recs)
     searches = patent_search_entries()
