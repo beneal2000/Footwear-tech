@@ -267,6 +267,53 @@ def patents_ops_lens():
         print("[ops] EPO_OPS_KEY present: OPS OAuth fetch is configured in scripts/fetch_patents_ops.py", file=sys.stderr)
     return records
 
+def _gp_query(inner, n=10):
+    url = "https://patents.google.com/xhr/query?url=" + urllib.parse.quote(inner, safe="") + "&exp="
+    req = urllib.request.Request(url, headers={**UA, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        d = json.loads(r.read().decode("utf-8", "ignore"))
+    out = []
+    for cluster in d.get("results", {}).get("cluster", []):
+        for res in cluster.get("result", []):
+            p = res.get("patent", {})
+            if p.get("publication_number"): out.append(p)
+    return out[:n]
+
+def patents_google():
+    """Real patent records from Google Patents' public search endpoint (no key).
+    Keyword queries follow the user's patent source list (midsole foaming,
+    carbon plate, sole structure) plus assignee queries for major brands."""
+    queries = [
+        "q=midsole+foam+running+shoe&sort=new&type=PATENT&language=ENGLISH",
+        "q=carbon+plate+footwear+sole&sort=new&type=PATENT&language=ENGLISH",
+        "q=supercritical+foam+midsole&sort=new&type=PATENT&language=ENGLISH",
+        "q=running+shoe+sole+structure&sort=new&type=PATENT&language=ENGLISH",
+        'assignee="Nike, Inc."&q=footwear&sort=new&type=PATENT',
+        'assignee="Adidas AG"&q=shoe&sort=new&type=PATENT',
+        'assignee="Anta Sports Products"&sort=new&type=PATENT',
+        'assignee="Li Ning"&q=shoe&sort=new&type=PATENT',
+    ]
+    strip = lambda s: re.sub(r"<[^>]+>", "", s or "").replace("&hellip;", "…").strip()
+    seen, out = set(), []
+    for q in queries:
+        try:
+            results = _gp_query(q)
+        except Exception as e:
+            print(f"[gpatents] {e}", file=sys.stderr); continue
+        for p in results:
+            num = p.get("publication_number", "")
+            if not num or num in seen: continue
+            seen.add(num)
+            out.append({"type": "patent", "source": "Google Patents", "brand": "",
+                        "title": strip(p.get("title", "")), "title_zh": "",
+                        "number": num, "date": p.get("publication_date", ""),
+                        "applicant": strip(p.get("assignee", "")),
+                        "abstract": strip(p.get("abstract", ""))[:400], "abstract_zh": "",
+                        "url": f"https://patents.google.com/patent/{num}/en"})
+        time.sleep(0.4)
+    out.sort(key=lambda x: x["date"] or "", reverse=True)
+    return out[:48]
+
 # ---------------- Brand classification ----------------
 # Brand list starts from the applicant map in footwear-patent-sources.md,
 # extended with common model/material names so news and papers can be
@@ -354,7 +401,7 @@ def add_translations(items):
     cache = {}
     try:
         prev = json.load(open(OUT, encoding="utf-8"))
-        for kind in ("papers", "news"):
+        for kind in ("papers", "news", "patents"):
             for x in prev.get(kind, []):
                 if x.get("title_zh"): cache[("t", x["title"])] = x["title_zh"]
                 if x.get("abstract_zh"): cache[("a", x.get("abstract", ""))] = x["abstract_zh"]
@@ -386,7 +433,8 @@ def main():
     add_translations(uniq_news[:80])
     add_brands(papers[:60])
     add_brands(uniq_news[:80])
-    patent_recs = patents_ops_lens()
+    patent_recs = patents_google() + patents_ops_lens()
+    add_translations(patent_recs)
     add_brands(patent_recs)
     searches = patent_search_entries()
     for s in searches: s["brands"] = [s["brand"]]
