@@ -267,6 +267,50 @@ def patents_ops_lens():
         print("[ops] EPO_OPS_KEY present: OPS OAuth fetch is configured in scripts/fetch_patents_ops.py", file=sys.stderr)
     return records
 
+# ---------------- Brand classification ----------------
+# Brand list starts from the applicant map in footwear-patent-sources.md,
+# extended with common model/material names so news and papers can be
+# tagged by the brand they actually discuss.
+BRAND_ALIASES = {
+    "Nike": ["nike", "vaporfly", "alphafly", "zoomx", "耐克"],
+    "adidas": ["adidas", "阿迪达斯", "adizero", "boost"],
+    "PUMA": ["puma", "彪马", "nitro foam", "fast-r"],
+    "New Balance": ["new balance", "新百伦", "fuelcell"],
+    "ASICS": ["asics", "亚瑟士", "metaspeed", "ff blast", "gel-"],
+    "Mizuno": ["mizuno", "美津浓", "wave rider", "wave rebellion"],
+    "HOKA": ["hoka", "deckers", "霍卡", "clifton", "mach x"],
+    "On": ["昂跑", "cloudtec", "cloudmonster", "cloudsurfer"],
+    "Saucony": ["saucony", "索康尼"],
+    "Brooks": ["brooks", "布鲁克斯", "hyperion"],
+    "Under Armour": ["under armour", "安德玛", "hovr"],
+    "Skechers": ["skechers", "斯凯奇"],
+    "FILA": ["fila", "斐乐"],
+    "安踏": ["anta", "安踏", "氮科技"],
+    "李宁": ["li-ning", "li ning", "李宁", "䨻", "飞电"],
+    "特步": ["xtep", "特步", "160x"],
+    "361°": ["361°", "361度", "三六一度", "飞燃"],
+    "匹克": ["匹克", "态极", "peak sport"],
+    "鸿星尔克": ["erke", "鸿星尔克"],
+}
+def detect_brands(*texts):
+    blob = " ".join(t or "" for t in texts).lower()
+    found = []
+    for brand, aliases in BRAND_ALIASES.items():
+        for a in aliases:
+            if a.isascii() and len(a) <= 4 and " " not in a:
+                hit_b = re.search(r"\b" + re.escape(a) + r"\b", blob)
+            else:
+                hit_b = a in blob
+            if hit_b:
+                found.append(brand); break
+    return found or ["综合/其他"]
+
+def add_brands(items):
+    for x in items:
+        x["brands"] = detect_brands(x.get("title", ""), x.get("title_zh", ""),
+                                     x.get("abstract", ""), x.get("abstract_zh", ""),
+                                     x.get("applicant", ""), x.get("brand", ""))
+
 # ---------------- Chinese translation ----------------
 CJK = re.compile(r"[\u4e00-\u9fff]")
 def is_zh(s):
@@ -340,9 +384,15 @@ def main():
     uniq_news.sort(key=lambda x: x["date"] or "", reverse=True)
     add_translations(papers[:60])
     add_translations(uniq_news[:80])
+    add_brands(papers[:60])
+    add_brands(uniq_news[:80])
+    patent_recs = patents_ops_lens()
+    add_brands(patent_recs)
+    searches = patent_search_entries()
+    for s in searches: s["brands"] = [s["brand"]]
     data = {"updated_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="minutes"),
             "papers": papers[:60], "news": uniq_news[:80],
-            "patents": patents_ops_lens(), "patent_searches": patent_search_entries(),
+            "patents": patent_recs, "patent_searches": searches,
             "notes": {"openalex_key": bool(os.environ.get("OPENALEX_API_KEY")),
                       "lens_key": bool(os.environ.get("LENS_TOKEN")),
                       "ops_key": bool(os.environ.get("EPO_OPS_KEY"))}}
