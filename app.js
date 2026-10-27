@@ -50,6 +50,7 @@ function render() {
   renderBrandChips($("#patentBrandChips"), [...(DATA.patents || []), ...DATA.patent_searches], patentBrand, v => patentBrand = v);
   $("#patentGrid").innerHTML = (DATA.patents || []).filter(p => brandMatch(p, patentBrand) && hit(p.title, p.title_zh, p.number, p.brand, p.applicant, brandOf(p).join(" ")))
     .map(p => `<a class="card" href="${esc(p.url)}" target="_blank" rel="noopener">
+      ${p.image ? `<img class="patent-img" src="${esc(p.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}
       <div class="meta"><span>${esc(p.date)}</span><span class="tag">${esc(p.source || "")}</span><span>${esc(p.number || "")}</span><span class="brand">${esc(brandOf(p).join(" / "))}</span></div>
       <h3>${esc(p.title_zh || p.title)}</h3>
       ${p.title_zh && p.title_zh !== p.title ? `<p class="orig">${esc(p.title)}</p>` : ""}
