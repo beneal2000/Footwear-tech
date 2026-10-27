@@ -38,9 +38,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue"
 .card .orig{font-size:13px;line-height:1.45;color:var(--grey);font-style:italic}
 .dark .card .orig{color:#86868b}
 .card .go{margin-top:auto;font-size:14px;color:var(--blue)}
-.chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:36px}
-.chip{border:1px solid #424245;background:transparent;color:#f5f5f7;border-radius:980px;padding:8px 18px;font-size:14px;cursor:pointer}
-.chip.on{background:#f5f5f7;color:#1d1d1f}
+.chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:22px}
+.chips:last-of-type{margin-bottom:36px}
+.chip{border:1px solid #d2d2d7;background:#fff;color:var(--ink);border-radius:980px;padding:8px 18px;font-size:14px;cursor:pointer;transition:.15s}
+.chip:hover{border-color:#86868b}
+.chip.on{background:#1d1d1f;color:#f5f5f7;border-color:#1d1d1f}
+.card .brand{color:#7d28c9;font-weight:600}
 .notice{background:var(--tile);border-radius:var(--radius);padding:26px 30px;font-size:15px;line-height:1.65;color:#333336;max-width:860px;margin:0 auto 44px}
 .patent-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
 .patent-links a{font-size:13px;color:var(--blue);text-decoration:none;border:1px solid rgba(0,102,204,.35);padding:6px 12px;border-radius:980px}
