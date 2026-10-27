@@ -337,7 +337,11 @@ def enrich_patents(recs):
     for r in recs:
         old = cache.get(r.get("number", ""), {})
         if not r.get("abstract") and old.get("abstract"): r["abstract"] = old["abstract"]
-        if not r.get("image") and old.get("image"): r["image"] = old["image"]
+        # "/thumbnails/" URLs are tokenized for Google's own front-end and
+        # 403 when hotlinked — never reuse them, always take a drawing URL.
+        if not r.get("image") and old.get("image") and "/thumbnails/" not in old["image"]:
+            r["image"] = old["image"]
+        if r.get("image") and "/thumbnails/" in r["image"]: r["image"] = ""
         if r.get("abstract") and r.get("image"): continue
         if fails >= 5:  # detail pages are rate-limiting this IP; stop and let tomorrow's run continue
             continue
@@ -362,8 +366,9 @@ def enrich_patents(recs):
                 txt = _html.unescape(re.sub(r"<[^>]+>", " ", m.group(1)))
                 r["abstract"] = re.sub(r"\s+", " ", txt).strip()[:600]
         if not r.get("image"):
-            imgs = list(dict.fromkeys(re.findall(
-                r'https://patentimages\.storage\.googleapis\.com/[^\s"\'<>]+?\.(?:png|jpg|jpeg)', page)))
+            imgs = [u for u in dict.fromkeys(re.findall(
+                r'https://patentimages\.storage\.googleapis\.com/[^\s"\'<>]+?\.(?:png|jpg|jpeg)', page))
+                if "/thumbnails/" not in u]
             if imgs: r["image"] = imgs[0]
         time.sleep(1.5)
     return recs
