@@ -1,22 +1,22 @@
 {
- "updated_at": "2026-10-27T16:27+08:00",
+ "updated_at": "2026-10-27T09:12+00:00",
  "papers": [
   {
    "type": "paper",
-   "source": "PubMed",
+   "source": "OpenAlex",
    "tag": "AFT / 跑鞋技术",
    "title": "Advanced Footwear Technology in Distance Running: What We Know, What We Don't Know, and Future Directions",
-   "date": "2026-11-01",
+   "date": "2026-10-12",
    "authors": [
-    "Hooren BV",
-    "Vanwanseele B",
-    "Matijevich E",
-    "Gronwald T"
+    "Bas Van Hooren",
+    "Benedicte Vanwanseele",
+    "Emily Matijevich",
+    "Thomas Gronwald"
    ],
-   "venue": "European journal of sport science",
-   "abstract": "",
+   "venue": "European Journal of Sport Science",
+   "abstract": "Over the past decade, running shoes have undergone substantial innovation with the emergence of Advanced Footwear Technology (AFT). Shoes with AFT are typically characterized by highly compliant (deformable) and resilient (high energy return) midsole foams, embedded curved stiffening elements, low mass, and a rockered longitudinal geometry. This expert statement aims to synthesize established knowledge, remaining uncertainties and key directions for future research on AFT in middle- and long-distance running. Current literature demonstrates robust improvements in running economy and performanc",
    "doi": "10.1002/ejsc.70266",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42863837/"
+   "url": "https://doi.org/10.1002/ejsc.70266"
   },
   {
    "type": "paper",
@@ -38,6 +38,7 @@
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "后跟 / 稳定性",
    "title": "The effect of shoes and shoe characteristics on children’s movement: a systematic review",
    "date": "2026-10-11",
    "authors": [
@@ -48,12 +49,12 @@
    "venue": "Footwear Science",
    "abstract": "There is a broad spectrum of footwear research in adults which identifies changing footwear characteristic and their influence on various biomechanical aspects of task performance. This is not transferrable to the aging, growing child with differing foot morphology, function and biomechanics. This systematic review aims to evaluate research comparing the effect of footwear types and characteristics on the biomechanics of children’s non-walking gross motor movement. A systematic review was undertaken to search, select and assess the quality of papers relevant to the research question using the ",
    "doi": "10.1080/19424280.2026.2736538",
-   "url": "https://doi.org/10.1080/19424280.2026.2736538",
-   "tag": "后跟 / 稳定性"
+   "url": "https://doi.org/10.1080/19424280.2026.2736538"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "AFT / 跑鞋技术",
    "title": "Running style and stability during uphill running are largely preserved with increasing shoe sole thickness",
    "date": "2026-10-08",
    "authors": [
@@ -64,12 +65,12 @@
    "venue": "PLoS ONE",
    "abstract": "Advanced footwear technology (AFT) shoes incorporate increased sole thickness and compliant midsole materials that may alter running biomechanics. While these effects have been widely studied during level running, little is known about how sole thickness influences running style and stability during uphill running. This study examined the effects of two AFT shoes differing in sole thickness (35 mm-AFT35; 50 mm-AFT50) and a traditional control shoe (27 mm-CON27) on running style and stability during uphill running. Seventeen experienced male runners performed treadmill running at a 10% incline ",
    "doi": "10.1371/journal.pone.0348380",
-   "url": "https://doi.org/10.1371/journal.pone.0348380",
-   "tag": "AFT / 跑鞋技术"
+   "url": "https://doi.org/10.1371/journal.pone.0348380"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "有限元仿真",
    "title": "An individualised Finite Element framework for predicting footwear outsole wear: validation against a 250 km trekking field test",
    "date": "2026-10-05",
    "authors": [
@@ -81,12 +82,12 @@
    "venue": "Footwear Science",
    "abstract": "Premature wear of footwear outsoles degrades grip performance, significantly increasing slip and injury risks for the user during prolonged usage. Traditionally, evaluating outsole durability relies on resource-intensive field testing, which limits design optimisation to maintain safety and minimise material loss. This study develops and validates an individualised Finite Element Analysis (FEA) wear model to predict functional wear distribution across the outsole under trekking conditions. Mechanical simulations of the gait cycle were driven from the foot kinematic and kinetic walking laborato",
    "doi": "10.1080/19424280.2026.2738771",
-   "url": "https://doi.org/10.1080/19424280.2026.2738771",
-   "tag": "有限元仿真"
+   "url": "https://doi.org/10.1080/19424280.2026.2738771"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "AFT / 跑鞋技术",
    "title": "Energy and performance aspects of the curved carbon fiber plate in advanced footwear Technology",
    "date": "2026-10-04",
    "authors": [
@@ -98,8 +99,23 @@
    "venue": "Footwear Science",
    "abstract": "This study examined the influence of the curved carbon-fibre plate on the ‘teeter-totter effect’, a lever-like mechanism proposed to enhance propulsion and improve running performance in advanced footwear technology (AFT) shoes. In addition, the relationship between this mechanical effect and the energy cost of running (Erun) was evaluated. Fifteen male recreational runners completed treadmill running trials in two shoe conditions: the Nike Vaporfly 4% (Original VP4) and a modified prototype without a carbon plate (No Plate). Results showed that propulsion moment was significantly reduced in t",
    "doi": "10.1080/19424280.2026.2738770",
-   "url": "https://doi.org/10.1080/19424280.2026.2738770",
-   "tag": "AFT / 跑鞋技术"
+   "url": "https://doi.org/10.1080/19424280.2026.2738770"
+  },
+  {
+   "type": "paper",
+   "source": "OpenAlex",
+   "tag": "梯度 / 点阵结构",
+   "title": "Loop-wise Structural Footwear Design and Optimization Using FEA-informed Deep Learning and Additive Manufacturing for Adaptive Pressure Distribution with Improved Comfort",
+   "date": "2026-10-01",
+   "authors": [
+    "Ziyang Zhang",
+    "Yu Feng",
+    "Chenang Liu"
+   ],
+   "venue": "Manufacturing Letters",
+   "abstract": "This study presents a loop-wise FEA-DL teaming approach for the design and optimization of additive manufacturing-fabricated metamaterial (MM) shoe soles. By integrating finite element analysis (FEA) and deep learning (DL), this study aims to generate lattice geometries that approximate a prescribed target deformation field to achieve personalized comfort and biomechanical performance. Plantar pressure data is used to generate and optimize metamaterial geometries toward target deformation fields associated with improved ergonomic and medical outcomes. The DL model is enhanced to efficiently ha",
+   "doi": "10.1016/j.mfglet.2026.08.046",
+   "url": "https://doi.org/10.1016/j.mfglet.2026.08.046"
   },
   {
    "type": "paper",
@@ -119,22 +135,7 @@
   {
    "type": "paper",
    "source": "OpenAlex",
-   "title": "Loop-wise Structural Footwear Design and Optimization Using FEA-informed Deep Learning and Additive Manufacturing for Adaptive Pressure Distribution with Improved Comfort",
-   "date": "2026-10-01",
-   "authors": [
-    "Ziyang Zhang",
-    "Yu Feng",
-    "Chenang Liu"
-   ],
-   "venue": "Manufacturing Letters",
-   "abstract": "This study presents a loop-wise FEA-DL teaming approach for the design and optimization of additive manufacturing-fabricated metamaterial (MM) shoe soles. By integrating finite element analysis (FEA) and deep learning (DL), this study aims to generate lattice geometries that approximate a prescribed target deformation field to achieve personalized comfort and biomechanical performance. Plantar pressure data is used to generate and optimize metamaterial geometries toward target deformation fields associated with improved ergonomic and medical outcomes. The DL model is enhanced to efficiently ha",
-   "doi": "10.1016/j.mfglet.2026.08.046",
-   "url": "https://doi.org/10.1016/j.mfglet.2026.08.046",
-   "tag": "梯度 / 点阵结构"
-  },
-  {
-   "type": "paper",
-   "source": "OpenAlex",
+   "tag": "AFT / 跑鞋技术",
    "title": "The effects of forefoot bending stiffness in athletic footwear on stresses in the second metatarsal",
    "date": "2026-09-28",
    "authors": [
@@ -146,12 +147,12 @@
    "venue": "Footwear Science",
    "abstract": "High forefoot bending stiffness has become a common feature in road running shoes worn by athletes seeking to improve performance. The consensus throughout the literature is that increased forefoot bending stiffness in running shoes can enhance performance. However, the injury implications of running in shoes with high forefoot bending stiffness are not well understood. Second metatarsal (MT2) stress fractures are common in long-distance runners due to high repetitive loading. Changes in pressure magnitudes and patterns during locomotion may contribute to greater MT2 stress and therefore incre",
    "doi": "10.1080/19424280.2026.2738763",
-   "url": "https://doi.org/10.1080/19424280.2026.2738763",
-   "tag": "AFT / 跑鞋技术"
+   "url": "https://doi.org/10.1080/19424280.2026.2738763"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "有限元仿真",
    "title": "Finite element analysis of a layered shoe sole under biomechanical plantar pressure loading",
    "date": "2026-09-21",
    "authors": [
@@ -163,12 +164,12 @@
    "venue": "Scientific Reports",
    "abstract": "A physiologically-motivated dual-peak Gaussian plantar pressure loading, calibrated to normal-walking ground reaction force (≈ 1 body weight), acting on a two-dimensional finite element analysis (FEA) of a multi-layered athletic shoe sole is presented. The only geometry is a stiff rubber outsole (E = 50 MPa, ν = 0.47) bonded to a compliant Ethylene-Vinyl Acetate (EVA) foam midsole (E = 5 MPa, ν = 0.40) with a total of 672 Constant Strain Triangle (CST) elements and 798 degrees of freedom. The applied load is a dual peak Gaussian pressure distribution with a primary peak in the heel (x = 33.6 m",
    "doi": "10.1038/s41598-026-70836-4",
-   "url": "https://doi.org/10.1038/s41598-026-70836-4",
-   "tag": "有限元仿真"
+   "url": "https://doi.org/10.1038/s41598-026-70836-4"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "有限元仿真",
    "title": "Data-driven multi-objective inverse design of programmable Vorochiral metamaterials for customized orthotic midsoles",
    "date": "2026-09-18",
    "authors": [
@@ -180,12 +181,12 @@
    "venue": "Thin-Walled Structures",
    "abstract": "",
    "doi": "10.1016/j.tws.2026.115667",
-   "url": "https://doi.org/10.1016/j.tws.2026.115667",
-   "tag": "有限元仿真"
+   "url": "https://doi.org/10.1016/j.tws.2026.115667"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "梯度 / 点阵结构",
    "title": "The Impact of Artificial Intelligence on the Generative Design and Cross-Domain Performance of Athletic Footwear",
    "date": "2026-09-13",
    "authors": [
@@ -194,12 +195,12 @@
    "venue": "Exploring Science Academic Conference Series",
    "abstract": "The athletic footwear industry is shifting from conventional linear R&D pipelines to advanced digital workflows driven by artificial intelligence (AI). This paper evaluates how AI-driven tools optimize established manufacturing paradigms, focusing on the s ystemic transition within sports shoe development rather than isolated technical breakthroughs. However, conventional pipelines face severe bottlenecks, including low concept iteration efficiency, prolonged finite element simulation latencies, and high tooling costs that impede mass customization. To address these challenges, this study anal",
    "doi": "10.70267/aitia.2026435440",
-   "url": "https://doi.org/10.70267/aitia.2026435440",
-   "tag": "梯度 / 点阵结构"
+   "url": "https://doi.org/10.70267/aitia.2026435440"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "AFT / 跑鞋技术",
    "title": "Discovering the mechanics of ultra-low density elastomeric foams in elite-level racing shoes",
    "date": "2026-09-10",
    "authors": [
@@ -210,12 +211,12 @@
    "venue": "Engineering With Computers",
    "abstract": "Ultra-low-density elastomeric foams enable lightweight systems that combine high compliance with efficient energy return. Their mechanical response is inherently complex, characterized by high compressibility, nonlinear elasticity, and microstructural heterogeneity. In high-performance racing shoes, these foams are critical for low weight, high cushioning, and efficient energy return; yet, their constitutive behavior remains difficult to model and poorly understood. Here we integrate mechanical testing and machine learning to discover the mechanics of two ultra-low density elastomeric polymeri",
    "doi": "10.1007/s00366-026-02398-y",
-   "url": "https://doi.org/10.1007/s00366-026-02398-y",
-   "tag": "AFT / 跑鞋技术"
+   "url": "https://doi.org/10.1007/s00366-026-02398-y"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "后跟 / 稳定性",
    "title": "Balancing Offloading and Comfort: The Effect of Forefoot Rocker Curvature on In-Shoe Plantar Pressure and Gait Kinematics",
    "date": "2026-09-09",
    "authors": [
@@ -227,12 +228,12 @@
    "venue": "medRxiv",
    "abstract": "Abstract Therapeutic footwear with rocker soles is widely used to reduce plantar pressure in individuals at risk of diabetic foot ulceration. Of the various rocker sole characteristics, apex position, rocker angle, and apex angle have been extensively studied; however, the effect of forefoot rocker curvature has been seldom investigated. The aim of this study was to assess the isolated effect of forefoot rocker curvature on plantar pressure distribution, lower limb gait kinematics, and comfort. Ten healthy adults walked in a modular footwear setup with three interchangeable midsoles featuring ",
    "doi": "10.64898/2026.09.05.26362321",
-   "url": "https://doi.org/10.64898/2026.09.05.26362321",
-   "tag": "后跟 / 稳定性"
+   "url": "https://doi.org/10.64898/2026.09.05.26362321"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "AFT / 跑鞋技术",
    "title": "Positive Joint Work Redistribution in Running: The Role of Plantar Flexor Fatigue and the Effect of Advanced Footwear Technology",
    "date": "2026-09-07",
    "authors": [
@@ -244,8 +245,7 @@
    "venue": "Medicine & Science in Sports & Exercise",
    "abstract": "INTRODUCTION: Over the course of a near-maximal effort 10 km run, positive mechanical work decreases at the ankle and increases at the knee. Although plantar flexor fatigue is believed to be responsible for the proximal shift in mechanical work generation, this has yet to be confirmed experimentally. PURPOSE: To 1) determine the effect of plantar flexor fatigue on lower limb positive joint work during running and 2) determine the effect of running shoes on this relationship. METHODS: Trained male runners (n = 12) were analyzed over two 30 s runs at their 10 km race pace, without and with local",
    "doi": "10.1249/mss.0000000000004134",
-   "url": "https://doi.org/10.1249/mss.0000000000004134",
-   "tag": "AFT / 跑鞋技术"
+   "url": "https://doi.org/10.1249/mss.0000000000004134"
   },
   {
    "type": "paper",
@@ -282,24 +282,8 @@
   },
   {
    "type": "paper",
-   "source": "PubMed",
-   "tag": "后跟 / 稳定性",
-   "title": "Development of a Novel Modular Footwear Setup for Testing the Isolated Biomechanical Effects of Footwear Features",
-   "date": "2026-09-01",
-   "authors": [
-    "Sarlak H",
-    "Shakir K",
-    "Rogati G",
-    "Sartorato G"
-   ],
-   "venue": "Journal of foot and ankle research",
-   "abstract": "",
-   "doi": "10.1002/jfa2.70203",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42627727/"
-  },
-  {
-   "type": "paper",
    "source": "OpenAlex",
+   "tag": "梯度 / 点阵结构",
    "title": "Influence of Unit‐Cell Geometry on 3D ‐Printed Chiral‐Inspired Tubular Metamaterials: Auxeticity and Energy Absorption in Athletic Footwear Applications",
    "date": "2026-08-31",
    "authors": [
@@ -311,12 +295,12 @@
    "venue": "Polymers for Advanced Technologies",
    "abstract": "ABSTRACT Lightweight architected metamaterials capable of simultaneously achieving high energy absorption, tailored stiffness, and superior auxetic behavior are increasingly required for advanced engineering applications. However, chiral metamaterials have been studied mainly in planar architectures or relatively simple three‐dimensional configurations, while the coupled effects of geometric parameters on stiffness evolution, energy absorption, and auxeticity in tubular architectures remain insufficiently understood. This study aims to develop and characterize a lightweight chiral‐inspired tub",
    "doi": "10.1002/pat.70732",
-   "url": "https://doi.org/10.1002/pat.70732",
-   "tag": "梯度 / 点阵结构"
+   "url": "https://doi.org/10.1002/pat.70732"
   },
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "有限元仿真",
    "title": "Biomechanical exploration of cushioning and stability in auxetic lattice midsoles during jump landing",
    "date": "2026-08-27",
    "authors": [
@@ -328,25 +312,7 @@
    "venue": "Scientific Reports",
    "abstract": "High-impact forces during jump landing pose a risk for lower limb injuries, highlighting the importance of shoe midsole cushioning, where the effectiveness of midsole hardness remains controversial. This study evaluated the biomechanical performance of three-dimensional auxetic lattice structure midsoles during jump landing, examining their cushioning mechanisms and stability. Four midsoles were tested: two auxetic lattices (A60 and A75), a non-auxetic structure (N90), and a traditional polyurethane (PU) midsole, using plantar pressure measurements (Pedar‑X system) and finite element simulatio",
    "doi": "10.1038/s41598-026-62549-5",
-   "url": "https://doi.org/10.1038/s41598-026-62549-5",
-   "tag": "有限元仿真"
-  },
-  {
-   "type": "paper",
-   "source": "PubMed",
-   "tag": "后跟 / 稳定性",
-   "title": "Development of a Stability Criterion for Men's Basketball Shoes During Mediolateral Cutting Maneuvers",
-   "date": "2026-07-24",
-   "authors": [
-    "Izhiman Y",
-    "Calvert LB",
-    "Meehan-Numminen LTK",
-    "Ahsan Z"
-   ],
-   "venue": "Annals of biomedical engineering",
-   "abstract": "",
-   "doi": "10.1007/s10439-026-04298-0",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42498917/"
+   "url": "https://doi.org/10.1038/s41598-026-62549-5"
   },
   {
    "type": "paper",
@@ -364,22 +330,6 @@
    "abstract": "",
    "doi": "10.1111/sms.70331",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42393908/"
-  },
-  {
-   "type": "paper",
-   "source": "PubMed",
-   "tag": "后跟 / 稳定性",
-   "title": "Study on Ergonomic Footwear Design framework informed by lower limb Biomechanical Characteristics",
-   "date": "2026-06-30",
-   "authors": [
-    "Zhongliang Z",
-    "Lihong L",
-    "Jinyuan T"
-   ],
-   "venue": "Work (Reading, Mass.)",
-   "abstract": "",
-   "doi": "10.1177/10519815261462136",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42378044/"
   },
   {
    "type": "paper",
@@ -536,6 +486,7 @@
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "中底材料 / 发泡",
    "title": "Plantar Force Spectra Across Midsole Densities and Treadmill Speeds: A Spatially Resolved Analysis in Relation to Material Properties",
    "date": "2026-01-12",
    "authors": [
@@ -547,8 +498,7 @@
    "venue": "Applied Sciences",
    "abstract": "Running shoe midsoles are designed to attenuate impact forces while maintaining or improving performance. However, the literature is equivocal, likely due to measurement systems, whereas in vitro testing is conclusively favourable. This study investigated three densities of ATPU foam, comparing in vitro mechanical properties with in vivo plantar force spectral characteristics derived from individualised pressure distributions during treadmill running at varied speeds. In vitro results of slab foam and shoes showed strong positive relationships between impact variables normalised to total impac",
    "doi": "10.3390/app16020784",
-   "url": "https://doi.org/10.3390/app16020784",
-   "tag": "中底材料 / 发泡"
+   "url": "https://doi.org/10.3390/app16020784"
   },
   {
    "type": "paper",
@@ -620,6 +570,7 @@
   {
    "type": "paper",
    "source": "OpenAlex",
+   "tag": "有限元仿真",
    "title": "Design and Characterization of Negative-Stiffness Lattice Structures for Diabetic Midsoles",
    "date": "2025-08-30",
    "authors": [
@@ -629,8 +580,7 @@
    "venue": "Applied Sciences",
    "abstract": "Diabetes mellitus is a chronic condition that often leads to peripheral neuropathy, characterized by pain, tingling, and reduced sensitivity in the lower limbs. These symptoms increase the risk of foot ulcers and amputations, mainly due to elevated plantar pressures from mechanical overload. Standard prevention methods include custom footwear or insoles designed to redistribute weight and accommodate foot de-formities. However, static insoles have limited effectiveness, as plantar pressure points shift over time, requiring frequent adjustments that increase both costs and waiting times. Moreov",
    "doi": "10.3390/app15179544",
-   "url": "https://doi.org/10.3390/app15179544",
-   "tag": "有限元仿真"
+   "url": "https://doi.org/10.3390/app15179544"
   },
   {
    "type": "paper",
@@ -666,6 +616,14 @@
    "url": "https://wwd.com/footwear-news/shoe-industry-news/nike-lululemon-athletic-footwear-holiday-off-price-salomon-1239385565/",
    "date": "2026-10-26",
    "abstract": "Nike and Lululemon will see challenges this holiday season, while Amer Sports and off-price are the big winners, says Bank of America."
+  },
+  {
+   "type": "news",
+   "source": "Google News · 超临界发泡 中底",
+   "title": "大牌运动鞋推荐：好看又舒适的怎么选？3个维度说清+FAQ - 新浪网",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNXotNjdoRDZBb0dnbVJ4MTRGUm9XV2lERTdtaVg0QXlEWHZTaE51QVVoenlyMVdxa05QQ2o3NW4wZV9oTy11aE4ybjFsSzA3V0hXcmhjdy0yeDBmMUR4YVN3aHo3S2VrVzluSF9ueEZwVVFZc1ZZVGlETEt1V0RTMVZHYw?oc=5",
+   "date": "2026-10-24",
+   "abstract": "大牌运动鞋推荐：好看又舒适的怎么选？3个维度说清+FAQ&nbsp;&nbsp;新浪网"
   },
   {
    "type": "news",
@@ -746,6 +704,14 @@
    "url": "https://believeintherun.com/shoe-reviews/xero-pacer-lite-review/",
    "date": "2026-10-20",
    "abstract": "The post This change makes the Xero Pacer Lite our favorite barefoot walking shoe appeared first on Believe in the Run."
+  },
+  {
+   "type": "news",
+   "source": "Google News · PEBA 中底",
+   "title": "超轻越野跑鞋有哪些？三款主流产品的轻量化技术路径 - 品玩",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9zMXV2RTVweXMtMXpOc0tQS055V05vLXdEMDJKWGdLT3hWT2VKWXE0WkNYdDFnVGpUQ0RRWVFGenI3b2dsZGthdw?oc=5",
+   "date": "2026-10-20",
+   "abstract": "超轻越野跑鞋有哪些？三款主流产品的轻量化技术路径&nbsp;&nbsp;品玩"
   },
   {
    "type": "news",
@@ -885,7 +851,7 @@
   },
   {
    "type": "news",
-   "source": "Google News · 碳板 跑鞋",
+   "source": "Google News · 超临界发泡 中底",
    "title": "【中国新闻周刊】两大巨头，打起来了 - 中新网福建",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KemR0TDVXeWVHV1BnWHhNTGRVOHBreS1nRS0tUE5xNlJZamJGWkdzRG5pR3pySjRaOThGU1NSdGtkdHJscDRlMEpqanEtUEVjTmVOQ0JIM3BXdGpxM1BHVUczeDVXRUVpTGlaUlJkWHBmQQ?oc=5",
    "date": "2026-10-07",
@@ -914,6 +880,14 @@
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13SjNQTHNqZDEwaDcyVXJxb0xFRG90WGExb1dxdnBuWGI3ck0zbjhJVzlZSm5IQmNPS1ZfNHVCeXAwaTgyT1ppbzVYOHl0czlOTWZv?oc=5",
    "date": "2026-10-02",
    "abstract": "专家提醒：这种鞋子不要让孩子天天穿！&nbsp;&nbsp;搜狐网"
+  },
+  {
+   "type": "news",
+   "source": "Google News · 超临界发泡 中底",
+   "title": "BMAI推出GCARBON TURBO 4旗舰碳板马拉松竞速跑鞋 - www.chinapress.com.my",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxORzdnVU8xV3BhRExRTUxPNmtQem1mV05nZy05cHhzRk00a29Qd080SXFBWFRpOHJ6VkV4clR5VDhVclVzMUdMUHpSNWdVdUYyaEFsM0pFT3BTNzVqMVhuMFNGRDNiU0RyMHM1WUNuV3QyQUE5a21WdldaOXZJR2pEeGY5WTU2MG81RWdWWjhWRnhKRFdpWnJDR0NOcF9ycUt5c01aMHJZYzJKTTU2TWMzS1VURUtnSnpqa3NHOUJfRnBmSU9sa1YyTkU2Zm9NNVJyS1VCZ2xibE9KQTI2Ymw0YkVybk1UNE9WNWVlU0NFMFVJNE9rTi1iZGZPMkZ4eEJWV1pYa3RWRQ?oc=5",
+   "date": "2026-09-30",
+   "abstract": "BMAI推出GCARBON TURBO 4旗舰碳板马拉松竞速跑鞋&nbsp;&nbsp;www.chinapress.com.my"
   },
   {
    "type": "news",
@@ -973,7 +947,7 @@
   },
   {
    "type": "news",
-   "source": "Google News · Nike Adidas new midsole foam",
+   "source": "Google News · running shoe biomechanics midsole",
    "title": "7 Best Stability Running Shoes in 2026 - RunRepeat",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZT2MtVlhkbC1SMzFUVl9NN0xSc05fMGxOM1FodU13Q1pONHpPZXJNdUVKcGloTW0yS1lWWFlFbTYwT1RvV1ljMmp4UGR6ejBEeXpEaldORW1GaWRYdDh2MmFEdldDSHpV?oc=5",
    "date": "2026-09-22",
@@ -1045,14 +1019,6 @@
   },
   {
    "type": "news",
-   "source": "Google News · 安踏 跑鞋 科技",
-   "title": "安踏主品牌的增长底气：560万双跑鞋与200万件服装，商品力筑成护城河 - 搜狐网",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qemo1LXZUR1k3NS02RmFnMmEtUWZ0ZVBpdjZ6YmRsdDlPRW5oREtBQjllYVZaaGp4bzI0WDdVZ0JjM05lQWZTRzBFd09RbW5mN2dz?oc=5",
-   "date": "2026-09-14",
-   "abstract": "安踏主品牌的增长底气：560万双跑鞋与200万件服装，商品力筑成护城河&nbsp;&nbsp;搜狐网"
-  },
-  {
-   "type": "news",
    "source": "Google News · super foam running shoe midsole",
    "title": "7 Best Super Trainers in 2026 - RunRepeat",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JekRBSU5IYXY5UXp0eEVLQW0tcS1oTk9PRDJDSWlLTnNLbUVKd0xNajVZZEJZMi0yLUlmV1oybF81NHZHMFhQcmxkM3NkNC1xX1EzeHpoMjJZUjR1cmQ2ZU96Vjlmc2NJR3ZTQWN3?oc=5",
@@ -1106,6 +1072,14 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TYVdCejc2MmZIRGFvek5DZlJrMGxHWi1tRk4yTFNNRm16MmlzNXlYdHV5QWVnWFNGWnB2dHhaNXcwdU5GcldjczRlbnZfNG1MZkJXZVVuSHpJbGZ1Sk9RZWZBYk0tSmlYNnRaRGhZZ3o5YVBVWFE?oc=5",
    "date": "2026-09-09",
    "abstract": "New Balance Does More Than Dad Shoes—These 8 Running Shoes Prove It&nbsp;&nbsp;Runner's World"
+  },
+  {
+   "type": "news",
+   "source": "Google News · 超临界发泡 中底",
+   "title": "跑鞋品牌推荐前十名实测，揭晓哪个品牌好，大体重、慢跑者也适配 - QQ News",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jVHp6cVVSWm82bUkyYWtpUW1rbHRLcXUxMWhnb3E5OWpuOVJfREJ1SG9QTnVWSGJTemhzWGxHZWlOZlZzZTBUN0ljc3laR3ZFOW4xMm5B?oc=5",
+   "date": "2026-09-07",
+   "abstract": "跑鞋品牌推荐前十名实测，揭晓哪个品牌好，大体重、慢跑者也适配&nbsp;&nbsp;QQ News"
   },
   {
    "type": "news",
@@ -1165,11 +1139,11 @@
   },
   {
    "type": "news",
-   "source": "Google News · 安踏 跑鞋 科技",
-   "title": "半年177.7亿！安踏主品牌服务29支国家队，专业力领跑行业 - 中华网",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GY05xcE9Bc3IteEFNZkRrUGxpN2tfS0pmdzk3dXlRX1E5YjZlWHJ6a0Rma3g3Wm9kN3djUjROSWExUld6bldWX0x6Q2lYLUlvXzJsMEZWRHlhdjc0Umc?oc=5",
+   "source": "Google News · running shoe biomechanics midsole",
+   "title": "Biomechanical exploration of cushioning and stability in auxetic lattice midsoles during jump landing - Nature",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VMTl5ZlBFRG00QThzTFZQaXpjMjlxeGJFeVJvamlySEJzWjhxcWVSMU9YNWRZTlBqTkZHZlg0TFM4UzNjeEJIWGZzVWd6ZzgxdDJfNWxVVFM3dDVibjVz?oc=5",
    "date": "2026-08-27",
-   "abstract": "半年177.7亿！安踏主品牌服务29支国家队，专业力领跑行业&nbsp;&nbsp;中华网"
+   "abstract": "Biomechanical exploration of cushioning and stability in auxetic lattice midsoles during jump landing&nbsp;&nbsp;Nature"
   },
   {
    "type": "news",
@@ -1182,10 +1156,10 @@
   {
    "type": "news",
    "source": "Google News · 特步 跑鞋 科技",
-   "title": "顶碳+顶缓双线进化，特步160X 8 代与零云重新划定跑鞋科技坐标 - 美通社",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KUDdZUmlvVmhvQXFPVDFuTlZ0MFgxQlVCZ3JPUS1aUzdxeHdhQ21zSDM4X3RGaklhcUxFOG1tRldDdHNTX0lYUnVaVlVSVktNeHRRWFhKbw?oc=5",
+   "title": "顶碳+顶缓双线进化，特步160X 8代与零云重新划定跑鞋科技坐标 - 凤凰网",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5LWRNdF9oa0pyVGpTVGJiOG0taFBxV3ZSYVRSUF8xbFpsMXFOVnBxY2tjOFNxZTVQYXhtQVJtTW81UHNvVGpINmsta3g5RUk?oc=5",
    "date": "2026-08-24",
-   "abstract": "顶碳+顶缓双线进化，特步160X 8 代与零云重新划定跑鞋科技坐标&nbsp;&nbsp;美通社"
+   "abstract": "顶碳+顶缓双线进化，特步160X 8代与零云重新划定跑鞋科技坐标&nbsp;&nbsp;凤凰网"
   },
   {
    "type": "news",
@@ -1213,11 +1187,27 @@
   },
   {
    "type": "news",
+   "source": "Google News · 超临界发泡 中底",
+   "title": "1000元一双的进口跑鞋，卖不动了 - 凤凰网财经",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QclViLWFlNDFSdlpTOFpnc0E2NklJUmFNaktHYmdEeXZWcDV2eTRQZlJjcWVKWVlTOUM3X29aSTdlSkN5VlhRS240bTQ3d0Fp?oc=5",
+   "date": "2026-08-19",
+   "abstract": "1000元一双的进口跑鞋，卖不动了&nbsp;&nbsp;凤凰网财经"
+  },
+  {
+   "type": "news",
    "source": "Google News · carbon plate running shoe technology",
    "title": "Effect of various carbon plate running shoes on peak tibial accelerations, lateral asymmetry and residual shock in running - Frontiers",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMEVsSU5NUlRiVEZVODV4azlKc21INERKUVA4UFZBRnZQdVdBZDN4U2V1VTdNUjdKdGQ4R1lib25PSWdfX2sxZGQyOTNNWEg4NjZHZFQ5dERidWRSSG1BXzFiY0NKZjU1Qzlyc1N5YmlXeFhLVkluS1JvakJfMFFXUkJvWUZEcFVJbmpTY1lFY3JLNEtpd2J3M0ZCek05QmQyY1RhTg?oc=5",
    "date": "2026-08-17",
    "abstract": "Effect of various carbon plate running shoes on peak tibial accelerations, lateral asymmetry and residual shock in running&nbsp;&nbsp;Frontiers"
+  },
+  {
+   "type": "news",
+   "source": "Google News · 李宁 跑鞋 科技",
+   "title": "澎湃双擎 弹速跃升 | 李宁绝影4搭载超䨻胶囊科技，「未来跑鞋」颠覆而来 - Supreme情报网",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vbF9RaEFNNjlraWpxWlZpRmxyZFhWVWV6ZnlOWkdkNWRJX0pIaVZvZ3hOZHNaQ1JzNXJmeWlaX1dlLVF5bUN4OEVzYV9rRURYQzROcDFJTXVQRVp6MlR0WFRR?oc=5",
+   "date": "2026-08-07",
+   "abstract": "澎湃双擎 弹速跃升 | 李宁绝影4搭载超䨻胶囊科技，「未来跑鞋」颠覆而来&nbsp;&nbsp;Supreme情报网"
   },
   {
    "type": "news",
@@ -1229,67 +1219,27 @@
   },
   {
    "type": "news",
+   "source": "Google News · running shoe biomechanics midsole",
+   "title": "Effects of midsole support plate material on lower-limb kinetics and muscle activation during basketball-specific movements - Nature",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qeUcxbmZRakR6Q0dRTlpNbnBiRmRlQXlWOTl1N2pJMlZ3ZnY2aFJBZHhHUlVOeUlEbU5Xcm0zX01od2JUMWVUMWFZX0hDNFdvR3lEU1BoQ0FHekxLYnFn?oc=5",
+   "date": "2026-07-29",
+   "abstract": "Effects of midsole support plate material on lower-limb kinetics and muscle activation during basketball-specific movements&nbsp;&nbsp;Nature"
+  },
+  {
+   "type": "news",
+   "source": "Google News · 超临界发泡 中底",
+   "title": "不投网红、不炒概念：沃兰迪靠什么拿下马拉松44座冠军奖杯？ - 新华报业网",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyNVZlU2QxLXdJVGpFN1o5am5rNTRsNURKZEwxbElYbUg2YWpoaFlQczQ3OE1zekJNV2FGSFF2eTlZRVpUcFd6Zmk5bVdtUmRiVEFiTHotT0RrMU1JQmdrSHpLOFVKWkVSak1B?oc=5",
+   "date": "2026-07-27",
+   "abstract": "不投网红、不炒概念：沃兰迪靠什么拿下马拉松44座冠军奖杯？&nbsp;&nbsp;新华报业网"
+  },
+  {
+   "type": "news",
    "source": "Google News · PEBA midsole running shoe",
    "title": "Topo Athletic Specter 3 Review (2026) - Doctors of Running",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fUEdzSWw2aFNpWXh2cWFpbFBtbmE5RU95QmQ2TGRSMHZpRVZ5Mng0OE0wS1FMYjFVWWpQWnFGY2hMX1ZVU3FBSWZOUTJ6TmlJVXNzTEp3bGdlZjBDTEp1MlRIREJUM3Q3eFNoVkpZTElFUQ?oc=5",
    "date": "2026-07-24",
    "abstract": "Topo Athletic Specter 3 Review (2026)&nbsp;&nbsp;Doctors of Running"
-  },
-  {
-   "type": "news",
-   "source": "Google News · carbon plate running shoe technology",
-   "title": "Running Shoe Technology Iteration History: Breaking 2-Hour Marathon Barrier - Runners or Shoes? - 36Kr",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QeC16YXQ4RFh0dzk3ZXBQUEdGdGhyN2NOdzhVcWVoVzVKTUF5cGFWSWZwUVZLYU95M2FyU3dSdkNabDJDS0NDcGp6bUYzaUhGamZR?oc=5",
-   "date": "2026-07-01",
-   "abstract": "Running Shoe Technology Iteration History: Breaking 2-Hour Marathon Barrier - Runners or Shoes?&nbsp;&nbsp;36Kr"
-  },
-  {
-   "type": "news",
-   "source": "Google News · Nike Adidas new midsole foam",
-   "title": "Reebok takes aim at Nike Metcon and Adidas Dropset with a lighter Nano Gym 2.0 and all-new foam - T3",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKVTJXTE5WN0dEcjdPcmRPMTRra3JkeEJXdzBFME5JTjBwYlViazRSYVJ5Q3BEakh0Y1kxdG9TNjA4QUxIZmxUYlBDU2dtMHZ1UUxPOXJ6dU5iTWJVWktuYkJKRzIyaDJm?oc=5",
-   "date": "2026-06-30",
-   "abstract": "Reebok takes aim at Nike Metcon and Adidas Dropset with a lighter Nano Gym 2.0 and all-new foam&nbsp;&nbsp;T3"
-  },
-  {
-   "type": "news",
-   "source": "Google News · Dow footwear foam midsole",
-   "title": "Footwear Foam Additives Market to Reach 2,967.7 Million by 2036 as Lightweight, High-Performance Footwear Accelerates Material Innovation | FMI - 24-7PressRelease.com",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNZzJmYUdveVJMN1hoazdkeExlaURjNVk1dG9teWVLQlcxVnZlX3JWYVk1NjFWTEVKRUZGMmpzWUZ0UDVXV0JNdUd3ZWMwYWxQS3BqWU5xSnhGQll6eW1GUC12Zkxub1BTYlF3bDRtZEZvTkhtWmwxUXVOMkdURTFCa0VjcWR5czJ1dmRqR0Z5V3pXbjBfSy1SVHFaMldXUmVpSHRqU3hEZFBFMnQ2Y0ZESk1URUhKb24xTXpyWXhBMWF4UWtFclpmczNtTlBaWnVLbmFJTG9UbkxkVnRRckpvb3JpQ2x3ZlgwSktIY1haU3RSWmFSUnRadklEZnBaNEZHbFZrNDdfRmdlRTVsZzVUMGtWbllHaFpJYmdPUQ?oc=5",
-   "date": "2026-06-30",
-   "abstract": "Footwear Foam Additives Market to Reach 2,967.7 Million by 2036 as Lightweight, High-Performance Footwear Accelerates Material Innovation | FMI&nbsp;&nbsp;24-7PressRelease.com"
-  },
-  {
-   "type": "news",
-   "source": "Google News · Nike Adidas new midsole foam",
-   "title": "Adidas, Nike, New Balance & More Comfortable Walking Sneakers Just Hit Prime Day - E! News",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSmVFdm55MHFiaUdtX1lTSmlTb2dOdEdrS3E5RmpKUEtMSld0c3owbFhzSVJlUGJOSk5uWGpUa25CRE9GZFRCaTlqalhKSGt5Q2tUVi1HSXdLaWxuLWI5cDNjSmIzdXVPQUhnV1JvZUJIMnVicGowN1huLW1PVTY1TEdoOUNJU01aNUdBQ0xURV8wbkV6cUhORlBlT2JSY2RzcGljV1BDeFVLV2st?oc=5",
-   "date": "2026-06-25",
-   "abstract": "Adidas, Nike, New Balance & More Comfortable Walking Sneakers Just Hit Prime Day&nbsp;&nbsp;E! News"
-  },
-  {
-   "type": "news",
-   "source": "Google News · 安踏 跑鞋 科技",
-   "title": "安踏发布\"折纸科技\"，开启结构缓震新范式 - 中华网生活",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QU2dfcGJGNUtsWDg0bWd3ZnlsUG5pNENtTi1fYmxXZVZmWXJPci1DWThHaDZ4OHFnNTF2d1NqSjlnbVduODdqd1NTVXIzYVVScUwzbnF4RW5DQXZESU1veXVwRVVTZw?oc=5",
-   "date": "2026-06-24",
-   "abstract": "安踏发布\"折纸科技\"，开启结构缓震新范式&nbsp;&nbsp;中华网生活"
-  },
-  {
-   "type": "news",
-   "source": "Google News · 碳板 跑鞋",
-   "title": "碳板跑鞋，为啥这么火？ - 凤凰网",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBDamZYWUlhc3p0bFF3T0Q2ajZoclZEa2tJWWx0VjVxc24zekVob2lFa1l3dmxvRVhrNENzTHJzVHlhVXZUNnB6SUdTano?oc=5",
-   "date": "2026-06-20",
-   "abstract": "碳板跑鞋，为啥这么火？&nbsp;&nbsp;凤凰网"
-  },
-  {
-   "type": "news",
-   "source": "Google News · 安踏 跑鞋 科技",
-   "title": "安踏发布“折纸科技”，试图从结构设计寻找跑鞋缓震新方向 - 腾讯新闻",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBid3RIcUVrdVNpcm1OVUF6TkVLbHBLb1p4alpuZTV5MTNtdEdyR3ZsRWhYbUUxbGdDSk5rT0pLMEw2QjZtaDRoZnBybE9fb2FKdm1NbE9B?oc=5",
-   "date": "2026-06-19",
-   "abstract": "安踏发布“折纸科技”，试图从结构设计寻找跑鞋缓震新方向&nbsp;&nbsp;腾讯新闻"
   }
  ],
  "patents": [],
@@ -1562,7 +1512,7 @@
   }
  ],
  "notes": {
-  "openalex_key": true,
+  "openalex_key": false,
   "lens_key": false,
   "ops_key": false
  }
