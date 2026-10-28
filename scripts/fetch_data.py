@@ -451,11 +451,16 @@ def preserve_news_summaries(items):
     try:
         prev = json.load(open(OUT, encoding="utf-8"))
         cache = {x["url"]: x["summary_zh"] for x in prev.get("news", []) if x.get("summary_zh")}
+        # Same story often returns under a different feed URL; fall back to title.
+        tcache = {re.sub(r"\s+", " ", x["title"]).strip().lower(): x["summary_zh"]
+                  for x in prev.get("news", []) if x.get("summary_zh")}
     except Exception:
-        cache = {}
+        cache, tcache = {}, {}
     for x in items:
-        if not x.get("summary_zh") and x.get("url") in cache:
-            x["summary_zh"] = cache[x["url"]]
+        if x.get("summary_zh"): continue
+        key = re.sub(r"\s+", " ", x.get("title", "")).strip().lower()
+        if x.get("url") in cache: x["summary_zh"] = cache[x["url"]]
+        elif key in tcache: x["summary_zh"] = tcache[key]
 
 def add_brands(items):
     for x in items:
