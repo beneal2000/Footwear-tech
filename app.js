@@ -47,8 +47,8 @@ function render() {
       <span class="go">查看论文 ›</span></a>`).join("");
   $("#paperEmpty").hidden = papers.length > 0;
 
-  // Patents: brand filter over both real records and search entries
-  renderBrandChips($("#patentBrandChips"), [...(DATA.patents || []), ...DATA.patent_searches], patentBrand, v => patentBrand = v);
+  // Patents
+  renderBrandChips($("#patentBrandChips"), DATA.patents || [], patentBrand, v => patentBrand = v);
   $("#patentGrid").innerHTML = (DATA.patents || []).filter(p => brandMatch(p, patentBrand) && hit(p.title, p.title_zh, p.number, p.brand, p.applicant, brandOf(p).join(" ")))
     .map(p => `<a class="card" href="${esc(p.url)}" target="_blank" rel="noopener">
       ${p.image ? `<img class="patent-img" src="${esc(p.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
@@ -58,20 +58,9 @@ function render() {
       <p>${esc(p.abstract_zh || p.abstract || "")}</p>
       <div class="meta"><span>${esc(p.applicant || "")}</span></div><span class="go">查看专利原文 ›</span></a>`).join("");
 
-  // Patent search entries per brand
-  const searches = DATA.patent_searches.filter(s => brandMatch(s, patentBrand) && hit(s.brand, s.applicant, (s.cpc || []).join(" ")));
-  $("#patentSearchGrid").innerHTML = searches.map(s => `
-    <div class="card">
-      <div class="meta"><span class="tag">${esc(s.brand)}</span><span>${esc(s.applicant)}</span></div>
-      <h3>${esc(s.brand)} · 最新公开专利</h3>
-      <p>CPC：${esc((s.cpc || []).join(" / "))}<br>${esc(s.note || "")}</p>
-      <div class="patent-links">${Object.entries(s.links || {}).map(([k, v]) =>
-        `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(k)}</a>`).join("")}</div>
-    </div>`).join("");
-
   $("#statNews").textContent = DATA.news.length;
   $("#statPapers").textContent = DATA.papers.length;
-  $("#statPatents").textContent = DATA.patent_searches.length + (DATA.patents || []).length;
+  $("#statPatents").textContent = (DATA.patents || []).length;
 }
 
 $("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); render(); });
