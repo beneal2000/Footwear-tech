@@ -150,16 +150,24 @@ DIRECT_FEEDS = [  # footwear-tech-feeds.md A/B/C
     ("Doctors of Running", "https://www.doctorsofrunning.com/feeds/posts/default", False),
     ("Footwear News", "https://footwearnews.com/feed/", True),
     ("Sourcing Journal", "https://sourcingjournal.com/feed/", True),
+    ("钛媒体", "https://www.tmtpost.com/rss.xml", True),
+    ("中新网体育", "https://www.chinanews.com.cn/rss/sports.xml", True),
+    ("爱燃烧", "https://iranshao.com/feed", True),
 ]
 GNEWS_EN = ["supercritical foam midsole", "super foam running shoe midsole", "PEBA midsole running shoe",
             "carbon plate running shoe technology", "running shoe biomechanics midsole",
             "Nike Adidas new midsole foam", "BASF Infinergy footwear", "Arkema Pebax footwear",
             "Covestro footwear foam", "Dow footwear foam midsole"]
 GNEWS_CN = ["超临界发泡 中底", "跑鞋 中底 科技", "碳板 跑鞋", "PEBA 中底", "安踏 跑鞋 科技",
-            "李宁 跑鞋 科技", "特步 跑鞋 科技", "361度 跑鞋 科技", "匹克 跑鞋 科技", "跑鞋 生物力学"]
+            "李宁 跑鞋 科技", "特步 跑鞋 科技", "361度 跑鞋 科技", "匹克 跑鞋 科技", "跑鞋 生物力学",
+            "体育用品 科技创新", "运动品牌 科技创新", "运动品牌 财报", "国产跑鞋 新品", "鸿星尔克 跑鞋",
+            "中乔体育 跑鞋", "必迈 碳板跑鞋", "运动鞋 材料创新", "体育产业 科技"]
 KEEP = ["midsole", "foam", "peba", "supercritical", "carbon plate", "energy return", "stack height",
-        "中底", "超临界", "发泡", "碳板", "回弹", "缓震", "running shoe", "跑鞋", "footwear", "鞋"]
-BLOCK = ["coupon", "deal", "sale", "折扣", "优惠"]
+        "中底", "超临界", "发泡", "碳板", "回弹", "缓震", "running shoe", "跑鞋", "footwear", "鞋",
+        "安踏", "李宁", "特步", "361", "匹克", "鸿星尔克", "中乔", "必迈", "运动品牌", "体育用品",
+        "球鞋", "运动鞋", "体育科技"]
+BLOCK = ["coupon", "deal", "sale", "折扣", "优惠",
+         "博彩", "买球", "开户", "投注", "赌场", "娱乐城", "棋牌", "真人娱乐", "菠菜", "买球网址", "登录入口"]
 
 def gnews_url(q, cn=False):
     if cn: return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
