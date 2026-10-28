@@ -18,13 +18,14 @@ function renderBrandChips(el, items, current, set) {
 function render() {
   // News
   renderBrandChips($("#newsBrandChips"), DATA.news, newsBrand, v => newsBrand = v);
-  const news = DATA.news.filter(n => brandMatch(n, newsBrand) && hit(n.title, n.title_zh, n.abstract, n.abstract_zh, n.source, brandOf(n).join(" ")));
+  const news = DATA.news.filter(n => brandMatch(n, newsBrand) && hit(n.title, n.title_zh, n.abstract, n.abstract_zh, n.summary_zh, n.source, brandOf(n).join(" ")));
   $("#newsGrid").innerHTML = news.map(n => `
     <a class="card" href="${esc(n.url)}" target="_blank" rel="noopener">
       <div class="meta"><span>${esc(n.date)}</span><span class="tag">${esc(n.source)}</span><span class="brand">${esc(brandOf(n).join(" / "))}</span></div>
       <h3>${esc(n.title_zh || n.title)}</h3>
       ${n.title_zh && n.title_zh !== n.title ? `<p class="orig">${esc(n.title)}</p>` : ""}
-      <p>${esc(n.abstract_zh || n.abstract)}</p><span class="go">阅读原文 ›</span></a>`).join("");
+      ${n.summary_zh ? `<p class="core"><b>核心信息</b>${esc(n.summary_zh)}</p>` : `<p>${esc(n.abstract_zh || n.abstract)}</p>`}
+      <span class="go">阅读原文 ›</span></a>`).join("");
   $("#newsEmpty").hidden = news.length > 0;
 
   // Papers
