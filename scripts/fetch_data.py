@@ -87,17 +87,34 @@ def papers_pubmed():
                          urllib.parse.urlencode({"db": "pubmed", "id": ",".join(ids), "retmode": "json"}))
         except Exception as e:
             print(f"[pubmed] {tag}: {e}", file=sys.stderr); continue
+        recs = {}
         for pid in ids:
             r = d["result"].get(pid, {})
             if not r.get("title"): continue
             # PubMed query expansion can surface off-topic hits; keep shoe-relevant titles.
             if not SHOE_RE.search(r["title"]): continue
             doi = next((a["value"] for a in r.get("articleids", []) if a["idtype"] == "doi"), "")
-            out.append({"type": "paper", "source": "PubMed", "tag": tag, "title": r["title"].rstrip("."),
+            recs[pid] = {"type": "paper", "source": "PubMed", "tag": tag, "title": r["title"].rstrip("."),
                         "date": (r.get("sortpubdate") or r.get("pubdate") or "")[:10].replace("/", "-"),
                         "authors": [a["name"] for a in r.get("authors", [])[:4]],
                         "venue": r.get("fulljournalname") or r.get("source") or "", "abstract": "",
-                        "doi": doi, "url": f"https://pubmed.ncbi.nlm.nih.gov/{pid}/"})
+                        "doi": doi, "url": f"https://pubmed.ncbi.nlm.nih.gov/{pid}/"}
+        # esummary has no abstracts; pull them with one efetch per query batch.
+        if recs:
+            try:
+                xml = get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?" +
+                               urllib.parse.urlencode({"db": "pubmed", "id": ",".join(recs),
+                                                       "rettype": "abstract", "retmode": "xml"})).decode("utf-8", "replace")
+                for art in re.findall(r"<PubmedArticle>(.*?)</PubmedArticle>", xml, re.S):
+                    pm = re.search(r"<PMID[^>]*>(\d+)</PMID>", art)
+                    if not pm or pm.group(1) not in recs: continue
+                    parts = re.findall(r"<AbstractText[^>]*>(.*?)</AbstractText>", art, re.S)
+                    if parts:
+                        txt = re.sub(r"<[^>]+>", "", " ".join(parts))
+                        recs[pm.group(1)]["abstract"] = re.sub(r"\s+", " ", txt).strip()[:900]
+            except Exception as e:
+                print(f"[pubmed-efetch] {tag}: {e}", file=sys.stderr)
+        out.extend(recs.values())
     return out
 
 def papers_crossref():
@@ -427,6 +444,19 @@ def detect_brands(*texts):
                 found.append(brand); break
     return found or ["综合/其他"]
 
+def preserve_news_summaries(items):
+    """Keep the editor-written Chinese core summaries (summary_zh) from the
+    previous data.json, matched by URL. New items start empty and are filled
+    by the daily Muse run; the Actions channel preserves them via this."""
+    try:
+        prev = json.load(open(OUT, encoding="utf-8"))
+        cache = {x["url"]: x["summary_zh"] for x in prev.get("news", []) if x.get("summary_zh")}
+    except Exception:
+        cache = {}
+    for x in items:
+        if not x.get("summary_zh") and x.get("url") in cache:
+            x["summary_zh"] = cache[x["url"]]
+
 def add_brands(items):
     for x in items:
         x["brands"] = detect_brands(x.get("title", ""), x.get("title_zh", ""),
@@ -506,6 +536,7 @@ def main():
     uniq_news.sort(key=lambda x: x["date"] or "", reverse=True)
     add_translations(papers[:60])
     add_translations(uniq_news[:80])
+    preserve_news_summaries(uniq_news[:80])
     add_brands(papers[:60])
     add_brands(uniq_news[:80])
     patent_recs = patents_google() + patents_ops_lens()
