@@ -6,6 +6,8 @@ on:
   workflow_dispatch:       # 也可在 Actions 页手动触发
   push:
     branches: [main]
+    paths-ignore: 
+     - 'data/data.json'
 
 permissions:
   contents: write
