@@ -117,6 +117,71 @@ def papers_pubmed():
         out.extend(recs.values())
     return out
 
+EPMC_QUERIES = PUBMED_QUERIES  # Europe PMC mirrors PubMed; same query set.
+
+def papers_europepmc():
+    """Europe PMC (PubMed mirror) — used because eutils has been returning
+    HTTP 500; Europe PMC's REST API serves the same corpus reliably."""
+    out = []
+    for tag, term in EPMC_QUERIES:
+        try:
+            d = get_json("https://www.ebi.ac.uk/europepmc/webservices/rest/search?" +
+                         urllib.parse.urlencode({"query": term, "format": "json",
+                                                 "pageSize": "25", "resultType": "core",
+                                                 "sort": "P_PDATE_D desc"}))
+        except Exception as e:
+            print(f"[europepmc] {tag}: {e}", file=sys.stderr); continue
+        for it in d.get("resultList", {}).get("result", []):
+            title = re.sub(r"<[^>]+>", "", it.get("title") or "").strip().rstrip(".")
+            if not title or not SHOE_RE.search(title): continue
+            authors = [a.get("fullName", "") for a in
+                       ((it.get("authorList") or {}).get("author") or [])[:4]]
+            venue = (((it.get("journalInfo") or {}).get("journal") or {}).get("title") or "")
+            abstract = re.sub(r"<[^>]+>", "", it.get("abstractText") or "")
+            abstract = re.sub(r"\s+", " ", abstract).strip()[:900]
+            doi = it.get("doi") or ""
+            out.append({"type": "paper", "source": "Europe PMC", "tag": tag,
+                        "title": title,
+                        "date": (it.get("firstPublicationDate") or "")[:10],
+                        "authors": [a for a in authors if a], "venue": venue,
+                        "abstract": abstract, "doi": doi,
+                        "url": f"https://doi.org/{doi}" if doi else
+                               f"https://europepmc.org/article/MED/{it.get('id', '')}"})
+        time.sleep(0.4)
+    return out
+
+# Papers the user explicitly asked to include even though their titles fall
+# outside the strict shoe-keyword filter (adjacent biomechanics research).
+CURATED_DOIS = [
+    "10.1152/japplphysiol.90273.2026",  # surface stiffness x hopping frequency (2026-10-26)
+]
+
+def papers_curated():
+    key = os.environ.get("OPENALEX_API_KEY", "")
+    out = []
+    for doi in CURATED_DOIS:
+        params = {"api_key": key} if key else {}
+        try:
+            w = get_json(f"https://api.openalex.org/works/https://doi.org/{doi}?" +
+                         urllib.parse.urlencode(params))
+        except Exception as e:
+            print(f"[curated] {doi}: {e}", file=sys.stderr); continue
+        title = (w.get("title") or "").strip()
+        if not title: continue
+        authors = [a["author"]["display_name"] for a in w.get("authorships", [])[:4]]
+        src = ((w.get("primary_location") or {}).get("source") or {}).get("display_name", "")
+        inv = w.get("abstract_inverted_index") or {}
+        abstract = ""
+        if inv:
+            pos = sorted((p, word) for word, ps in inv.items() for p in ps)
+            abstract = " ".join(word for _, word in pos)[:600]
+        out.append({"type": "paper", "source": "OpenAlex", "tag": "精选 / 邻近研究",
+                    "title": title,
+                    "date": w.get("publication_date") or str(w.get("publication_year") or ""),
+                    "authors": authors, "venue": src, "abstract": abstract,
+                    "doi": doi, "url": f"https://doi.org/{doi}"})
+    return out
+
 def papers_crossref():
     out = []
     for tag, q in PAPER_QUERIES:
@@ -325,7 +390,7 @@ def patents_google():
     seen, out = set(), []
     for q in queries:
         try:
-            results = _gp_query(q)
+            results = _gp_query(q + "&num=100", 100)
         except Exception as e:
             print(f"[gpatents] {e}", file=sys.stderr); continue
         for p in results:
@@ -536,12 +601,15 @@ def add_translations(items):
             (cache.get(("a", a)) or translate_en_zh(a)) if a else ""
 
 def main():
-    papers, seen = [], set()
-    for fn in (papers_openalex, papers_pubmed, papers_crossref):
+    papers, seen, seen_titles = [], set(), set()
+    for fn in (papers_openalex, papers_pubmed, papers_europepmc, papers_crossref, papers_curated):
         for p in fn():
             k = (p["doi"] or p["title"]).lower()
-            if k in seen: continue
-            seen.add(k); papers.append(p)
+            # Europe PMC records sometimes lack a DOI for a paper PubMed has;
+            # dedupe on a normalised title as well so it cannot duplicate.
+            kt = re.sub(r"[^a-z0-9]+", "", p["title"].lower())
+            if k in seen or kt in seen_titles: continue
+            seen.add(k); seen_titles.add(kt); papers.append(p)
     papers.sort(key=lambda x: x["date"] or "", reverse=True)
     items_news = news()
     nseen, uniq_news = set(), []
