@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T04:00+00:00",
+ "updated_at": "2026-11-07T03:36+00:00",
  "papers": [
   {
    "type": "paper",
@@ -1030,7 +1030,7 @@
    "doi": "10.3389/fbioe.2026.1797727",
    "url": "https://pubmed.ncbi.nlm.nih.gov/41982327/",
    "title_zh": "基于有限元分析的镀碳跑鞋纵向弯曲刚度和后脚稳定性优化",
-   "abstract_zh": "",
+   "abstract_zh": "跑鞋中的镀碳中底通过储存和释放能量，在提高跑步者的表现方面发挥着关键作用。跑鞋的一个关键因素是纵向弯曲刚度（ LBS ） ，较高的LBS通常通过提高跑步周期的能量回报来提高能效。然而，存在一个关键的权衡：体重过重会降低性能，并可能增加受伤的风险。 为此，本研究旨在通过有限元分析（ FEA ）对能效和稳定性之间的平衡进行建模和优化。具体而言，通过改变中底泡沫材料和碳板厚度来系统地调整LBS。总共使用了两个有限元模型：三点弯曲模拟访问LBS和侧向加载模型访问后脚稳定性。 两个模型的边界条件都是通过初步确定的。",
    "brands": [
     "综合/其他"
    ]
@@ -1051,8 +1051,8 @@
    "abstract": "Advanced footwear technology (AFT) can enhance long-distance running performance by improving running economy (RE). However, the range of the individual improvements is large. Different intra-individual responses in running biomechanics may account for some of the variation. Thus, this randomized within-subject crossover study aimed to identify biomechanical factors associated with changes in RE when running with different AFT models. Twenty-two trained long-distance runners (50% female) ran multiple 5-minute running bouts at their season's best marathon pace (15.0&#x2009;&#xb1;&#x2009;2.3&#xa0;km&#x2e31;h-&#x2009;1) while wearing three standardized AFT models (Nike Air Zoom Alphafly Next% 2, Puma Fast-R Nitro Elite v1, Asics Metaspeed Sky+). During each condition, gas exchange data and three-dimensional kinematics and spatiotemporal variables were acquired. RE was determined as the ener",
    "doi": "10.1186/s40798-026-01005-0",
    "url": "https://pubmed.ncbi.nlm.nih.gov/41860638/",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "长跑运动员先进鞋类技术模型中与个体内经济运行差异相关的生物力学因素",
+   "abstract_zh": "先进的鞋类技术（ AFT ）可以通过提高跑步经济性（ RE ）来提高长跑性能。然而，个别改进的范围很大。运行生物力学中的不同个体内反应可能解释了一些变化。因此，这项随机受试者内交叉研究旨在确定在不同AFT模型下运行时与RE变化相关的生物力学因素。 22名训练有素的长跑运动员（ 50 ％为女性）以本赛季最好的马拉松速度（ 15.0 ± 2.3公里/小时）跑了多场5分钟的跑步比赛，同时穿着三款标准化的AFT型号（ Nike Air Zoom Alphafly Next % 2、Puma Fast-R Nitro Elite v1、Asics Metaspeed Sky + ）。在每个条件期间，获取气体交换数据以及三维运动学和时空变量。 RE被确定为能量",
    "brands": [
     "Nike",
     "PUMA",
@@ -1141,8 +1141,8 @@
    "abstract": "Advanced footwear technology (AFT) spikes are commonly offered in two configurations: foam only and foam combined with a carbon fiber plate. Whether the plate provides additional metabolic or performance benefits over foam-only designs remains uncertain. Therefore, this study compared physiological, biomechanical, and perceptual responses to two commercially available AFT spikes (Nike ZoomX Dragonfly, foam only; Nike Air Zoom Victory, foam plus carbon plate) in trained and national-level distance runners. Thirteen male middle- and long-distance runners (trained, n = 6; national-level, n = 7) completed three randomized 1600-m submaximal trials on an outdoor track at 16 km&#xb7;h-1 (trained) or 18 km&#xb7;h-1 (national-level). Running economy (RE) was assessed using a portable gas analyzer (MetaMax 3B-R2); spatiotemporal gait variables were recorded with shoe-mounted sensors (RunScribeTM);",
    "doi": "10.3389/fphys.2025.1703854",
    "url": "https://pubmed.ncbi.nlm.nih.gov/41347023/",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "长跑运动员中纯泡沫与镀碳先进鞋类技术峰值的比较分析",
+   "abstract_zh": "先进的鞋类技术（ AFT ）尖钉通常有两种配置：纯泡沫和泡沫与碳纤维板相结合。与纯泡沫设计相比，板材是否提供额外的代谢或性能优势尚不确定。 因此，这项研究比较了训练有素和国家级长跑运动员的生理、生物力学和感知反应与两种市售的尾尖（ Nike ZoomX Dragonfly ，仅限泡沫； Nike Air Zoom Victory ，泡沫加碳板）。 13名男性中长跑运动员（训练有素， n = 6 ；国家级， n = 7 ）在16 km · h-1 （训练有素）或18 km · h-1 （国家级）的户外跑道上完成了三项随机1600米次极大值试验。使用便携式气体分析仪（ MetaMax 3B-R2 ）评估运行经济性（ RE ） ；使用鞋装式传感器（ RunScribeTM ）记录时空步态变量；",
    "brands": [
     "Nike"
    ]
@@ -1162,8 +1162,8 @@
    "abstract": "Carbon-fiber shoes feature a stiff yet lightweight curved carbon-fiber plate embedded in the sole and a resilient midsole foam. These shoes create spring-like rebounding effect that has proven to decrease energy consumption and enhance athletic performance. To date, most biomechanics research on carbon-fiber shoes has been laboratory-based. The purpose of our study was to compare running biomechanics in competitive runners wearing carbon-fiber shoes or traditional shoes using wearable sensors on an outdoor composite track. Ten elite runners (9F, 1M) who consistently ran over 30 miles per week and owned a pair of carbon-fiber shoes participated. The experiment consisted of three 40-meter run trials in carbon-fiber shoes and three trials in traditional running shoes. The self-selected speed was held constant between the two conditions. Two Inertial Measurement Units (IMUs) were strapped on",
    "doi": "10.70252/JMBI4851",
    "url": "https://pubmed.ncbi.nlm.nih.gov/41079263/",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "使用可穿戴传感器评估的碳纤维鞋对户外跑步生物力学的影响",
+   "abstract_zh": "碳纤维鞋采用硬而轻的弧形碳纤维板，嵌入鞋底和弹性中底泡沫。这款运动鞋具有类似弹簧的弹簧效果，已被证明可降低能耗并提高运动表现。迄今为止，大多数关于碳纤维鞋的生物力学研究都是基于实验室的。 我们研究的目的是使用户外复合材料跑道上的可穿戴传感器，比较穿着碳纤维鞋或传统鞋的竞技跑步者的跑步生物力学。十名精英跑步者（ 9F ， 1M ）每周跑30多英里，并拥有一双碳纤维鞋。该实验包括三次碳纤维鞋的40米跑步试验和三次传统跑鞋的跑步试验。 自选速度在两个条件之间保持恒定。捆绑了两个惯性测量单元（ IMU ）",
    "brands": [
     "综合/其他"
    ]
@@ -1184,8 +1184,8 @@
    "abstract": "This study evaluated the effects of a top-tier carbon plated shoe with highly responsive foam (CP-shoe) on changes in running economy (RE) and running speed at lactate threshold (LT) before, during, and after prolonged running. Ten male distance runners (half-marathon time: 75&#x2009;&#xb1;&#x2009;3&#x2009;min) completed a series of tests. Initially, two graded treadmill tests were undertaken in a well-rested state while wearing either a CP-shoe or non-carbon plated shoe (NCP-shoe) to determine RE and LT-speed (LTCP and LTNCP). On separate days, participants then performed three 80-min runs in randomized order: twice at 95% LTNCP (14.7&#x2009;&#xb1;&#x2009;0.5&#x2009;km&#xb7;h-1, once with each shoe) and once at 95% LTCP (15.2&#x2009;&#xb1;&#x2009;0.4&#x2009;km&#xb7;h-1, CP-shoe only). RE, blood lactate concentration ([La-]b), heart rate (HR), and perceived exertion (Borg scale) were rec",
    "doi": "10.1111/sms.70139",
    "url": "https://pubmed.ncbi.nlm.nih.gov/41001734/",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "在训练有素的男性跑步者长期跑步期间，通过先进的鞋类技术持续改善跑步经济",
+   "abstract_zh": "本研究评估了具有高响应泡沫的顶级镀碳鞋（ CP-shoe ）在长时间运行之前、期间和之后对运行经济性（ RE ）和乳酸阈值（ LT ）运行速度变化的影响。10名男性长跑运动员（半程马拉松时间： 75 ± 3分钟）完成了一系列测试。 最初，在充分休息的状态下进行了两次分级跑步机测试，同时穿着CP鞋或非碳电镀鞋（ NCP鞋）来确定RE和LT速度（ LTCP和LTNCP ）。 然后，在不同的日子，参与者按随机顺序进行三次80分钟的跑步：两次在95% LTNCP下（ 14.7 ± 0.5 km · h-1 ，每只鞋一次） ，一次在95% LTCP下（ 15.2 ± 0.4 km · h-1 ，仅CP-shoe ）。RE ，血乳酸浓度（ [La-] b ） ，心率（ HR ）和感知消耗（ Borg量表）被记录为",
    "brands": [
     "综合/其他"
    ]
@@ -1206,8 +1206,8 @@
    "abstract": "The objective of this study was to isolate the effects of two key components of Advanced Footwear Technology, the curved carbon fibre plate and the midsole material, on lower-limb joint work. Sixteen male recreational runners ran overground at a speed of 3.9 (&#xb1;5%) metres per second in three shoe conditions: a standard Nike Vaporfly 4% (Original VP4), a modified version without the curved carbon fibre plate (No Plate) and a version with the PEBA midsole material replaced with EVA foam (EVA). Motion capture and force platform data were recorded to determine positive and negative metatarsophalangeal, ankle, knee, and hip joint work, and positive and negative foot&#x2009;+&#x2009;footwear work across the different conditions. Removing the carbon fibre plate significantly increased negative work at the metatarsophalangeal joint and positive work at the ankle. Replacing PEBA with EVA sign",
    "doi": "10.1080/14763141.2025.2508244",
    "url": "https://pubmed.ncbi.nlm.nih.gov/40420560/",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "先进鞋类技术的选定功能对下肢关节工作的影响",
+   "abstract_zh": "这项研究的目的是隔离高级鞋类技术的两个关键组件，弯曲的碳纤维板和中底材料对下肢关节工作的影响。 十六名男性休闲跑者在三种鞋子条件下以每秒3.9 （ ± 5 ％ ）米的速度在地面上跑步：标准耐克Vaporfly 4 ％ （原始VP4 ） ，不带曲面碳纤维板的改良版（无板）和用EVA泡沫（ EVA ）代替PEBA中底材料的版本。 记录运动捕捉和力平台数据，以确定不同条件下的跖趾骨、踝关节、膝关节和髋关节的正面和负面工作，以及正面和负面的足部+鞋类工作。去除碳纤维板显著增加了跖趾关节的阴性功和踝关节的阳性功。用EVA标志替换PEBA",
    "brands": [
     "Nike"
    ]
@@ -1228,8 +1228,8 @@
    "abstract": "This biomechanical study of 38 male and female recreational runners demonstrates the relationship between the four most frequently used footwear technologies and the biomechanical load on the lower extremities during running. Running with the four midsole technologies ((1) neutral, cushioning running shoes (N_LS), (2) supportive, motion control running shoes (S_LS), (3) maximalist, carbon-fibre plate running shoes (M_LS), and (4) running shoes with a U-shaped midsole construction and highly cushioning foam (U_LS)) indicates a strong impact of the midsole technology on the kinetics of the lower extremities. Midsole construction and material of the four running shoe categories systematically influence joint moments at the foot, ankle joint, and knee joint, thereby modulating the mechanical load on the biological structures of the lower extremities with each running step. The data demonstra",
    "doi": "10.1055/a-2563-4935",
    "url": "https://pubmed.ncbi.nlm.nih.gov/40398446/",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "[不同跑鞋技术对休闲跑步者跑步和受伤结果中肌肉骨骼负荷的影响]",
+   "abstract_zh": "这项针对38名男性和女性休闲跑步者的生物力学研究证明了四种最常用的鞋类技术与跑步时下肢的生物力学负荷之间的关系。 采用四种中底技术（ （ 1 ）中性，缓震跑鞋（ N_LS ） ， （ 2 ）支撑，运动控制跑鞋（ S_LS ） ， （ 3 ）极简主义，碳纤维板跑鞋（ M_LS ）和（ 4 ） U形中底结构和高度缓震泡沫的跑鞋（ U_LS ） ）表明中底技术对下肢动力学的强烈影响。 四个跑鞋类别的中底结构和材料系统地影响足部、踝关节和膝关节的关节力矩，从而调节每次跑步对下肢生物结构的机械负荷。",
    "brands": [
     "综合/其他"
    ]
@@ -1238,15 +1238,120 @@
  "news": [
   {
    "type": "news",
-   "source": "Google News · 运动品牌 美通社 发布",
-   "title": "NEXT IS NOW：春风动力亮相EICMA 2026， 全球战略落地与产品创新成果集中呈现 - 美通社",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zVE13Z1pxbHY0VW9RS2xLMzlRMXA4eURsM1kxcU9fZHlFS0thamxmYzFWUGxNUFN1NEhEb3hRVXdlMnJlRDc3OVZieGxzRjBibWlXMU5BbEFvVnpYdUZkZzE3QzktU1V6MlRleXdn?oc=5",
+   "source": "Believe in the Run",
+   "title": "481 | Nike Alphafly 4, Adidas Adios Pro 5, Guardian Caps",
+   "url": "https://believeintherun.com/shoe-reviews/481-nike-alphafly-4-adidas-adios-pro-5-guardian-caps/",
    "date": "2026-11-06",
-   "abstract": "NEXT IS NOW：春风动力亮相EICMA 2026， 全球战略落地与产品创新成果集中呈现&nbsp;&nbsp;美通社",
-   "title_zh": "NEXT IS NOW：春风动力亮相EICMA 2026， 全球战略落地与产品创新成果集中呈现 - 美通社",
-   "abstract_zh": "NEXT IS NOW：春风动力亮相EICMA 2026， 全球战略落地与产品创新成果集中呈现&nbsp;&nbsp;美通社",
+   "abstract": "The post 481 | Nike Alphafly 4, Adidas Adios Pro 5, Guardian Caps appeared first on Believe in the Run.",
+   "title_zh": "481 |耐克Alphafly 4、阿迪达斯Adios Pro 5、Guardian Caps",
+   "abstract_zh": "POST 481 | Nike Alphafly 4、Adidas Adios Pro 5、Guardian Caps首次出现在Believe in the Run上。",
+   "brands": [
+    "Nike",
+    "adidas"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Believe in the Run",
+   "title": "480 | Ben Morrow and Bit Klecker (Miler Running)",
+   "url": "https://believeintherun.com/shoe-reviews/480-ben-morrow-and-bit-klecker-miler-running/",
+   "date": "2026-11-06",
+   "abstract": "The post 480 | Ben Morrow and Bit Klecker (Miler Running) appeared first on Believe in the Run.",
+   "title_zh": "480 |本·莫罗（ Ben Morrow ）和比特·克莱克（ Bit Klecker ） （迈勒",
+   "abstract_zh": "POST 480 | Ben Morrow和Bit Klecker （ Miler Running ）首次出现在Believe in the Run上。",
    "brands": [
     "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Believe in the Run",
+   "title": "The Run Culture Dispatch: October 2026",
+   "url": "https://believeintherun.com/articles/run-culture-dispatch-october-2026",
+   "date": "2026-11-06",
+   "abstract": "The post The Run Culture Dispatch: October 2026 appeared first on Believe in the Run.",
+   "title_zh": "跑步文化派遣： 2026年10月",
+   "abstract_zh": "《The Run Culture Dispatch: October 2026》一文首次出现在《Believe in the Run》上。",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Believe in the Run",
+   "title": "What happens when you add Gore-Tex to this mountain GOAT?",
+   "url": "https://believeintherun.com/shoe-reviews/la-sportiva-prodigio-2-gtx-review/",
+   "date": "2026-11-06",
+   "abstract": "The post What happens when you add Gore-Tex to this mountain GOAT? appeared first on Believe in the Run.",
+   "title_zh": "当你把Gore-Tex添加到这只山羊身上时会发生什么？",
+   "abstract_zh": "将Gore-Tex添加到这只山羊后会发生什么？这篇文章最初出现在Believe in the Run上。",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Runner's World",
+   "title": "The 9 Best Running Shoes for Runners With Flat Feet and Low Arches",
+   "url": "https://www.runnersworld.com/gear/a25750345/running-shoes-flat-feet/",
+   "date": "2026-11-06",
+   "abstract": "No, you don’t need more arch support. But here’s what you do need.",
+   "title_zh": "适合平脚和低弓跑步者的9款最佳跑步鞋",
+   "abstract_zh": "不，您不需要更多的足弓支撑。但这就是您真正需要的。",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Footwear News",
+   "title": "Athlete Focus Guides Under Armour’s Footwear Reset",
+   "url": "https://wwd.com/footwear-news/shoe-industry-news/under-armour-kevin-plank-footwear-1-billion-business-1239404513/",
+   "date": "2026-11-06",
+   "abstract": "Under Armour's Kevin Plank says footwear is a $1 billion business that \"we believe can be much larger.\"",
+   "title_zh": "Under Armour鞋履重置运动员焦点指南",
+   "abstract_zh": "Under Armour的Kevin Plank表示，鞋类是一项价值10亿美元的业务， “我们认为可以做得更大。”",
+   "brands": [
+    "Under Armour"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "爱燃烧",
+   "title": "廿载深耕，新势启程 ASICS亚瑟士亮相第九届中国国际进口博览会开启在华发展新篇章",
+   "url": "https://iranshao.com/130720.html",
+   "date": "2026-11-06",
+   "abstract": "【11月6日，上海】11月5日至10日，全球知名运动品牌ASICS亚瑟士亮相第九届中国国际进口博览会（以下简称“进博会”）。值此品牌进入中国市场二十周年之际，ASICS亚瑟士将品牌…",
+   "title_zh": "廿载深耕，新势启程 ASICS亚瑟士亮相第九届中国国际进口博览会开启在华发展新篇章",
+   "abstract_zh": "【11月6日，上海】11月5日至10日，全球知名运动品牌ASICS亚瑟士亮相第九届中国国际进口博览会（以下简称“进博会”）。值此品牌进入中国市场二十周年之际，ASICS亚瑟士将品牌…",
+   "brands": [
+    "ASICS"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 运动品牌 科技创新",
+   "title": "从广交会走向全球：绝影XENJOY以设计与专业重塑健身空间 - 中华网",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lb25LWjJ0RFVWaS0ybTYwbFRaX0paTUdCM2tFOFE4Q3pzT29manhuNV9nMDNmV2hqS09ZR3p0ZFZ0cUZkeDljZmZiZ1BVVWRRUUxpYjQ0OU5EZks2RlduTFd0RXhqREx3bVFLcUJB?oc=5",
+   "date": "2026-11-06",
+   "abstract": "从广交会走向全球：绝影XENJOY以设计与专业重塑健身空间&nbsp;&nbsp;中华网",
+   "title_zh": "从广交会走向全球：绝影XENJOY以设计与专业重塑健身空间 - 中华网",
+   "abstract_zh": "从广交会走向全球：绝影XENJOY以设计与专业重塑健身空间&nbsp;&nbsp;中华网",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 跑鞋 美通社",
+   "title": "斯凯奇连续八年亮相进博会，以专业科技与全渠道布局引领\"破速\" 新篇 - 美通社",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wbGczeEpkZ1Zsekk0RmVfd1h4S0RaYTJMbTNoUFM3MHRoVXFtc0lpb2l1TEZiNDhiMXhPVzNmXzY5RktoN0xic3ZuTzBrY3BadlE4cmJCc1d6TTVyQXpOY0pxQXZJVDhPTzNJd1Z3?oc=5",
+   "date": "2026-11-06",
+   "abstract": "斯凯奇连续八年亮相进博会，以专业科技与全渠道布局引领\"破速\" 新篇&nbsp;&nbsp;美通社",
+   "title_zh": "斯凯奇连续八年亮相进博会，以专业科技与全渠道布局引领\"破速\" 新篇 - 美通社",
+   "abstract_zh": "斯凯奇连续八年亮相进博会，以专业科技与全渠道布局引领\"破速\" 新篇&nbsp;&nbsp;美通社",
+   "brands": [
+    "Skechers"
    ]
   },
   {
@@ -1256,8 +1361,8 @@
    "url": "https://believeintherun.com/shoe-reviews/hoka-clifton-11-gtx-review/",
    "date": "2026-11-05",
    "abstract": "The post What happens when you add Gore-Tex to the road-tested Clifton 11? appeared first on Believe in the Run.",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "当您将Gore-Tex添加到经过道路测试的Clifton 11时会发生什么？",
+   "abstract_zh": "当您将Gore-Tex添加到经过道路测试的Clifton 11时会发生什么？这篇文章首先出现在Believe in the Run上。",
    "brands": [
     "HOKA"
    ]
@@ -1269,21 +1374,21 @@
    "url": "https://wwd.com/footwear-news/shoe-industry-news/coach-shoes-sales-growth-expansion-q1-2027-earnings-1239403304/",
    "date": "2026-11-05",
    "abstract": "Revenue in Coach's footwear segment grew over 20 percent in the first quarter.",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "鞋类仍然是Coach的“重要增长机会”",
+   "abstract_zh": "Coach鞋类部门的收入在第一季度增长了20%以上。",
    "brands": [
     "综合/其他"
    ]
   },
   {
    "type": "news",
-   "source": "Google News · 碳板 跑鞋",
-   "title": "跑友必睇！韩国消委会实测7款碳板跑鞋：PUMA最高分、HOKA最护膝 这1款性价比最高？ - 星島頭條",
-   "url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxOdnh5R090OXpXbi1FVlR0OE12R0NIdExrWkpPWkpucWdtVnh2eUs0UWlRSjI4LUV2OThEVEtaUndfa05iOUFubzlvZUt0dXlVMlllQnFjcVhGd2dWNDdnZVBNYW40bnVaYXNKZmZ1NjVWRk5JTE9PQUtmNVppa1NjWnI3MTNyZEROSXBhX2c1QnZKdExkYmZvUmVIUXI5UEZiTE9FVS1QY2dSRVl2ckRGNS1wSy1XVmVnMFhxVENudkswOU9XOXRoM2w4U0RqbWxpRGY0aDlHRm9WNDdBQmN2d2MwTTVBZ3YxeEZXbEt1UDBRM285QUd3XzdPZmlYQVdNYXZfS2N6OFJNcVJnM2FOeFFiYzFoSmdlUlYzdXV6WGg3RHdYSG9PWDIwYU1fLWhKRGROS05MaWdmTTg1eDNnSWRBTHlReTM4NlFrZUhUZ0FKMkx3aXlxNDB1bzBFeV9iRGwzNmNfZmU0dWQ0TzQ4clpQWXJMbEVpeGFoUUZFRk1GNjNxU1VHYkNORFNKYlZYalVQZ09peS1JaVBFMG54WlBVbnhvMFlGQzlQbGI1SlFBTC1XYmtmVU4zc0JTN2ctM1ExaE9GeDliQ2RjemQzYg?oc=5",
+   "source": "Google News · 运动品牌 科技创新",
+   "title": "无人机竞速世界杯落户澳门 打造科技体育城市新名片 - www.hkcna.hk",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VSWxtTkhqbnVYMDZSZVR3MlE0bGEtYXkybEt3dFNiNHNqbTBWVkZ2U3otS3hRc09FOUFBOG5yOGtDSTN5ZGJjcnFmbDFQblVIS2lNTlZsQmJlRXNiLXI1NGUybkE2c2xjNTVwOFhhWXpZdzA?oc=5",
    "date": "2026-11-05",
-   "abstract": "跑友必睇！韩国消委会实测7款碳板跑鞋：PUMA最高分、HOKA最护膝 这1款性价比最高？&nbsp;&nbsp;星島頭條",
-   "title_zh": "跑友必睇！韩国消委会实测7款碳板跑鞋：PUMA最高分、HOKA最护膝 这1款性价比最高？ - 星島頭條",
-   "abstract_zh": "跑友必睇！韩国消委会实测7款碳板跑鞋：PUMA最高分、HOKA最护膝 这1款性价比最高？&nbsp;&nbsp;星島頭條",
+   "abstract": "无人机竞速世界杯落户澳门 打造科技体育城市新名片&nbsp;&nbsp;www.hkcna.hk",
+   "title_zh": "无人机竞速世界杯落户澳门 打造科技体育城市新名片 - www.hkcna.hk",
+   "abstract_zh": "无人机竞速世界杯落户澳门 打造科技体育城市新名片&nbsp;&nbsp;www.hkcna.hk",
    "brands": [
     "综合/其他"
    ]
@@ -1299,58 +1404,6 @@
    "abstract_zh": "奥林巴斯275 HiLo应该是Altra的新黄金标准，首次出现在Believe in the Run上。",
    "brands": [
     "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Runner's World",
-   "title": "These 10 Brooks Running Shoes Will Help You Run Your Best Miles Yet",
-   "url": "https://www.runnersworld.com/gear/a20866339/best-brooks-running-shoes/",
-   "date": "2026-11-04",
-   "abstract": "From the Ghost to the Glycerin, Brooks is our go-to brand for comfiest trainers.",
-   "title_zh": "这10双Brooks跑步鞋将帮助您跑出迄今为止最好的一英里",
-   "abstract_zh": "从Ghost到Glycerin ， Brooks是我们最舒适运动鞋的首选品牌。",
-   "brands": [
-    "Brooks"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Runner's World",
-   "title": "The 10 Best Trail Running Shoes for Trails, Gravel, and More",
-   "url": "https://www.runnersworld.com/gear/a22115120/best-trail-running-shoes/",
-   "date": "2026-11-04",
-   "abstract": "Impeccable traction and responsive rides await. These are the shoes we lace up before hitting the trailhead.",
-   "title_zh": "",
-   "abstract_zh": "",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 体育用品 科技创新",
-   "title": "年会实录｜哈评年会2026讲了什么？ - 中华网",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpUzRiSzdwNmVxLWlpbkM0NnJUcVRpSUhJa1lkbGFmN1dxSExwTTFZWWh5cVA5SHh2TjZWVXZkNzRiY0hINmNHWEFtNURFOXlidWVoVjh1NVJNS3VMZmc?oc=5",
-   "date": "2026-11-04",
-   "abstract": "年会实录｜哈评年会2026讲了什么？&nbsp;&nbsp;中华网",
-   "title_zh": "年会实录｜哈评年会2026讲了什么？ - 中华网",
-   "abstract_zh": "年会实录｜哈评年会2026讲了什么？&nbsp;&nbsp;中华网",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 运动品牌 科技创新",
-   "title": "500㎡展区扩容升级：创新研究室、中国创造……阿迪达斯进博亮点抢先看 - 中华网",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLNG9VYnpJcDBBS1dKbjZXd01Fb3FveldjdmxYLXRsWnJleE1tQzcwSlpZUmU0TXRCV3RWTS1DM1NPWjFUZEpiVnNsdXJxX1dWbGlvdlRxMkNEQll5STNfMXBrWnQxVU0zVnJRNg?oc=5",
-   "date": "2026-11-04",
-   "abstract": "500㎡展区扩容升级：创新研究室、中国创造……阿迪达斯进博亮点抢先看&nbsp;&nbsp;中华网",
-   "title_zh": "500㎡展区扩容升级：创新研究室、中国创造……阿迪达斯进博亮点抢先看 - 中华网",
-   "abstract_zh": "500㎡展区扩容升级：创新研究室、中国创造……阿迪达斯进博亮点抢先看&nbsp;&nbsp;中华网",
-   "brands": [
-    "adidas"
    ]
   },
   {
@@ -1377,19 +1430,6 @@
    "abstract_zh": "同济大学设计创意学院携手安踏共建“折叠物理实验室”，以设计驱动运动科技&nbsp;&nbsp;同济大学新闻网",
    "brands": [
     "安踏"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 运动品牌 科技创新",
-   "title": "2026第十二届运动营养食品高层论坛在昆明举办 以技术赋能引领运动营养食品价值提升 - 新华网客户端",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYXVkSFViS1dPOGJISF9idVYzdXF4b0dlcThUMEhxcklhZUI4SXlBbWh2TjNKeGM0QXkwOW85Ny1ZeXQwaUxOVlc4R0tOYlVGNHlEZUZvbHZnOVRGV1pnaWZwSVJNUTVHWXhHVTI4ck15ZlRvVDNsODdjTE13VTM4ZEpWSmdBNkFQZnRfcm5tT2NaTldvZlo4dTVn?oc=5",
-   "date": "2026-11-03",
-   "abstract": "2026第十二届运动营养食品高层论坛在昆明举办 以技术赋能引领运动营养食品价值提升&nbsp;&nbsp;新华网客户端",
-   "title_zh": "2026第十二届运动营养食品高层论坛在昆明举办 以技术赋能引领运动营养食品价值提升 - 新华网客户端",
-   "abstract_zh": "2026第十二届运动营养食品高层论坛在昆明举办 以技术赋能引领运动营养食品价值提升&nbsp;&nbsp;新华网客户端",
-   "brands": [
-    "综合/其他"
    ]
   },
   {
@@ -1493,23 +1533,10 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mVHRVOHJLM25sVHIzNS02RUpaYmQ0aHY1dlp6dGEzdHpHTXgyX0ZfdUl5Y2VRczQ1dUxSZWRDdlVzN05OYTZDUHFTYzhpUGNNUnowZFB3MC10RUNkX1dWajBlUXVLTDFVenBlVA?oc=5",
    "date": "2026-10-30",
    "abstract": "Best Lightweight Trail Running Shoes of 2026&nbsp;&nbsp;iRunFar",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "2026年最佳轻量级越野跑鞋- iRunFar",
+   "abstract_zh": "2026年iRunFar最佳轻量级越野跑鞋",
    "brands": [
     "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 超临界发泡 中底",
-   "title": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众 - 驱动之家",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HbHNDMFVJYi1XelBSZ0UwUlBHUUlrVWR5czllejZXV2pmU2dZTERqVEw3YWxGUU11OFZRTV85SS12U21jN0Utckw4X0tKckY2c05jVURfQW0?oc=5",
-   "date": "2026-10-30",
-   "abstract": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众&nbsp;&nbsp;驱动之家",
-   "title_zh": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众 - 驱动之家",
-   "abstract_zh": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众&nbsp;&nbsp;驱动之家",
-   "brands": [
-    "安踏"
    ]
   },
   {
@@ -1524,6 +1551,19 @@
    "summary_zh": "华尔街日报中文网探讨跑鞋的额外减震为何反而会增加脚部压力，从生物力学角度讨论缓震与足部受力的关系。适合关注跑鞋缓震原理与足部健康的跑者，从中了解减震并非越多越好。",
    "brands": [
     "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 体育用品 科技创新",
+   "title": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众 - 驱动之家",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HbHNDMFVJYi1XelBSZ0UwUlBHUUlrVWR5czllejZXV2pmU2dZTERqVEw3YWxGUU11OFZRTV85SS12U21jN0Utckw4X0tKckY2c05jVURfQW0?oc=5",
+   "date": "2026-10-30",
+   "abstract": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众&nbsp;&nbsp;驱动之家",
+   "title_zh": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众 - 驱动之家",
+   "abstract_zh": "三大院士坐镇领航！安踏牵头体育用品创新联合体 前沿科技加速普惠大众&nbsp;&nbsp;驱动之家",
+   "brands": [
+    "安踏"
    ]
   },
   {
@@ -1597,44 +1637,15 @@
   },
   {
    "type": "news",
-   "source": "Believe in the Run",
-   "title": "I finally have a muscle roller that looks as good as it feels",
-   "url": "https://believeintherun.com/shoe-reviews/jeea-companion-review/",
-   "date": "2026-10-27",
-   "abstract": "The post I finally have a muscle roller that looks as good as it feels appeared first on Believe in the Run.",
-   "title_zh": "我终于有了一个看起来和感觉一样好的肌肉滚轮",
-   "abstract_zh": "我终于有了一个肌肉滚筒，看起来和《Believe in the Run》首次出现时的感觉一样好。",
-   "summary_zh": "Believe in the Run 评测一款肌肉放松滚轮：外观设计与实际放松脚感俱佳，被列入跑者恢复装备推荐。文章属于跑后恢复器材范畴，与跑鞋科技本身关系较弱，但反映了跑圈对恢复装备的持续关注。",
+   "source": "Google News · 运动品牌 财报",
+   "title": "为什么跑鞋是运动品牌的必争之地？ - CBNData-第一财经商业数据中心",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZMVBzN09rN3RmOTd0OFBacG5JQ19vdmprZlJld3BKcVA3NF9FbGNIa0Rkd255eV80U050M1Z4LU9iOUxxOVVGNTlrdm1yR0xxWkNnbw?oc=5",
+   "date": "2026-10-28",
+   "abstract": "为什么跑鞋是运动品牌的必争之地？&nbsp;&nbsp;CBNData-第一财经商业数据中心",
+   "title_zh": "为什么跑鞋是运动品牌的必争之地？ - CBNData-第一财经商业数据中心",
+   "abstract_zh": "为什么跑鞋是运动品牌的必争之地？&nbsp;&nbsp;CBNData-第一财经商业数据中心",
    "brands": [
     "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Believe in the Run",
-   "title": "The future of sports science runs through Asics and Ann Arbor",
-   "url": "https://believeintherun.com/articles/asics-amsi-michigan-lab",
-   "date": "2026-10-27",
-   "abstract": "The post The future of sports science runs through Asics and Ann Arbor appeared first on Believe in the Run.",
-   "title_zh": "体育科学的未来贯穿亚瑟士和安娜堡",
-   "abstract_zh": "《The future of sports science runs through Asics and Ann Arbor》一文首次出现在《Believe in the Run》上。",
-   "summary_zh": "Believe in the Run 报道 ASICS 在美国安娜堡（密歇根大学所在地）布局体育科学的新动作。文章探讨高校运动科学研究如何反哺跑鞋研发——从跑者数据、生物力学测试到产品验证，ASICS 试图把实验室能力直接建在跑鞋创新链条上。",
-   "brands": [
-    "ASICS"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Believe in the Run",
-   "title": "Lucky number 4: The Nike Alphafly 4 is better than ever",
-   "url": "https://believeintherun.com/shoe-reviews/nike-alphafly-4-review/",
-   "date": "2026-10-23",
-   "abstract": "The post Lucky number 4: The Nike Alphafly 4 is better than ever appeared first on Believe in the Run.",
-   "title_zh": "幸运数字 4：Nike Alphafly 4 比以往更好",
-   "abstract_zh": "《幸运数字 4：Nike Alphafly 4 比以往更好》一文最早刊登于 Believe in the Run。",
-   "summary_zh": "Believe in the Run 前瞻 Nike Alphafly 4：第四代旗舰竞速鞋被寄望在推进效率与回弹上再进一步。文章以「幸运数字 4」为题，梳理 Alphafly 系列的统治地位与新一代的改进期待，具体实测表现仍待正式评测验证。",
-   "brands": [
-    "Nike"
    ]
   },
   {
@@ -1695,20 +1706,6 @@
   },
   {
    "type": "news",
-   "source": "Believe in the Run",
-   "title": "Tiempos Running is your favorite brand's favorite brand (and one of ours, too)",
-   "url": "https://believeintherun.com/tiempos-running-fall-collection/",
-   "date": "2026-10-21",
-   "abstract": "The post Tiempos Running is your favorite brand's favorite brand (and one of ours, too) appeared first on Believe in the Run.",
-   "title_zh": "Tiempos Running是你最喜欢的品牌最喜欢的品牌（也是我们最喜欢的品牌之一）",
-   "abstract_zh": "文章《Tiempos Running是你最喜欢的品牌最喜欢的品牌（也是我们最喜欢的品牌之一）》最初发表于Believe in the Run。",
-   "summary_zh": "介绍小众跑鞋品牌 Tiempos Running——一家被众多知名品牌从业者私下青睐的「品牌最爱的品牌」。文章讲述其产品理念与口碑来源，属于跑圈品牌文化类内容，对了解行业审美风向有参考价值。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · PEBA 中底",
    "title": "超轻越野跑鞋有哪些？三款主流产品的轻量化技术路径 - 品玩",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9zMXV2RTVweXMtMXpOc0tQS055V05vLXdEMDJKWGdLT3hWT2VKWXE0WkNYdDFnVGpUQ0RRWVFGenI3b2dsZGthdw?oc=5",
@@ -1727,8 +1724,8 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjVXByTHFxVi1tSWVGTjNMR0oyenFvdkFVZ0NZLUNUdjliOUdDRlZ4dDdHWG1GUGtVZ3pVallMN1ZkVktjRnRES21Xek5NdGplaHBuYWVDbEhPaVh3R0hFMTB2ckFwcEtKaFg1V3RBaEI5RjFNUWp0UF81WWJSZWs?oc=5",
    "date": "2026-10-19",
    "abstract": "These Are the 10 Marathon Shoes Our Testers Trust on Race Day&nbsp;&nbsp;Outside Magazine",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "这些是我们的测试人员在比赛日值得信赖的10款马拉松鞋- Outside杂志",
+   "abstract_zh": "这些是我们的测试员在比赛日户外杂志上值得信赖的10款马拉松鞋",
    "brands": [
     "综合/其他"
    ]
@@ -1754,23 +1751,23 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pLURQeWRpejBKYU9uLUNCQ3lRWHlWLXVOS0xScTZSMXR0X3lvTDhUSGdScnRIYVZzTk5xTWNDX2VLWjZwSEEyeURtQnhJRkRXY21ubEJFbjJ6b3A1ZWNUVlVYcmpNYlFfOGJtNVUxbzVDMmFv?oc=5",
    "date": "2026-10-16",
    "abstract": "25 Expert Testers Agree: These Are the 10 Best Road Running Shoes We Recommend Today&nbsp;&nbsp;Outside Magazine",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "25位专家测试人员一致认为：这是我们今天推荐的10款最佳公路跑鞋-《Outside》杂志",
+   "abstract_zh": "25位专家测试人员一致认为：这是我们今天在杂志外推荐的10款最佳公路跑鞋",
    "brands": [
     "综合/其他"
    ]
   },
   {
    "type": "news",
-   "source": "Google News · 碳板 跑鞋",
-   "title": "中考体育跑鞋选购：弯折100°和25°的碳板，差在哪？ - 凤凰网",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jRVVqUV82aGtKOGJKSjdyZDJXQ3F0OFF4WWJnUVFPaGZLMm15VXROdlVNc25KT0tpd1Ixbmw5M2hTajU2WUI4ZzZjS2dZTHc?oc=5",
-   "date": "2026-10-15",
-   "abstract": "中考体育跑鞋选购：弯折100°和25°的碳板，差在哪？&nbsp;&nbsp;凤凰网",
-   "title_zh": "中考体育跑鞋选购：弯折100°和25°的碳板，差在哪？ - 凤凰网",
-   "abstract_zh": "中考体育跑鞋选购：弯折100°和25°的碳板，差在哪？&nbsp;&nbsp;凤凰网",
+   "source": "Google News · Nike Adidas new midsole foam",
+   "title": "The best adidas shoes for standing all day - Solereview",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50MjZJc0h6anlQU3BiRE95QjZSdHFtM2tfNkc5OElxamlsQXN3ZFNfNW56WTNfVjVYd2NOZ2ozZVhnbkZlRXhTbUw2MU9JMEJxWWJWNU9DNUlSMTAzdzM1Mll2MGNQeFd1RmFGMjBRMTBwX1NmYXZmTmJB?oc=5",
+   "date": "2026-10-16",
+   "abstract": "The best adidas shoes for standing all day&nbsp;&nbsp;Solereview",
+   "title_zh": "适合全天站立的最佳adidas鞋- Solereview",
+   "abstract_zh": "适合全天站立的最佳adidas鞋款Solereview",
    "brands": [
-    "综合/其他"
+    "adidas"
    ]
   },
   {
@@ -1815,19 +1812,6 @@
   },
   {
    "type": "news",
-   "source": "Google News · Nike Adidas new midsole foam",
-   "title": "7 Best Trail Running Shoes in 2026 - RunRepeat",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tcTk2OFVHM3c1anBNelBTaG1NNjc4bEZ0ZWI2eHFyTjZnSlVxRU9LSmxUekNsUTlxRVVnejZESHYzX2g4NFh2M29jVTk5UXFrUnNTeXhVQWJ3eWFVdjNfZFk0dw?oc=5",
-   "date": "2026-10-05",
-   "abstract": "7 Best Trail Running Shoes in 2026&nbsp;&nbsp;RunRepeat",
-   "title_zh": "",
-   "abstract_zh": "",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · super foam running shoe midsole",
    "title": "On developed the super-soft Surreal foam in-house to give the new Cloudsurfer 3 running shoe a plush ride - Popular Science",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OeTBxZmpSUElQMkVvUDY4bHRwNV9yTmJ3bmhkV3NSb21ENHo2Y1NpN0stWjFONkFzbV9LNGU0NExTWjZ1eFBteHRCRW1icmFLblRfQVFLS19uT21uYWt1ZzBudTd4M3gt?oc=5",
@@ -1847,8 +1831,8 @@
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lWlBMTVdTTmVuakdwNUZvdjllblVVNTByelBtelcyUlpjM3FTa1ZwRVhnUTZTYzZlTDYxenZIWTAtOFBMUVdVcXR0TFZxLWtNNW5selhjZjBDX05VbzQ4NkN3aFZ3UzFDOVB3?oc=5",
    "date": "2026-09-30",
    "abstract": "7 Best Running Shoes For Heel Strikers in 2026&nbsp;&nbsp;RunRepeat",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "2026年7款最适合高跟鞋运动鞋- RunRepeat",
+   "abstract_zh": "2026年7款最适合高跟鞋运动鞋RunRepeat",
    "brands": [
     "综合/其他"
    ]
@@ -1897,43 +1881,16 @@
   },
   {
    "type": "news",
-   "source": "Google News · 中乔体育 跑鞋",
-   "title": "南方财经全媒体集团 - 南方财经",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlZkEwQ2E5RUtZV1JsUnY2b2JYUGFSbzVtUVBBNWVYVU4yck9IT1ozTjNSdjF5czROVnNKdVZqY0J6Zi14LTNQcEFCQS0tb1pnLVc4LS01UmExMTItdzVKV083ZUxHMUFS?oc=5",
-   "date": "2026-09-26",
-   "abstract": "南方财经全媒体集团&nbsp;&nbsp;南方财经",
-   "title_zh": "南方财经全媒体集团 - 南方财经",
-   "abstract_zh": "南方财经全媒体集团&nbsp;&nbsp;南方财经",
-   "summary_zh": "这条来自南方财经的资讯由中乔体育跑鞋关键词抓取，标题仅给出媒体名称，聚合摘要未能展开正文要点。读者可点开原文查看完整报道，适合关注国内体育品牌动态的人士。文章的来源为南方财经，适合持续追踪国内体育品牌动向的读者作为线索入口。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · 必迈 碳板跑鞋",
-   "title": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋搭载T1000 碳板与BoomMAX 中底轻盈推进持久回弹 - e南洋",
+   "title": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋 搭载T1000 碳板与BoomMAX 中底 轻盈推进持久回弹 - e南洋",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE91cFlXenJiVU1OdXZkVUpJU1NxWkVZeEJwZ1ZJZGVpUVRDeWFFc185akVCeUk0Z2o3WFpBcTJ2MWlxcHBpeUV2am40QmNkVV9fTFV5OFVmTGxsWk9EYmZsY2x3?oc=5",
    "date": "2026-09-23",
-   "abstract": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋搭载T1000 碳板与BoomMAX 中底轻盈推进持久回弹&nbsp;&nbsp;e南洋",
-   "title_zh": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋搭载T1000 碳板与BoomMAX 中底轻盈推进持久回弹 - e南洋",
-   "abstract_zh": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋搭载T1000 碳板与BoomMAX 中底轻盈推进持久回弹&nbsp;&nbsp;e南洋",
+   "abstract": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋 搭载T1000 碳板与BoomMAX 中底 轻盈推进持久回弹&nbsp;&nbsp;e南洋",
+   "title_zh": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋 搭载T1000 碳板与BoomMAX 中底 轻盈推进持久回弹 - e南洋",
+   "abstract_zh": "BMAI 推出GCARBON TURBO 4 旗舰碳板跑鞋 搭载T1000 碳板与BoomMAX 中底 轻盈推进持久回弹&nbsp;&nbsp;e南洋",
    "summary_zh": "e 南洋报道 BMAI 推出 GCARBON TURBO 4 旗舰碳板跑鞋，搭载 T1000 碳板与 BoomMAX 中底。文章强调轻盈推进与持久回弹两大卖点，适合关注国产碳板竞速鞋技术配置的马拉松跑者。",
    "brands": [
     "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 运动品牌 科技创新",
-   "title": "靳东、马龙都来了！南京路步行街再添首店，李宁龙店首家全球旗舰店在上海启幕 - 上观新闻",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41d1dlaHpORDd0SDN1cWtxalkyMk1RVmo1by1BTVFNUTVUUmhxTTNCenZ1TnFFMndxZU5ZSkVtRnY1THFZa0FaaC1zOTVJLVJGQ051RFZ5Y2Q1RVZ4eXc?oc=5",
-   "date": "2026-09-22",
-   "abstract": "靳东、马龙都来了！南京路步行街再添首店，李宁龙店首家全球旗舰店在上海启幕&nbsp;&nbsp;上观新闻",
-   "title_zh": "靳东、马龙都来了！南京路步行街再添首店，李宁龙店首家全球旗舰店在上海启幕 - 上观新闻",
-   "abstract_zh": "靳东、马龙都来了！南京路步行街再添首店，李宁龙店首家全球旗舰店在上海启幕&nbsp;&nbsp;上观新闻",
-   "brands": [
-    "李宁"
    ]
   },
   {
@@ -2022,19 +1979,6 @@
   },
   {
    "type": "news",
-   "source": "Google News · 碳板 跑鞋",
-   "title": "网红碳板跑鞋，为啥不能日常穿？ - 新华网",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0t4M1RoUHBTTWRxLUxkTkszYmJMc09yVTQ3eXRpMmwzV2lnMkJyTjlQMm5oa0l2VV9UeFcxZklTamFreklSTW15RWoyZ0Z2ejB0UE5YeG82MEtYRk54ZmF0M1pBSXJJdWQyX3RyN05scVRINnlMb0ZzWENOcW53cGdB?oc=5",
-   "date": "2026-09-11",
-   "abstract": "网红碳板跑鞋，为啥不能日常穿？&nbsp;&nbsp;新华网",
-   "title_zh": "网红碳板跑鞋，为啥不能日常穿？ - 新华网",
-   "abstract_zh": "网红碳板跑鞋，为啥不能日常穿？&nbsp;&nbsp;新华网",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · 体育用品 科技创新",
    "title": "2026体育用品行业科技创新大会在泉州台商投资区举办 台资企业产业融合对接同步举行 - 中新网福建",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xMTV3MFNRWlNLdTVvUGRSQWFZUEpHZHBialE5bFRIZjBBVC1JdjdzMkVnN3VCcGNESzd1X1VmMVpsbjg1N1RWWFM0TGFST2wyLWItMVdsRzlYQmRVakM2T2t3cUk5V2ZLTVdaN0RkemhFUQ?oc=5",
@@ -2053,8 +1997,8 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qa09PV25Zc2FYVTZvdkFqM2ZsNzlxaU5NNGctWXpvb0VDYnRLdUdYZmlQQU5vWmdYSDA0Qk9DUGRRQk5HTHVXQXdJdi03X25UMUlpdXdxeFhSQ29Yci1MbmtKbkhFQk96bFhQdTJ5SThmZkk5aXc?oc=5",
    "date": "2026-09-10",
    "abstract": "BASF at SIMAC 2026: Advanced Materials for Durable and Circular Footwear Concepts&nbsp;&nbsp;BASF – United States",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "巴斯夫在SIMAC 2026 ：耐用和圆形鞋履概念的先进材料-巴斯夫–美国",
+   "abstract_zh": "巴斯夫在SIMAC 2026 ：耐用和圆形鞋履概念的先进材料巴斯夫–美国",
    "brands": [
     "综合/其他"
    ]
@@ -2066,10 +2010,23 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TYVdCejc2MmZIRGFvek5DZlJrMGxHWi1tRk4yTFNNRm16MmlzNXlYdHV5QWVnWFNGWnB2dHhaNXcwdU5GcldjczRlbnZfNG1MZkJXZVVuSHpJbGZ1Sk9RZWZBYk0tSmlYNnRaRGhZZ3o5YVBVWFE?oc=5",
    "date": "2026-09-09",
    "abstract": "New Balance Does More Than Dad Shoes—These 8 Running Shoes Prove It&nbsp;&nbsp;Runner's World",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "New Balance不仅仅是爸爸鞋-这8款跑步鞋证明了这一点- Runner's World",
+   "abstract_zh": "New Balance不仅仅是爸爸鞋-这8款跑步鞋证明了它的跑步世界",
    "brands": [
     "New Balance"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 碳板 跑鞋",
+   "title": "唠“科”话丨网红碳板跑鞋，为啥不能日常穿？ - 新华网",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1feGw1N3FNS0c3UHpUX0pUWHhWekVkU2FPLVQ4Q0lVVkNYRmFLQl9WaWNsX3hWdnlpUUc2dzRiQ2hmTmhScXhQRThQUnVoampGb2JuZzJ6SEM3OTB2S3VWclRTb1FVdmwxSW1UaV9FaVF1aGdteHQ4?oc=5",
+   "date": "2026-09-05",
+   "abstract": "唠“科”话丨网红碳板跑鞋，为啥不能日常穿？&nbsp;&nbsp;新华网",
+   "title_zh": "唠“科”话丨网红碳板跑鞋，为啥不能日常穿？ - 新华网",
+   "abstract_zh": "唠“科”话丨网红碳板跑鞋，为啥不能日常穿？&nbsp;&nbsp;新华网",
+   "brands": [
+    "综合/其他"
    ]
   },
   {
@@ -2083,6 +2040,19 @@
    "abstract_zh": "安踏半年报：看起来完美的财报，藏着“主品牌安踏”的隐忧&nbsp;&nbsp;东方财富",
    "brands": [
     "安踏"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 运动品牌 科技创新",
+   "title": "科技创新支撑“十五五”体育强国建设 - 央视网",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DVlpRUW95SGl3ZmxXVDJEVndhbUltY0FjN1pHbzlTWjFVM3kzcXl0VkJtTWxBQnJoZi1VVzNRWmd6cjJnbE5ac2FwVWh3dmU0ZTUydkk3WDZzb3lkbDl0aFdZTlVuNDhScy1mSGRCWjFwUnA2WGJ0Z0MzVFVFdw?oc=5",
+   "date": "2026-09-04",
+   "abstract": "科技创新支撑“十五五”体育强国建设&nbsp;&nbsp;央视网",
+   "title_zh": "科技创新支撑“十五五”体育强国建设 - 央视网",
+   "abstract_zh": "科技创新支撑“十五五”体育强国建设&nbsp;&nbsp;央视网",
+   "brands": [
+    "综合/其他"
    ]
   },
   {
@@ -2118,8 +2088,8 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwQmpUNFhoS2xCNGxQY3B6cEhwbjBpNVJBcjNGZ3JrZmpqb3Rtdk9pMEtGZ3ZBTmFTRldBUlpPZTRMclM1aTBDa0JZSWtYNzEwUmVLUy1ZVTNTc0JZNlBV?oc=5",
    "date": "2026-08-29",
    "abstract": "Cut in half: New Balance SuperComp Rebel Review (2026)&nbsp;&nbsp;RunRepeat",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "减半： New Balance SuperComp Rebel Review （ 2026 ） - RunRepeat",
+   "abstract_zh": "减半： New Balance SuperComp Rebel Review （ 2026 ） RunRepeat",
    "brands": [
     "New Balance"
    ]
@@ -2131,8 +2101,21 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VMTl5ZlBFRG00QThzTFZQaXpjMjlxeGJFeVJvamlySEJzWjhxcWVSMU9YNWRZTlBqTkZHZlg0TFM4UzNjeEJIWGZzVWd6ZzgxdDJfNWxVVFM3dDVibjVz?oc=5",
    "date": "2026-08-27",
    "abstract": "Biomechanical exploration of cushioning and stability in auxetic lattice midsoles during jump landing&nbsp;&nbsp;Nature",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "跳跃着陆过程中辅助晶格中底缓冲和稳定性的生物力学探索-自然",
+   "abstract_zh": "跳跃着陆过程中辅助晶格中底缓冲和稳定性的生物力学探索Nature",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 必迈 碳板跑鞋",
+   "title": "1000元一双的进口跑鞋，卖不动了！ - 搜狐网",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpRHVOQ1JoWGN2SXJzV2hmSUJLelJNLVBvWnJFRlhDSE1ZLTVBLWJCUUdGVzNyX1BDZzdHZ0tOcHpUUFNUMkp5b28xQUJ2c1Q1VkRZ?oc=5",
+   "date": "2026-08-27",
+   "abstract": "1000元一双的进口跑鞋，卖不动了！&nbsp;&nbsp;搜狐网",
+   "title_zh": "1000元一双的进口跑鞋，卖不动了！ - 搜狐网",
+   "abstract_zh": "1000元一双的进口跑鞋，卖不动了！&nbsp;&nbsp;搜狐网",
    "brands": [
     "综合/其他"
    ]
@@ -2159,19 +2142,6 @@
    "abstract": "外媒刷屏、国内售罄，特步跑鞋实力出海！&nbsp;&nbsp;中华网",
    "title_zh": "外媒刷屏、国内售罄，特步跑鞋实力出海！ - 中华网",
    "abstract_zh": "外媒刷屏、国内售罄，特步跑鞋实力出海！&nbsp;&nbsp;中华网",
-   "brands": [
-    "特步"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 跑鞋 美通社",
-   "title": "顶碳+顶缓双线进化，特步160X 8 代与零云重新划定跑鞋科技坐标 - 美通社",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KUDdZUmlvVmhvQXFPVDFuTlZ0MFgxQlVCZ3JPUS1aUzdxeHdhQ21zSDM4X3RGaklhcUxFOG1tRldDdHNTX0lYUnVaVlVSVktNeHRRWFhKbw?oc=5",
-   "date": "2026-08-24",
-   "abstract": "顶碳+顶缓双线进化，特步160X 8 代与零云重新划定跑鞋科技坐标&nbsp;&nbsp;美通社",
-   "title_zh": "顶碳+顶缓双线进化，特步160X 8 代与零云重新划定跑鞋科技坐标 - 美通社",
-   "abstract_zh": "顶碳+顶缓双线进化，特步160X 8 代与零云重新划定跑鞋科技坐标&nbsp;&nbsp;美通社",
    "brands": [
     "特步"
    ]
@@ -2209,8 +2179,8 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTzFlTTR4REVGc045NXBjRnJRckRlSktXdlp1ZmVodnROeS1zbTRnNnBNODNvdUdKb3FrNl9UT2wzVnVia1A3cWpSNzVmeVgza185YzJ4YUI5SGdDMklTYk1ibUlCSnJMZExyZHQtaFdGMWFORE1tbU9qWWdlWW5sV21ZUmxBQQ?oc=5",
    "date": "2026-08-19",
    "abstract": "The best carbon plate running shoes&nbsp;&nbsp;Women's Running",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "最好的碳板跑步鞋-女式跑步鞋",
+   "abstract_zh": "最好的碳纤维板跑步鞋女跑步鞋",
    "brands": [
     "综合/其他"
    ]
@@ -2222,8 +2192,8 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMEVsSU5NUlRiVEZVODV4azlKc21INERKUVA4UFZBRnZQdVdBZDN4U2V1VTdNUjdKdGQ4R1lib25PSWdfX2sxZGQyOTNNWEg4NjZHZFQ5dERidWRSSG1BXzFiY0NKZjU1Qzlyc1N5YmlXeFhLVkluS1JvakJfMFFXUkJvWUZEcFVJbmpTY1lFY3JLNEtpd2J3M0ZCek05QmQyY1RhTg?oc=5",
    "date": "2026-08-17",
    "abstract": "Effect of various carbon plate running shoes on peak tibial accelerations, lateral asymmetry and residual shock in running&nbsp;&nbsp;Frontiers",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "各种碳板跑鞋对跑步中胫骨加速度峰值、横向不对称和残余冲击的影响- Frontiers",
+   "abstract_zh": "各种碳板跑鞋对跑步边缘胫骨峰值加速度、横向不对称和残余冲击的影响",
    "brands": [
     "综合/其他"
    ]
@@ -2237,19 +2207,6 @@
    "abstract": "中乔体育&nbsp;&nbsp;新浪网",
    "title_zh": "中乔体育 - 新浪网",
    "abstract_zh": "中乔体育&nbsp;&nbsp;新浪网",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · carbon plate running shoe technology",
-   "title": "7 Best Running Shoes With A Carbon Plate in 2026 - RunRepeat",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlUTItM0FRb3dCTmxrOGxPUUpwM1BadGFYNWpwSDFsLTFQZEpZTWZqbE5QV3NfaFNmS00yYmk5eXJQa3JWVGpwbXhkcFExY2VrZG9NZnppWXVKdlJxdTRWVGdleUVEUWlmZjdJRw?oc=5",
-   "date": "2026-08-10",
-   "abstract": "7 Best Running Shoes With A Carbon Plate in 2026&nbsp;&nbsp;RunRepeat",
-   "title_zh": "",
-   "abstract_zh": "",
    "brands": [
     "综合/其他"
    ]
@@ -2295,15 +2252,54 @@
   },
   {
    "type": "news",
+   "source": "Google News · 超临界发泡 中底",
+   "title": "新恒泰 8 月 7 日晋江 2026 超临界发泡 ×3D/4D 打印技术变革峰会 - 凤凰网财经",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfVkZyVndkay1yZzVwbjVRMDVJMjI3YkdyUDhiNUk5eDNrQkhRY0xTRC10X2l3VG1QWEt5RHh3SzNSQi1tM0JwaDRrN3pXOEJ5?oc=5",
+   "date": "2026-07-31",
+   "abstract": "新恒泰 8 月 7 日晋江 2026 超临界发泡 ×3D/4D 打印技术变革峰会&nbsp;&nbsp;凤凰网财经",
+   "title_zh": "新恒泰 8 月 7 日晋江 2026 超临界发泡 ×3D/4D 打印技术变革峰会 - 凤凰网财经",
+   "abstract_zh": "新恒泰 8 月 7 日晋江 2026 超临界发泡 ×3D/4D 打印技术变革峰会&nbsp;&nbsp;凤凰网财经",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
    "source": "Google News · PEBA midsole running shoe",
    "title": "Topo Athletic Specter 3 Review (2026) - Doctors of Running",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fUEdzSWw2aFNpWXh2cWFpbFBtbmE5RU95QmQ2TGRSMHZpRVZ5Mng0OE0wS1FMYjFVWWpQWnFGY2hMX1ZVU3FBSWZOUTJ6TmlJVXNzTEp3bGdlZjBDTEp1MlRIREJUM3Q3eFNoVkpZTElFUQ?oc=5",
    "date": "2026-07-24",
    "abstract": "Topo Athletic Specter 3 Review (2026)&nbsp;&nbsp;Doctors of Running",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "Topo Athletic Specter 3回顾（ 2026年） -跑步医生",
+   "abstract_zh": "Topo Athletic Specter 3评论（ 2026年）跑步医生",
    "brands": [
     "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · supercritical foam midsole",
+   "title": "Hetroflex TPEE Supercritical Foaming: The New Standard for High-Performance Sports Shoe Midsoles - Akron Beacon Journal",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDNKOGIzb2g3UXFrdGRPZWpmbkdGWVBmbTVBNm40SG5OMjZoZ3NSM1BZYy12RDIyODB3Uk5QUllNMVBlalkwLWh2UWhSalZJX3otT0F6S2JvSjd4aEZMTmFGMFFQTjRqa3RzNWhpMlFjQzZoVG14MjhNel81N0tpWTdqZ0cxQmI0dnRFS2ZYQzJVSXRrZHpzOU9WN2tZOVhJOTlzU0hnLVI5UV9xa2tuVmVRd3ltSk5QakxnSnAxTUFVVVQ2ZVpLV0pOTmU2d3FLS2s0dFJwTFRtblNuMk44SDZrLXhXa0xP?oc=5",
+   "date": "2026-07-23",
+   "abstract": "Hetroflex TPEE Supercritical Foaming: The New Standard for High-Performance Sports Shoe Midsoles&nbsp;&nbsp;Akron Beacon Journal",
+   "title_zh": "Hetroflex TPEE超临界发泡：高性能运动鞋中底的新标准- Akron Beacon Journal",
+   "abstract_zh": "Hetroflex TPEE超临界发泡：高性能运动鞋中底Akron Beacon Journal的新标准",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 必迈 碳板跑鞋",
+   "title": "一年吸金18亿，李宁前CEO掌舵，即将冲刺上市 - 36氪",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RMHljT0o1cDhpdTV5TU5ZZmNVUnVWbGxyMDN6VkV0UzJveTNsV1JRb1dpWXZrVHF2SkVhM2VyM054bFgySW5GZ1N0d1BoQQ?oc=5",
+   "date": "2026-07-22",
+   "abstract": "一年吸金18亿，李宁前CEO掌舵，即将冲刺上市&nbsp;&nbsp;36氪",
+   "title_zh": "一年吸金18亿，李宁前CEO掌舵，即将冲刺上市 - 36氪",
+   "abstract_zh": "一年吸金18亿，李宁前CEO掌舵，即将冲刺上市&nbsp;&nbsp;36氪",
+   "brands": [
+    "李宁"
    ]
   }
  ],
