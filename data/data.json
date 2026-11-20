@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T04:58+00:00",
+ "updated_at": "2026-11-20T04:44+00:00",
  "papers": [
   {
    "type": "paper",
@@ -278,28 +278,6 @@
   },
   {
    "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Participant-Reported Reductions in Falls and Fall-Related Injuries Associated With Variable-Friction Footwear: Retrospective Pre-Post Survey Study",
-   "date": "2026-09-22",
-   "authors": [
-    "Nataletti S",
-    "Bartloff J",
-    "Prokup S",
-    "Harris J"
-   ],
-   "venue": "JMIR rehabilitation and assistive technologies",
-   "abstract": "BackgroundFalls represent a critical public health burden in older adults and individuals with neurological disabilities, but evidence for passive footwear-based fall prevention strategies remains limited.ObjectiveThis study aimed to evaluate changes in fall frequency and fall-related outcomes following adoption of variable-friction (VF) footwear.MethodsThis retrospective pre-post observational study used self-reported survey data collected from community-dwelling adults aged 18 years or older who had worn VF footwear for 3 months or longer. Participants were recruited from a convenience sample of 14,570 invited customers who purchased the device through an electronic survey platform. Outcomes included self-reported fall frequency, injurious falls, fall mechanisms, fall-related health care use (including medical visits, urgent care, and hospitalization), and assistive device use, assesse",
-   "doi": "10.2196/104177",
-   "url": "https://doi.org/10.2196/104177",
-   "title_zh": "可变摩擦鞋类与跌倒及跌倒相关损伤减少的参与者自报结果：回顾性前后对照调查研究",
-   "abstract_zh": "背景：跌倒是老年人和神经功能障碍人群的重大公共卫生负担，但基于被动鞋类干预的防跌倒策略证据仍有限。目的：评估采用可变摩擦（VF）鞋类后跌倒频率及相关结局的变化。方法：这项回顾性前后观察研究使用社区居住成年人的自报调查数据，受访者年龄18岁及以上、穿VF鞋类3个月或更久。参与者来自通过电子调查平台购买该产品的14,570名受邀顾客中的便利样本。结局包括自报跌倒频率、致伤性跌倒、跌倒机制、跌倒相关医疗使用（就诊、急诊与住院）以及辅助器具使用（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
    "source": "OpenAlex",
    "tag": "有限元仿真",
    "title": "Finite element analysis of a layered shoe sole under biomechanical plantar pressure loading",
@@ -338,50 +316,6 @@
    "url": "https://doi.org/10.1016/j.tws.2026.115667",
    "title_zh": "用于定制矫正中底的可编程Vorochiral超材料的数据驱动多目标逆设计",
    "abstract_zh": "",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Adherence, motivational factors, and injury rates in runners using minimalist vs. conventional shoes: A cross-sectional study of 4719 Brazilian runners",
-   "date": "2026-09-18",
-   "authors": [
-    "Cardoso Filho CA",
-    "Claudino JG",
-    "Azevedo APDS",
-    "Nascimento VB"
-   ],
-   "venue": "Brazilian journal of physical therapy",
-   "abstract": "BackgroundIn the early 2010s, a movement advocating a more natural running style, such as running in minimalist shoes, emerged. However, little is known about runners' adherence to these shoes, interest in them, and injury rates associated with them.ObjectiveTo investigate adherence, motivational factors, and injury rates associated with running in conventional and minimalist shoes.Methods4719 Brazilian runners answered an online survey assessing demographic data, training habits, adherence levels, motivational factors for selecting running shoes, and running-related injuries. Associations with shoe type were assessed using chi-square (χ²) tests, and multivariable stepwise logistic regression was used to examine the association between minimalist shoe use and injury prevalence.ResultsMost runners were classified as conventional shoe users (78%), while 22% reported having tried minimalist",
-   "doi": "10.1016/j.bjpt.2026.101650",
-   "url": "https://doi.org/10.1016/j.bjpt.2026.101650",
-   "title_zh": "极简鞋与传统鞋跑者的坚持度、动机因素与损伤率：4719名巴西跑者的横断面研究",
-   "abstract_zh": "背景：2010年代初兴起倡导更自然跑姿（如穿极简鞋跑步）的潮流，但跑者对这类鞋的坚持度、兴趣及相关损伤率知之甚少。目的：调查穿传统鞋与极简鞋跑步的坚持度、动机因素与损伤率。方法：4719名巴西跑者完成在线调查，内容包括人口学数据、训练习惯、坚持程度、选鞋动机因素与跑步相关损伤。使用卡方检验评估与鞋型的关联，并用多变量逐步逻辑回归检验极简鞋使用与损伤发生率的关联。结果：大多数跑者被归为传统鞋使用者（78%），22%表示尝试过极简鞋（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Minimalist Footwear and Knee Joint Loading During Walking in Healthy Adults: A Systematic Review of Evidence for Osteoarthritis Prevention",
-   "date": "2026-09-17",
-   "authors": [
-    "Vari T",
-    "Vălean IM",
-    "Popa T",
-    "Roman A"
-   ],
-   "venue": "Journal of functional morphology and kinesiology",
-   "abstract": "Background/Objectives: Minimalist footwear has been proposed as a passive means of reducing knee loading, but its effects during walking in healthy adults, the population relevant to primary prevention of knee osteoarthritis (KOA), have not previously been synthesized. Methods: Following PRISMA 2020 (PROSPERO CRD420261396693), four databases and ClinicalTrials.gov were searched to September 2026 without date restriction. Primary outcomes were peak knee adduction moment (KAM), KAM impulse, peak knee flexion moment (KFM), and patellofemoral contact force; secondary outcomes were vertical loading rate, stride length, cadence, foot strike angle, and foot progression angle as a registered post hoc amendment. Risk of bias was assessed in duplicate with the Cochrane RoB 2 tool for crossover trials; synthesis was narrative; certainty was rated with GRADE. Results: Six publications met the criter",
-   "doi": "10.3390/jfmk11030372",
-   "url": "https://doi.org/10.3390/jfmk11030372",
-   "title_zh": "极简鞋与健康成年人步行时的膝关节负荷：骨关节炎预防证据的系统综述",
-   "abstract_zh": "背景/目的：极简鞋被提议作为减轻膝关节负荷的被动手段，但其对健康成年人（膝骨关节炎一级预防的相关人群）步行时的影响此前未有系统梳理。方法：遵循PRISMA 2020（PROSPERO注册号CRD420261396693），检索四个数据库与ClinicalTrials.gov至2026年9月，不限日期。主要结局为膝关节内收力矩峰值（KAM）、KAM冲量、膝关节屈曲力矩峰值（KFM）与髌股接触力；次要结局包括垂直负荷率、步长、步频、着地角度与足偏角。偏倚风险由两人用Cochrane RoB 2工具评估，采用叙述性综合，证据确定性用GRADE评级。结果：六篇文献符合纳入标准（原文截断）。",
    "brands": [
     "综合/其他"
    ]
@@ -493,72 +427,6 @@
   },
   {
    "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Rocker Geometry in Running Footwear: A Scoping Review of Definitions, Commercial Descriptors and Outcome Measures",
-   "date": "2026-09-01",
-   "authors": [
-    "Khusal P",
-    "Frecklington M",
-    "Gardner S",
-    "Jackson A"
-   ],
-   "venue": "Journal of foot and ankle research",
-   "abstract": "BackgroundRockered midsoles are increasingly used in running footwear, yet definitions, terminology and outcome measures vary widely across research and commercial sectors.AimThis scoping review mapped how rockers are defined in academic literature, how major footwear brands describe them and which outcome measures are most frequently evaluated.MethodsA scoping review was conducted using systematic searches of four academic databases, identifying 19 eligible studies. Commercial materials from eight leading footwear brands were also examined to assess nonacademic descriptions of rocker features.ResultsAcademic sources used diverse terminology and geometric descriptors, such as apex position, rocker angle, curvature radius and toe spring, but no consistent definition or threshold for classifying a rocker was identified. Commercial descriptions relied on qualitative brand-specific language ",
-   "doi": "10.1002/jfa2.70200",
-   "url": "https://doi.org/10.1002/jfa2.70200",
-   "title_zh": "跑鞋的摇滚底几何：定义、商业描述与结局指标的范围综述",
-   "abstract_zh": "背景：采用摇滚底（前后翘）中底的跑鞋日益普遍，但研究与商业领域对其定义、术语与结局指标差异很大。目的：这篇范围综述梳理学术文献如何定义摇滚底、主要鞋类品牌如何描述它，以及最常评估哪些结局指标。方法：系统检索四个学术数据库，纳入19项合格研究；同时考察八个主要鞋类品牌的商业材料，评估其对摇滚底特征的非学术描述。结果：学术来源使用的术语与几何描述多样，如顶点位置、摇滚角、曲率半径与鞋头上翘量，但未发现一致的定义或摇滚底分类阈值。商业描述则依赖定性的品牌专属语言（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Exploring the Role of Footwear in Trail Running and Hiking: A Scoping Review",
-   "date": "2026-09-01",
-   "authors": [
-    "Jackson A",
-    "Hong K",
-    "Frecklington M",
-    "Sheerin K"
-   ],
-   "venue": "Journal of foot and ankle research",
-   "abstract": "IntroductionOff-road activities such as trail running and hiking have undergone a significant surge in global popularity over the last 2 decades, but this engagement also raises the potential for musculoskeletal injuries, which are prevalent and comparable to rates reported in road running. Footwear is critical in these dynamic environments, incorporating features such as aggressive outsole patterns and structural stability elements to accommodate varied and rugged terrain.MethodsGiven the limited synthesis and fragmented nature of the literature, this scoping review systematically mapped and summarised existing research on the influence of footwear in hiking and trail running. The review was guided by three research questions that examined key outcome domains and methodological approaches, using the Arksey and O'Malley framework, and was reported in accordance with PRISMA-ScR guidelines",
-   "doi": "10.1002/jfa2.70197",
-   "url": "https://doi.org/10.1002/jfa2.70197",
-   "title_zh": "鞋类在越野跑与徒步中的作用探析：一篇范围综述",
-   "abstract_zh": "引言：过去20年，越野跑与徒步等户外活动在全球显著流行，但参与度上升也带来肌肉骨骼损伤风险，其发生率与路跑相当。鞋类在这些动态环境中至关重要，需具备强抓地外底花纹与结构稳定性等特征以适应多变崎岖地形。方法：鉴于相关文献综合有限且分散，本范围综述系统梳理并总结了鞋类在徒步与越野跑中影响的现有研究。综述围绕三个研究问题展开，考察关键结局领域与方法学路径，采用Arksey与O'Malley框架，并按PRISMA-ScR指南报告（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Discomfort Avoidance and Desire for Normality Are Decision-Making Drivers of Footwear Choice in Underserved Communities at Risk of Diabetic Foot Ulcer",
-   "date": "2026-09-01",
-   "authors": [
-    "Anil K",
-    "Sharma N",
-    "Patel S",
-    "Bailey J"
-   ],
-   "venue": "Journal of foot and ankle research",
-   "abstract": "BackgroundDiabetes-related foot ulceration (DFU) is a serious complication that can lead to lower limb amputation or death. Custom-made footwear is a key preventative strategy, yet adherence to use is often low. The factors influencing decision-making for footwear use remain unclear, particularly among underserved groups such as people from low socioeconomic and South Asian backgrounds. This study aimed to identify the psychological mechanisms underlying footwear choice and adherence in people with diabetes from low socioeconomic and South Asian populations.MethodsThis study used a qualitative approach conducted in two parts. Part 1 explored footwear-related experiences using one-to-one interviews informed by the COM-B model (which states that there are 3 components to Behaviour: Capability, Opportunity, Motivation). Findings from Part 1 informed Part 2, a 'think aloud' qualitative study",
-   "doi": "10.1002/jfa2.70186",
-   "url": "https://doi.org/10.1002/jfa2.70186",
-   "title_zh": "回避不适与追求常态是鞋类选择的决策驱动因素：来自糖尿病足溃疡高风险弱势社区的证据",
-   "abstract_zh": "背景：糖尿病相关足溃疡（DFU）是可导致下肢截肢或死亡的严重并发症。定制鞋类是关键预防策略，但使用依从性往往较低。影响鞋类使用决策的因素尚不明确，在低社会经济地位与南亚裔等弱势群体中尤其如此。本研究旨在识别糖尿病患者（低社会经济与南亚人群）鞋类选择与依从背后的心理机制。方法：采用分两部分的质性研究。第一部分以COM-B模型（行为由能力、机会、动机三部分构成）为框架，通过一对一访谈探索鞋类相关体验；其发现用于指导第二部分的出声思考质性研究（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
    "source": "OpenAlex",
    "tag": "有限元仿真",
    "title": "Biomechanical exploration of cushioning and stability in auxetic lattice midsoles during jump landing",
@@ -581,50 +449,6 @@
   },
   {
    "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Exploring Factors to Explain Interindividual Responses to Running Economy in Advanced Footwear Technology Shoes: A Randomised Crossover Laboratory Trial with an Explanatory Predictor Analysis",
-   "date": "2026-08-17",
-   "authors": [
-    "Hebert-Losier K",
-    "Cumming C",
-    "Bidois B",
-    "Nguyen AP"
-   ],
-   "venue": "Sports medicine - open",
-   "abstract": "BackgroundAdvanced footwear technology (AFT) generally improves running economy (RE) measures on average by 4%, although considerable interindividual variability exists. We aimed to explore this interindividual variability in RE response to AFT compared to a CONTROL shoe and identify potential predictors of this variability. Specifically, differences in participant characteristics (e.g., age, sex, anthropometrics, running experience and speed, prior AFT use, V̇O2 peak, lower-limb neuromuscular performance, passive stiffness, running biomechanics, and perceptual measures) between above-threshold and below-threshold responders (∆RE threshold: 2.5%) and how these measures related to RE responses were explored.MethodsSixty-four participants (50% female) attended two laboratory sessions at the University of Waikato Sports Science Laboratory in Cambridge, New Zealand, between 10 October 2024 a",
-   "doi": "10.1186/s40798-026-01091-0",
-   "url": "https://doi.org/10.1186/s40798-026-01091-0",
-   "title_zh": "解释先进鞋类科技跑鞋跑步经济性个体差异的因素：一项带解释性预测分析的随机交叉实验室试验",
-   "abstract_zh": "背景：先进鞋类科技（AFT）平均可将跑步经济性（RE）指标改善约4%，但个体差异相当大。本研究旨在探索AFT与对照鞋之间RE反应的个体差异，并识别潜在预测因素。具体考察了高于与低于反应阈值（∆RE阈值2.5%）的参与者在个体特征（如年龄、性别、人体测量、跑步经验与速度、既往AFT使用、最大摄氧量、下肢神经肌肉表现、被动刚度、跑步生物力学与感知指标）上的差异，以及这些指标与RE反应的关系。方法：64名参与者（50%为女性）于2024年10月10日起在新西兰怀卡托大学运动科学实验室完成两次实验室测试（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Influence of Vamp Opening Configuration on Foot-Footwear Biomechanics: A Finite Element Analysis of Women's Low-Heeled Court Shoes",
-   "date": "2026-08-12",
-   "authors": [
-    "Seul A",
-    "Mihai A",
-    "Costea M",
-    "Lupu R"
-   ],
-   "venue": "Bioengineering (Basel, Switzerland)",
-   "abstract": "Footwear geometry plays an important role in determining mechanical performance, plantar load distribution, comfort, and foot stability during gait. Understanding how constructive design parameters influence foot biomechanics is essential for developing footwear that improves comfort while reducing excessive mechanical loading. Although various finite element studies have investigated insole and outsole design, midsole materials, and plantar pressure redistribution, comparatively little attention has been paid to the influence of upper construction parameters, particularly vamp opening configuration, on the biomechanical behaviour of feet and footwear. This study investigates how the opening amplitude of the vamp affects the biomechanical response of three constructive variants-medium (M1), wide (M2), and narrow (M3) vamp openings-developed on a common shoe last derived from anthropometr",
-   "doi": "10.3390/bioengineering13080913",
-   "url": "https://doi.org/10.3390/bioengineering13080913",
-   "title_zh": "鞋帮开口构型对足-鞋生物力学的影响：女式低跟浅口鞋的有限元分析",
-   "abstract_zh": "鞋类几何对步行时的力学性能、足底负荷分布、舒适性与足部稳定性有重要影响。理解构造设计参数如何影响足部生物力学，对开发兼顾舒适与减少过度力学负荷的鞋类至关重要。既往有限元研究多关注鞋垫与外底设计、中底材料与足底压力再分布，对鞋面构造参数——特别是鞋帮开口构型——如何影响足与鞋的生物力学行为关注较少。本研究基于由人体测量数据生成的同一鞋楦，考察鞋帮开口幅度对三种构造方案（中开口M1、宽开口M2、窄开口M3）生物力学响应的影响（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
    "source": "PubMed",
    "tag": "后跟 / 稳定性",
    "title": "Development of a Stability Criterion for Men's Basketball Shoes During Mediolateral Cutting Maneuvers",
@@ -641,27 +465,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42498917/",
    "title_zh": "在内外侧变向动作中男士篮球鞋稳定性标准的制定",
    "abstract_zh": "在篮球和网球等球类运动中，踝关节和膝关节损伤很常见，这些运动强调急停急转动作，而钉鞋并不是一种可行的鞋类解决方案。此类动作会产生较大的侧向地面反作用力，有可能超过踝关节的固有解剖稳定性。 本研究的目的是制定一个简单的标准，可用于评估篮球鞋的设计，以期增强踝关节的稳定性，进而减少下肢的损伤。该标准通过临界比值F v t F ml h将脚的垂直力（Fv）和内外侧力（Fml）与鞋底和鞋帮厚度联系起来，其中临界比值小于1表示鞋子不稳定。 为了评估我们提出的标准，我们对先前发表的研究中表征的切割动作的力学数据进行了闭合形式分析，",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "中底材料 / 发泡",
-   "title": "Footwear Characteristics and Their Impact on Gait and Balance in Older Adults: A Systematic Review of Recent Evidence",
-   "date": "2026-07-17",
-   "authors": [
-    "Chen CH",
-    "Li J",
-    "Okubo Y"
-   ],
-   "venue": "Journal of the American Geriatrics Society",
-   "abstract": "BackgroundImproper footwear has been identified as a modifiable risk factor for falls in older adults. Studies suggest that certain footwear characteristics can impair gait and balance, thereby increasing the risk of falls. However, the impact of footwear on gait and balance control may vary across research protocols. A systematic review focusing on these relationships is currently unavailable to date. This study aims to investigate the impact of footwear on gait and balance control in older adults, as well as the research protocols employed and the study outcomes.MethodA systematic review was conducted using PubMed, IEEE Xplore, Scopus, Web of Science, and Clinical Trials to identify relevant studies published between 2017 and 2024. Keywords were systematically searched, and data were manually extracted. Thirteen studies were included. The review synthesized findings on the influence of",
-   "doi": "10.1111/jgs.70577",
-   "url": "https://doi.org/10.1111/jgs.70577",
-   "title_zh": "鞋类特征对老年人步态与平衡的影响：近期证据的系统综述",
-   "abstract_zh": "背景：不合适的鞋类被认为是老年人跌倒的一个可干预风险因素。研究表明，某些鞋类特征可能损害步态与平衡，从而增加跌倒风险。然而，鞋类对步态与平衡控制的影响可能因研究方案而异，目前尚无聚焦这些关系的系统综述。本研究旨在调查鞋类对老年人步态与平衡控制的影响，以及相关研究方案与结果。方法：系统检索PubMed、IEEE Xplore、Scopus、Web of Science与Clinical Trials，纳入2017至2024年发表的相关研究，人工提取数据，共纳入13项研究（原文截断）。",
    "brands": [
     "综合/其他"
    ]
@@ -711,49 +514,6 @@
   },
   {
    "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Running Velocity as a Methodological Factor in Footwear Testing: Fixed Versus Self-Selected Conditions",
-   "date": "2026-06-26",
-   "authors": [
-    "Kiesewetter P",
-    "Milani TL",
-    "Mitschke C"
-   ],
-   "venue": "Bioengineering (Basel, Switzerland)",
-   "abstract": "Running velocity is an important methodological factor in footwear research, given its potential influence on biomechanical parameters used to evaluate shoe-specific effects. Since most previous studies have assessed footwear effects at standardized running velocities, it remains unclear whether shoe-specific biomechanical response patterns differ when runners transition to individually selected faster outdoor running velocities. Therefore, this study examined whether footwear-related biomechanical responses were modified by running velocity. Twenty-two runners completed outdoor running trials at two running velocities in seven running shoes differing in cushioning and midsole bending stiffness. Four commonly used inertial measurement unit-derived biomechanical parameters were assessed to determine whether shoe-specific responses differed between the two velocity conditions. Across all p",
-   "doi": "10.3390/bioengineering13070751",
-   "url": "https://doi.org/10.3390/bioengineering13070751",
-   "title_zh": "跑步速度作为鞋类测试的方法学因素：固定速度与自选速度条件对比",
-   "abstract_zh": "跑步速度是鞋类研究中的重要方法学因素，可能影响用于评估鞋款特异性效应的生物力学参数。此前大多数研究在标准化跑速下评估鞋类效应，尚不清楚当跑者转入自选的更快户外跑速时，鞋款特异性的生物力学反应模式是否不同。因此，本研究考察跑步速度是否会改变与鞋类相关的生物力学反应。22名跑者在两种跑速下完成户外跑测试，穿着七款在缓震与中底弯折刚度上不同的跑鞋。评估四个常用的惯性测量单元衍生生物力学参数，以确定鞋款特异性反应在两种速度条件间是否存在差异（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Explainable Machine Learning Using Sensor-Derived Biomechanical Features to Classify Elevated VALR-Related Loading Across Midsole Hardness Conditions in School-Aged Boys",
-   "date": "2026-06-21",
-   "authors": [
-    "Chen Y",
-    "Gao Z",
-    "Li F",
-    "Wang D"
-   ],
-   "venue": "Sensors (Basel, Switzerland)",
-   "abstract": "(1) Background: Changes in midsole hardness may affect lower-limb impact loading during forefoot strike (FFS) running in children, yet the biomechanical basis for discriminating elevated VALR-related loading remains unclear. (2) Methods: Fourteen school-aged boys performed FFS running tests in experimental shoes with four midsole hardness levels (37, 42, 47, and 52 Shore C). Lower-limb kinematics and surface electromyography (sEMG) data were collected during the dominant leg stance phase. After preprocessing, VALR was calculated from 336 valid trials, and 28 stance-phase biomechanical features were extracted, yielding a final machine-learning dataset of 324 trials after excluding incomplete feature data. VALR was used to compare loading changes and define trial-level elevated-loading labels based on the median VALR value. Classification models were evaluated under participant-level Group",
-   "doi": "10.3390/s26123942",
-   "url": "https://doi.org/10.3390/s26123942",
-   "title_zh": "用传感器衍生生物力学特征的可解释机器学习，按中底硬度条件分类学龄男童的高VALR相关负荷",
-   "abstract_zh": "（1）背景：中底硬度变化可能影响儿童前脚掌着地（FFS）跑步时的下肢冲击负荷，但区分高VALR相关负荷的生物力学基础尚不明确。（2）方法：14名学龄男童穿四种中底硬度（37、42、47、52 Shore C）的实验鞋进行FFS跑步测试。采集优势腿支撑期的下肢运动学与表面肌电（sEMG）数据。预处理后，从336次有效试验计算VALR并提取28个支撑期生物力学特征，剔除特征不完整的试验后得到324次试验的机器学习数据集。以VALR比较负荷变化，并按VALR中位数定义试验级的高负荷标签，分类模型在参与者层面的分组下评估（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
    "source": "PubMed",
    "tag": "AFT / 跑鞋技术",
    "title": "Carbon plates in running shoes biomechanics: a systematic review and meta-analysis",
@@ -770,49 +530,6 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/42293993/",
    "title_zh": "跑鞋生物力学中的碳板：系统评价和荟萃分析",
    "abstract_zh": "镀碳跑鞋（ CPS ）将柔性泡沫与嵌入式碳纤维板相结合，以提高纵向弯曲刚度并可能提高跑步经济性。然而，与非镀碳鞋（ NCP ）相比， CPS是否系统地改变跑步生物力学尚不清楚。量化CPS在健康成人中的生物力学效应。系统评价和交叉试验的荟萃分析比较了CPS与 根据PRISMA指南（ PROSPERO CRD420251058609 ）进行NCP。在MEDLINE、Scopus、LILACS和Embase中进行了检索（ 2025年7月）。符合条件的研究包括在CPS和NCP中运行的健康成年人（ 18-70岁）。结果为跖指（ MTP ）、踝关节、膝关节和髋关节的步幅频率（步幅· min- ¹ ）、腿部僵硬度（ kN · m- ¹ ）和峰值正关节功率（ W · kg- ¹ ）。 使用随机效应模型",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "中底材料 / 发泡",
-   "title": "The running economy and biomechanics of competitive distance runners wearing advanced footwear technology spikes",
-   "date": "2026-05-26",
-   "authors": [
-    "Needles BJ",
-    "Kim S",
-    "Grabowski AM"
-   ],
-   "venue": "European journal of applied physiology",
-   "abstract": "PurposeThe aim of this study was to investigate the running economy and biomechanics of runners wearing Advanced Footwear Technology (AFT) spiked shoes (spikes) and AFT shoes relative to traditional spikes.Methods17 (7 female & 10 male) competitive distance runners completed two sessions of eight (four shoes × two replicates), five-minute trials at 15 km*hr-1 (females) or 17 km*hr-1 (males) wearing Nike ZoomX Dragonfly (NDF) and On Cloudspike 10,000 m (OCS) AFT spikes, Nike Vaporfly Next % 2 (NVN) AFT shoes, and Nike Zoom Victory 3 (NZV) traditional spikes. We measured metabolic rates and ground reaction forces and compared average running economy (W*kg-1) and biomechanical variables from four trials per shoe per runner.ResultsWhen runners wore NDF and OCS AFT spikes and NVN AFT shoes, running economy improved by 2.1%, 2.3%, and 1.9%, respectively, compared to NZV traditional spikes (p C",
-   "doi": "10.1007/s00421-026-06257-y",
-   "url": "https://doi.org/10.1007/s00421-026-06257-y",
-   "title_zh": "竞技长跑运动员穿先进鞋类科技钉鞋的跑步经济性与生物力学",
-   "abstract_zh": "目的：研究跑者穿先进鞋类科技（AFT）钉鞋与AFT跑鞋相对于传统钉鞋的跑步经济性与生物力学。方法：17名竞技长跑运动员（7女10男）完成两轮共八次（四款鞋×两次重复）五分钟测试，速度为15 km/h（女）或17 km/h（男），鞋款包括Nike ZoomX Dragonfly（NDF）与On Cloudspike 10000m（OCS）两款AFT钉鞋、Nike Vaporfly Next% 2（NVN）AFT跑鞋与Nike Zoom Victory 3（NZV）传统钉鞋。测量代谢率与地面反作用力，比较每款鞋的平均跑步经济性（W/kg）与生物力学变量。结果：穿NDF、OCS与NVN时，跑步经济性较NZV传统钉鞋分别改善2.1%、2.3%与1.9%（原文截断）。",
-   "brands": [
-    "Nike"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Emerging sports footwear technologies and their effects on running economy, biomechanics, and performance: a systematic review",
-   "date": "2026-05-04",
-   "authors": [
-    "Alexe CI",
-    "Choudhary PK",
-    "Choudhary S",
-    "Saha S"
-   ],
-   "venue": "BMC sports science, medicine & rehabilitation",
-   "abstract": "Advances in running footwear technology, particularly carbon-fibre plates and highly resilient midsole foams, have been proposed to enhance running economy and performance. However, evidence remains heterogeneous and context-dependent.PurposeThis systematic review synthesised empirical evidence on the biomechanical, physiological, and performance effects of emerging footwear technologies. A PRISMA-guided search identified 14 experimental studies examining footwear effects on running economy, biomechanics, and physiological responses. Methodological quality and risk of bias were assessed using a modified approach based on the Cochrane Risk of Bias framework, adapted to accommodate the diversity of study designs included in this review, including randomized, non-randomized, and biomechanical simulation studies. Fourteen studies were included. Carbon-fibre plate shoes with resilient midsole",
-   "doi": "10.1186/s13102-026-01721-w",
-   "url": "https://doi.org/10.1186/s13102-026-01721-w",
-   "title_zh": "新兴运动鞋科技对跑步经济性、生物力学与表现的影响：一篇系统综述",
-   "abstract_zh": "跑鞋技术的进步，特别是碳纤维板与高回弹中底泡绵，被认为可提升跑步经济性与表现，但证据仍异质且依赖情境。目的：本系统综述综合新兴鞋类技术在生物力学、生理与表现效应方面的实证证据。按PRISMA指南检索，纳入14项考察鞋类对跑步经济性、生物力学与生理反应影响的实验研究。方法学质量与偏倚风险采用基于Cochrane偏倚风险框架的改良方法评估，以适应纳入研究设计的多样性，包括随机、非随机与生物力学模拟研究（原文截断）。",
    "brands": [
     "综合/其他"
    ]
@@ -1019,50 +736,6 @@
   },
   {
    "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Economy benefits of running in advanced footwear technology shoes remain with plantarflexion fatigue",
-   "date": "2026-03-14",
-   "authors": [
-    "Bidois B",
-    "Cumming C",
-    "Giandolini M",
-    "Nguyen AP"
-   ],
-   "venue": "European journal of applied physiology",
-   "abstract": "",
-   "doi": "10.1007/s00421-026-06190-0",
-   "url": "https://doi.org/10.1007/s00421-026-06190-0",
-   "title_zh": "穿先进鞋类科技跑鞋的经济性收益在跖屈肌疲劳后依然存在",
-   "abstract_zh": "",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
-   "source": "Europe PMC",
-   "tag": "AFT / 跑鞋技术",
-   "title": "Impact of Running Shoe Midsole Properties on Energy Cost of Running: Insights Into Midsole Stiffness and Resilience Properties",
-   "date": "2026-02-25",
-   "authors": [
-    "Rodrigo-Carranza V",
-    "Alda-Blanco A",
-    "Kuzmeski J",
-    "González-Mohíno F"
-   ],
-   "venue": "International journal of sports physiology and performance",
-   "abstract": "PurposeThe mechanisms behind improvements in running economy (RE) from shoes with supercritical foams (SCF) compared with a traditional midsole material (ethylene vinyl acetate [EVA]) remain only partially understood. This study aimed to evaluate the effect of midsole compliance and midsole resilience of different foams on RE, and spatiotemporal and perception outcomes.MethodsTo separate the effects of midsole compliance and midsole resilience, we compared 3 shoe conditions: EVA40, EVA35, and SCF35, where the number reflects the Asker C hardness, in 17 female runners in a randomized crossover experimental design.ResultsRE was similar between EVA40 (14.05 [1.25] W/kg) and EVA35 (14.02 [1.29] W/kg). RE in SCF35 (13.74 [1.22] W/kg) was better than in EVA40 (2.21%) and EVA35 (1.99%). Contact time was longer and step frequency was higher in SCF35, but these differences were small in magnitude",
-   "doi": "10.1123/ijspp.2025-0475",
-   "url": "https://doi.org/10.1123/ijspp.2025-0475",
-   "title_zh": "跑鞋中底特性对跑步能量成本的影响：中底刚度与回弹特性的启示",
-   "abstract_zh": "目的：超临界发泡（SCF）跑鞋相比传统中底材料乙烯-醋酸乙烯共聚物（EVA）改善跑步经济性（RE）的机制仍只被部分理解。本研究旨在评估不同泡绵的中底顺应性与回弹性对RE、时空参数与感知结局的影响。方法：为分离中底顺应性与回弹性的效应，比较三种鞋款条件：EVA40、EVA35与SCF35（数字为Asker C硬度），17名女性跑者参与随机交叉实验设计。结果：EVA40（14.05 [1.25] W/kg）与EVA35（14.02 [1.29] W/kg）的RE相近；SCF35的RE（13.74 [1.22] W/kg）优于EVA40（2.21%）与EVA35（1.99%）。SCF35的触地时间更长、步频更高，但差异幅度较小（原文截断）。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "paper",
    "source": "OpenAlex",
    "tag": "中底材料 / 发泡",
    "title": "Plantar Force Spectra Across Midsole Densities and Treadmill Speeds: A Spatially Resolved Analysis in Relation to Material Properties",
@@ -1196,6 +869,110 @@
  "news": [
   {
    "type": "news",
+   "source": "SGB Media",
+   "title": "Nike Re-ups With The Chicago Marathon For Another Ten Years",
+   "url": "https://sgbonline.com/nike-re-ups-with-the-chicago-marathon-for-another-ten-years/",
+   "date": "2026-11-20",
+   "abstract": "Nike extended its partnership with the Bank of America Chicago Marathon through 2036, remaining the event's official footwear and apparel partner. Nike first began as the sponsor of the Bank of America Chicago Marathon in 2008.",
+   "title_zh": "耐克与芝加哥马拉松再续十年合作",
+   "abstract_zh": "耐克将与美国银行芝加哥马拉松赛的合作关系延长至2036年，继续担任该赛事的官方鞋类和服装合作伙伴。耐克于2008年首次成为美国银行芝加哥马拉松赛的赞助商。",
+   "brands": [
+    "Nike"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Believe in the Run",
+   "title": "Altra's speedy trainer isn't zero-drop, but here's why I love it",
+   "url": "https://believeintherun.com/shoe-reviews/altra-vanish-tempo-2-review/",
+   "date": "2026-11-19",
+   "abstract": "The post Altra's speedy trainer isn't zero-drop, but here's why I love it appeared first on Believe in the Run.",
+   "title_zh": "Altra的竞速跑鞋并非零落差，但这就是我喜欢它的原因",
+   "abstract_zh": "这篇文章《Altra的竞速跑鞋并非零落差，但这就是我喜欢它的原因》最初发表在Believe in the Run上。",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "SGB Media",
+   "title": "Caleres Sets Famous Footwear Leadership Transition, Sees Q3 EPS Below Guidance",
+   "url": "https://sgbonline.com/caleres-sets-famous-footwear-leadership-transition-sees-q3-eps-below-guidance/",
+   "date": "2026-11-19",
+   "abstract": "Caleres announced that Brian Costello will retire as division president of Famous Footwear in the first quarter of 2027 as part of a planned leadership transition. David Law, currently general manager of Allen Edmonds, will succeed Costello as division president of Famous Footwear.",
+   "title_zh": "Caleres宣布Famous Footwear领导层变动，预计第三季度每股收益低于指引",
+   "abstract_zh": "Caleres宣布，作为计划中的领导层交接的一部分，Brian Costello将于2027年第一季度卸任Famous Footwear部门总裁。目前担任Allen Edmonds总经理的David Law将接替Costello，担任Famous Footwear的部门总裁。",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Runner's World",
+   "title": "Save Big Without Sacrificing Comfort With These Editor-Tested Running Shoes Under $130",
+   "url": "https://www.runnersworld.com/gear/a24228881/affordable-running-shoes/",
+   "date": "2026-11-19",
+   "abstract": "Don’t mistake them for only for “beginners.” Trickle-down design means these cheap trainers are more capable than ever for tough workouts.",
+   "title_zh": "这些经编辑测试的跑鞋价格不到130美元，让您在不牺牲舒适度的前提下节省一大笔开支",
+   "abstract_zh": "不要误以为它们只适合“初学者”。得益于“涓滴”设计，这些价格实惠的运动鞋比以往任何时候都更适合高强度训练。",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Footwear News",
+   "title": "David Law Will Take the Reins at Famous Footwear as Brian Costello Retires",
+   "url": "https://wwd.com/footwear-news/shoe-industry-news/famous-footwear-division-president-david-law-brian-costello-1239428972/",
+   "date": "2026-11-19",
+   "abstract": "Costello held the role since August 2025.",
+   "title_zh": "随着Brian Costello退休，David Law将接管Famous Footwear",
+   "abstract_zh": "科斯特洛自2025年8月起担任该职务。",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "中新网体育",
+   "title": "第七届全国乒乓球“业余球王”总决赛开赛 657名选手角逐“球王”荣誉",
+   "url": "https://www.chinanews.com.cn/ty/2026/11-19/10734834.shtml",
+   "date": "2026-11-19",
+   "abstract": "中新网重庆11月19日电(记者 肖江川)19日，第七届“李宁·红双喜杯”全国乒乓球“业余球王”总决赛暨2026年全国业余乒乓球锦标赛在重庆拉开帷幕。来自北京、天津、辽宁、江苏、浙江、江西、香港等地的70支队伍、657名运动员齐聚山城，一决高下。中国乒乓球协会主席王励勤宣布赛事开幕。",
+   "title_zh": "第七届全国乒乓球“业余球王”总决赛开赛 657名选手角逐“球王”荣誉",
+   "abstract_zh": "中新网重庆11月19日电(记者 肖江川)19日，第七届“李宁·红双喜杯”全国乒乓球“业余球王”总决赛暨2026年全国业余乒乓球锦标赛在重庆拉开帷幕。来自北京、天津、辽宁、江苏、浙江、江西、香港等地的70支队伍、657名运动员齐聚山城，一决高下。中国乒乓球协会主席王励勤宣布赛事开幕。",
+   "brands": [
+    "李宁"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 体育用品 科技创新",
+   "title": "再获突破！安踏集团三项科技成果获中国纺织工业联合会科技进步奖一等奖 - 中宏网",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QdEVhOFZhWWhhYjQ4dTBOdjV5VENUY3VIVTVsNXh4VzlSOUNDZG5LVUNjTWNwZkl6UDFsLThyeGhkRktCSUhTaFlnNllUS3lNXzFNQi0zWDVCLXZOZzNGRVVR?oc=5",
+   "date": "2026-11-19",
+   "abstract": "再获突破！安踏集团三项科技成果获中国纺织工业联合会科技进步奖一等奖&nbsp;&nbsp;中宏网",
+   "title_zh": "再获突破！安踏集团三项科技成果获中国纺织工业联合会科技进步奖一等奖 - 中宏网",
+   "abstract_zh": "再获突破！安踏集团三项科技成果获中国纺织工业联合会科技进步奖一等奖&nbsp;&nbsp;中宏网",
+   "brands": [
+    "安踏"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 运动鞋 材料创新",
+   "title": "巴斯夫聚氨酯鞋材协同创新中心揭牌仪式在巴斯夫广州南沙厂区举行 - https://www.parkworld.net/",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oT3ZiM3N3V3RvN1hHTkN2UFJtRlk4a2JROGxmZXRlTWJIU2o2a3NUUlRSTFlOQWxCcml6ckdQbzlpN2pDLVczaE4yWThYNDhza0hGaFVodjd5UQ?oc=5",
+   "date": "2026-11-19",
+   "abstract": "巴斯夫聚氨酯鞋材协同创新中心揭牌仪式在巴斯夫广州南沙厂区举行&nbsp;&nbsp;https://www.parkworld.net/",
+   "title_zh": "巴斯夫聚氨酯鞋材协同创新中心揭牌仪式在巴斯夫广州南沙厂区举行 - https://www.parkworld.net/",
+   "abstract_zh": "巴斯夫聚氨酯鞋材协同创新中心揭牌仪式在巴斯夫广州南沙厂区举行&nbsp;&nbsp;https://www.parkworld.net/",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
    "source": "Believe in the Run",
    "title": "Here's everything coming in Nike's next generation of innovation",
    "url": "https://believeintherun.com/articles/nike-next-generation-innovation",
@@ -1222,26 +999,13 @@
   },
   {
    "type": "news",
-   "source": "SGB Media",
-   "title": "EXEC: Salomon Still Driven by Greater China and APAC in Q3; Americas Growth Accelerates",
-   "url": "https://sgbonline.com/exec-salomon-still-driven-by-greater-china-and-apac-in-q3-americas-growth-accelerates/",
-   "date": "2026-11-18",
-   "abstract": "Amer Sports CEO James Zheng told analysts and investors on Tuesday the company’s Outdoor Performance segment was led by another “outstanding” quarter from Salomon Softgoods. Outdoor Performance revenues increased 27 percent, driven by continued very strong performance in Salomon footwear and apparel",
-   "title_zh": "高管：萨洛蒙第三季度仍由大中华区和亚太地区驱动；美洲增长加速",
-   "abstract_zh": "",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Runner's World",
    "title": "These 10 Brooks Running Shoes Will Help You Run Your Best Miles Yet",
    "url": "https://www.runnersworld.com/gear/a20866339/best-brooks-running-shoes/",
    "date": "2026-11-18",
    "abstract": "From the Ghost to the Glycerin, Brooks is our go-to brand for comfiest trainers.",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "这10款布鲁克斯跑鞋将助您跑出最佳里程",
+   "abstract_zh": "从Ghost到Glycerin，Brooks是我们首选的舒适跑鞋品牌。",
    "brands": [
     "Brooks"
    ]
@@ -1253,8 +1017,8 @@
    "url": "https://www.runnersworld.com/gear/a74464928/brooks-ghost-18-review/",
    "date": "2026-11-18",
    "abstract": "Fit concerns divided our testers, but here’s why the shoe still shines when you find the right width.",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "我们的入门级首选跑鞋获得了好坏参半的评价——以下是Brooks Ghost 18仍然值得考虑的原因",
+   "abstract_zh": "我们的测评人员对合脚性存在分歧，但当您找到合适的宽度时，这双鞋仍然表现出色，原因如下。",
    "brands": [
     "Brooks"
    ]
@@ -1339,19 +1103,6 @@
   },
   {
    "type": "news",
-   "source": "Runner's World",
-   "title": "Fashion Has Entered Its Running Era",
-   "url": "https://www.runnersworld.com/gear/a74446344/best-running-shoe-fashion-collaborations/",
-   "date": "2026-11-17",
-   "abstract": "Luxury fashion brands have a thing for running shoes, apparently.",
-   "title_zh": "时尚已进入跑步时代",
-   "abstract_zh": "显然，奢侈时尚品牌对跑鞋情有独钟。",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
    "source": "中新网体育",
    "title": "CBSA中国普尔9球巡回赛安徽合肥站收官 刘莎莎三连冠",
    "url": "https://www.chinanews.com.cn/ty/2026/11-17/10733698.shtml",
@@ -1361,6 +1112,19 @@
    "abstract_zh": "中新网合肥11月17日电 “皮尔力·来力杯”CBSA中国普尔9球巡回赛第四站安徽合肥站赛事近日在李宁体育园落幕，郑肖淮与刘莎莎成功卫冕，其中刘莎莎更是斩获三连冠。",
    "brands": [
     "李宁"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · super foam running shoe midsole",
+   "title": "The 12 Best Carbon-Plated Shoes for Racing 2026 - Runner's World",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoa1JOdEllaWF4ZnZNOVFVRG1qVnBRQU1EVW91V2ZoOVNXY08wTWxMVm9udUFTVmxHWFcwV1QwNGRJOThXeGh1bXY4TXQ5WWd3cXRTRVZVUEtmc2xuUWJ5SDNJNkE4VnJRWENpOU1UeVg0QWZmTHRN?oc=5",
+   "date": "2026-11-17",
+   "abstract": "The 12 Best Carbon-Plated Shoes for Racing 2026&nbsp;&nbsp;Runner's World",
+   "title_zh": "2026年12款最佳碳板跑鞋——《跑者世界》",
+   "abstract_zh": "2026年12款最佳碳板跑鞋  《跑者世界》",
+   "brands": [
+    "综合/其他"
    ]
   },
   {
@@ -1430,19 +1194,6 @@
   },
   {
    "type": "news",
-   "source": "Runner's World",
-   "title": "Y2K Running Shoes Are Back, and These Nikes Will Put You on Trend",
-   "url": "https://www.runnersworld.com/gear/a74444200/nike-y2k-sneakers-deal/",
-   "date": "2026-11-16",
-   "abstract": "They’re also a great gift for this holiday season.",
-   "title_zh": "Y2K跑鞋回归，这些耐克跑鞋将助您引领潮流",
-   "abstract_zh": "它们也是这个节日季的绝佳礼物。",
-   "brands": [
-    "Nike"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · carbon plate running shoe technology",
    "title": "Nike's biggest running shoe innovation might not be another carbon plate or superfoam, but a radical new way of making the Air cushioning it's used for nearly 50 years - T3",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kb2FsbGw0emo3QlhfaUczVFBxbGhWNzJvQVVoVzBDVGROUVk2WTRyT25CbFAxTDA5dTNnbXFHbEJxQnllNjlHdkdEQkc5LXIzUzRHVWFtTWRsNjVHVlQtY1VPdw?oc=5",
@@ -1452,6 +1203,19 @@
    "abstract_zh": "耐克最大的跑鞋创新可能不是又一款碳板或超临界发泡材料，而是对近50年来一直使用的Air气垫进行彻底革新  T3",
    "brands": [
     "Nike"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · Nike Adidas new midsole foam",
+   "title": "Release date calendar for running shoes – 2026 - Solereview",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yYjZVOTJtaXJmYUU0WHlCeE50eTV2YlA4NzE4amFfVTNJLXMwbjRWYVFHVTIwWlBKdDNHbjdHeFgtRlNudERSMWdQYkU1aFFHUzM4YURsMmphUW44MzdLYXRxRDNPandTS2VrSGdPV2hLUEtFdXc?oc=5",
+   "date": "2026-11-16",
+   "abstract": "Release date calendar for running shoes – 2026&nbsp;&nbsp;Solereview",
+   "title_zh": "跑鞋发售日历 – 2026年 - Solereview",
+   "abstract_zh": "跑鞋发售日历 – 2026  Solereview",
+   "brands": [
+    "综合/其他"
    ]
   },
   {
@@ -1521,13 +1285,13 @@
   },
   {
    "type": "news",
-   "source": "Believe in the Run",
-   "title": "Now you can dress like Norda's Trail Team (And fuel like it too)",
-   "url": "https://believeintherun.com/articles/norda-trail-team-capsule-vest-launch",
-   "date": "2026-11-12",
-   "abstract": "The post Now you can dress like Norda's Trail Team (And fuel like it too) appeared first on Believe in the Run.",
-   "title_zh": "现在，您可以像Norda的越野跑团队一样穿搭（并像他们一样补充能量）",
-   "abstract_zh": "文章《现在，您可以像Norda越野跑团队那样穿衣（并像他们那样补充能量）》最初发表在Believe in the Run上。",
+   "source": "Google News · 碳板 跑鞋",
+   "title": "中考体育跑鞋推荐榜单：柔态碳板稳定推进与过弯保护 - TOM体育",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1YcWNtakd5X1E1b0ppaXEwbUtiZGFvRW5PVVRBTjJkLTNGbDR2SEZ2Sl9xTGJLRGlaTFdlU1Q2ankxVFh5UmlZbC02dDBqOHJkM0VzVHFuWWQ?oc=5",
+   "date": "2026-11-13",
+   "abstract": "中考体育跑鞋推荐榜单：柔态碳板稳定推进与过弯保护&nbsp;&nbsp;TOM体育",
+   "title_zh": "中考体育跑鞋推荐榜单：柔态碳板稳定推进与过弯保护 - TOM体育",
+   "abstract_zh": "中考体育跑鞋推荐榜单：柔态碳板稳定推进与过弯保护&nbsp;&nbsp;TOM体育",
    "brands": [
     "综合/其他"
    ]
@@ -1535,12 +1299,12 @@
   {
    "type": "news",
    "source": "Believe in the Run",
-   "title": "The Best Trail Running Shoes of 2026 | Best in Gear Awards",
-   "url": "https://believeintherun.com/articles/best-trail-running-shoes-of-2026",
+   "title": "Now you can dress like Norda's Trail Team (And fuel like it too)",
+   "url": "https://believeintherun.com/articles/norda-trail-team-capsule-vest-launch",
    "date": "2026-11-12",
-   "abstract": "The post The Best Trail Running Shoes of 2026 | Best in Gear Awards appeared first on Believe in the Run.",
-   "title_zh": "2026年最佳越野跑鞋 | Best in Gear奖",
-   "abstract_zh": "这篇文章《2026年最佳越野跑鞋 | 最佳装备奖》最初发表在Believe in the Run上。",
+   "abstract": "The post Now you can dress like Norda's Trail Team (And fuel like it too) appeared first on Believe in the Run.",
+   "title_zh": "现在，您可以像Norda的越野跑团队一样穿搭（并像他们一样补充能量）",
+   "abstract_zh": "文章《现在，您可以像Norda越野跑团队那样穿衣（并像他们那样补充能量）》最初发表在Believe in the Run上。",
    "brands": [
     "综合/其他"
    ]
@@ -1573,29 +1337,15 @@
   },
   {
    "type": "news",
-   "source": "Google News · 超临界发泡 中底",
-   "title": "20万次弯折无变形！盈普用“SLS+超临界发泡”闯过3D打印鞋的“量产关” - Sohu",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZSXgxYUVtQXFRSno0OXMzeVFaQlJBNFhJdDFBOGt0LS1yVDhTWl9mUDc3SDNMbktHYmlzbGxFQ0NUUmRKTDZ5Y3NidG9jdWVneHIxcDNFTElHcWZVTHdubTV5SG5PRjA?oc=5",
-   "date": "2026-11-10",
-   "abstract": "20万次弯折无变形！盈普用“SLS+超临界发泡”闯过3D打印鞋的“量产关”&nbsp;&nbsp;Sohu",
-   "title_zh": "20万次弯折无变形！盈普用“SLS+超临界发泡”闯过3D打印鞋的“量产关” - Sohu",
-   "abstract_zh": "20万次弯折无变形！盈普用“SLS+超临界发泡”闯过3D打印鞋的“量产关”&nbsp;&nbsp;Sohu",
+   "source": "Google News · 鸿星尔克 跑鞋",
+   "title": "官旗大促：鸿星尔克38款板鞋/休闲鞋等仅60元起 - 驱动之家",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sMXhfY2VzcXhtMHdual90blFFOC1hbFZ3dkJnTk95a3h4MVVqcUxMMFJTWVNOTkJqRjQzMGc4cjgyNE1heVVfZmdac3duLXNqcVNtZjdVU1E?oc=5",
+   "date": "2026-11-11",
+   "abstract": "官旗大促：鸿星尔克38款板鞋/休闲鞋等仅60元起&nbsp;&nbsp;驱动之家",
+   "title_zh": "官旗大促：鸿星尔克38款板鞋/休闲鞋等仅60元起 - 驱动之家",
+   "abstract_zh": "官旗大促：鸿星尔克38款板鞋/休闲鞋等仅60元起&nbsp;&nbsp;驱动之家",
    "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 碳板 跑鞋",
-   "title": "无板竞训跑鞋横评:特步两千公里5PRO与李宁赤兔9 Ultra怎么选 - TOM体育",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pc0NYSXNTWTk1T21USlpBc0d4eExvTDBPRUwyYXQtcVY5ZjdGcW1oamxFOFVIRmxFTkNJVXRqNDQyOENRRG9zOU5VVmlhWUlTQnVKQW1vZEo?oc=5",
-   "date": "2026-11-10",
-   "abstract": "无板竞训跑鞋横评:特步两千公里5PRO与李宁赤兔9 Ultra怎么选&nbsp;&nbsp;TOM体育",
-   "title_zh": "无板竞训跑鞋横评:特步两千公里5PRO与李宁赤兔9 Ultra怎么选 - TOM体育",
-   "abstract_zh": "无板竞训跑鞋横评:特步两千公里5PRO与李宁赤兔9 Ultra怎么选&nbsp;&nbsp;TOM体育",
-   "brands": [
-    "李宁",
-    "特步"
+    "鸿星尔克"
    ]
   },
   {
@@ -1607,19 +1357,6 @@
    "abstract": "拥抱中国机遇2.0，以创新和人才深耕本土赴进博之约&nbsp;&nbsp;中国日报网",
    "title_zh": "拥抱中国机遇2.0，以创新和人才深耕本土赴进博之约 - 中国日报网",
    "abstract_zh": "拥抱中国机遇2.0，以创新和人才深耕本土赴进博之约&nbsp;&nbsp;中国日报网",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 运动品牌 科技创新",
-   "title": "熊猫体育sports今日正式推出全新赛事直播功能，官方保障观众观看体验升级 - CAIJING.COM.CN",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oZ1JRZGhuR2Vwd3NlZEpvNVZ2ZTNZU29Vc2J4ZU13eVVNTmY5MDFvQnIxcVlIdDRrMndsTzhxNGRMdG1WcnZUaXdEVHc0Tzl2b09TRUxjVHhmTlNreHlOdA?oc=5",
-   "date": "2026-11-08",
-   "abstract": "熊猫体育sports今日正式推出全新赛事直播功能，官方保障观众观看体验升级&nbsp;&nbsp;CAIJING.COM.CN",
-   "title_zh": "熊猫体育sports今日正式推出全新赛事直播功能，官方保障观众观看体验升级 - CAIJING.COM.CN",
-   "abstract_zh": "熊猫体育sports今日正式推出全新赛事直播功能，官方保障观众观看体验升级&nbsp;&nbsp;CAIJING.COM.CN",
    "brands": [
     "综合/其他"
    ]
@@ -1685,6 +1422,19 @@
    "abstract": "The best running shoes for forefoot and midfoot strikers&nbsp;&nbsp;Solereview",
    "title_zh": "最适合前掌和中掌着地的跑鞋 - Solereview",
    "abstract_zh": "最适合前掌和中掌着地的跑鞋  Solereview",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 运动品牌 美通社 发布",
+   "title": "迪桑特儿童发布2026滑雪系列 以专业科技陪伴少年「迎雪而上」 - 美通社",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12S0hmT0FOUzJyTG9SeTBOLUU2a2trRFVyNjUzOU5Wc3MwdXpYY1plVHNjVHMtMlpDaTV0T19tbkFUNFhoc2toU2drTDZ3VXdNcW5ZWnlvaw?oc=5",
+   "date": "2026-11-03",
+   "abstract": "迪桑特儿童发布2026滑雪系列 以专业科技陪伴少年「迎雪而上」&nbsp;&nbsp;美通社",
+   "title_zh": "迪桑特儿童发布2026滑雪系列 以专业科技陪伴少年「迎雪而上」 - 美通社",
+   "abstract_zh": "迪桑特儿童发布2026滑雪系列 以专业科技陪伴少年「迎雪而上」&nbsp;&nbsp;美通社",
    "brands": [
     "综合/其他"
    ]
@@ -1795,6 +1545,32 @@
   },
   {
    "type": "news",
+   "source": "Google News · 跑鞋 生物力学",
+   "title": "中国品牌凭实力海外圈粉 - 中青在线",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UT1NFMW8yeHhpQ3pucm5LaUlTQzhhSVJPZm5iU1VOWWdjUncyM0pHTWJraTRIU2RsN3c0VWRKOUtjTm14cTNHZ3M5dUpSeUlMVFBkRTFWaldtaFhkQUE5Z05pT2JwbVRXcHk5b3g0RHBnQVRsMXE5dQ?oc=5",
+   "date": "2026-10-29",
+   "abstract": "中国品牌凭实力海外圈粉&nbsp;&nbsp;中青在线",
+   "title_zh": "中国品牌凭实力海外圈粉 - 中青在线",
+   "abstract_zh": "中国品牌凭实力海外圈粉&nbsp;&nbsp;中青在线",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 鸿星尔克 跑鞋",
+   "title": "#球鞋壁纸# 鸿星尔克芷境5 冲线带 荧光效果 - 手机新浪网",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qUWlOWlY2NUFZS0ZLbkhnbnF4Ykpta1cwU3A3VWFKUmlxQWFMR0NrUWN0Y1JWVGFZQzFwN0FmQVg4NDQ0MkQtYXJpR1N1Tnl5aEl5Tk1OQTJPVEFDZnV3cl9jRQ?oc=5",
+   "date": "2026-10-29",
+   "abstract": "#球鞋壁纸# 鸿星尔克芷境5 冲线带 荧光效果&nbsp;&nbsp;手机新浪网",
+   "title_zh": "#球鞋壁纸# 鸿星尔克芷境5 冲线带 荧光效果 - 手机新浪网",
+   "abstract_zh": "#球鞋壁纸# 鸿星尔克芷境5 冲线带 荧光效果&nbsp;&nbsp;手机新浪网",
+   "brands": [
+    "鸿星尔克"
+   ]
+  },
+  {
+   "type": "news",
    "source": "Google News · super foam running shoe midsole",
    "title": "We Tested the Plushest Running Shoes for Long Runs, Recovery Miles, and Everyday Training - Runner's World",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE13ODdKZVZ4ek5GdWp2T2R0UFlIeFpPWFBmeGV4ZFNoQ1F3UWd3b3kybGJ4YmM3OFhJbkV6S0ZneE5RN2xDcDV5NWtCZ19wdjBjZmRhQlZUQU40VmVEV0hJUS1YUWhyWkRwZk42VzZsWjFlNUFYanVRSFAwNjdRQQ?oc=5",
@@ -1826,8 +1602,8 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORGZGZVB1US1pSndPcmx0X2hNNXBHbVNVekRYaEVmNlU5REpvWWZMcmhYcUdXWTRhRVY0Rkcxdngzd2JGVVYyMnV0RXNWZDVpNkdjYjVINEhGUzJTSVFFRHRGdGo0LTZYR0FCcHU1V0pMeFU1VGEtSFhSb2hkSFZ6Wm9oRmFuRG94ZDRB?oc=5",
    "date": "2026-10-26",
    "abstract": "From Everyday Trainers to Super Shoes, These Are the Plushest Hoka Shoes&nbsp;&nbsp;Runner's World",
-   "title_zh": "",
-   "abstract_zh": "",
+   "title_zh": "从日常跑鞋到超级跑鞋，这些是Hoka最舒适的跑鞋——《跑者世界》",
+   "abstract_zh": "从日常跑鞋到超级跑鞋，这些是Hoka最舒适的跑鞋  Runner's World",
    "brands": [
     "HOKA"
    ]
@@ -1912,19 +1688,6 @@
   },
   {
    "type": "news",
-   "source": "Google News · 超临界发泡 中底",
-   "title": "几十元的材料做成鞋卖上千元，国产中底一量产后，跑鞋高价为什么撑不住了？ - QQ News",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YUDVIakZrV2tEdnhacmNLLTdGNE1kejFmTGpkdk55V0FBMEFHazAtTTM0dDZwMGlsNlFaeWFiang5ZGx2bFczeXlralY0UnpCOWRsbnlR?oc=5",
-   "date": "2026-10-12",
-   "abstract": "几十元的材料做成鞋卖上千元，国产中底一量产后，跑鞋高价为什么撑不住了？&nbsp;&nbsp;QQ News",
-   "title_zh": "几十元的材料做成鞋卖上千元，国产中底一量产后，跑鞋高价为什么撑不住了？ - QQ News",
-   "abstract_zh": "几十元的材料做成鞋卖上千元，国产中底一量产后，跑鞋高价为什么撑不住了？&nbsp;&nbsp;QQ News",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · 国产跑鞋 新品",
    "title": "【中国新闻周刊】两大巨头，打起来了 - 中新网福建",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KemR0TDVXeWVHV1BnWHhNTGRVOHBreS1nRS0tUE5xNlJZamJGWkdzRG5pR3pySjRaOThGU1NSdGtkdHJscDRlMEpqanEtUEVjTmVOQ0JIM3BXdGpxM1BHVUczeDVXRUVpTGlaUlJkWHBmQQ?oc=5",
@@ -1977,6 +1740,19 @@
   },
   {
    "type": "news",
+   "source": "Google News · 必迈 碳板跑鞋",
+   "title": "BMAI新品GCARBON TURBO 4 碳板科技助力马拉松突破 - 光华日报",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOaV9EQnF3SjhZNEhtWEtWQ3RaR09ScDNOTS1FZXprS1Zzci1SZnNJSmlZQkNJcWpTaW1OQnl6SUd1MDh4UDJ1T2g5SE43aDNEOVA3bUhkY0F1dU8tdEJuZjJFOUdjNHQtcS1YbTBUaTh2OHJzZ3YxT2tQeHMwSklfaEFaZXlGazk5ekdta0xkb3k1OG1qYUpLYnFvWkluNGZKQ2F2Y3NXV2E5NEdBemxuZ3B2cDVtQmxqemV5ZHBXamtkUXVwZ1pjTFJsZnNQeklGaDh3Y3dpZXNRWF83MUFfNHQ5eHJXOTlfb1puV01BMFRCT2RVOWZENlZhSTFBZ0N3bEhMUjNB?oc=5",
+   "date": "2026-09-22",
+   "abstract": "BMAI新品GCARBON TURBO 4 碳板科技助力马拉松突破&nbsp;&nbsp;光华日报",
+   "title_zh": "BMAI新品GCARBON TURBO 4 碳板科技助力马拉松突破 - 光华日报",
+   "abstract_zh": "BMAI新品GCARBON TURBO 4 碳板科技助力马拉松突破&nbsp;&nbsp;光华日报",
+   "brands": [
+    "综合/其他"
+   ]
+  },
+  {
+   "type": "news",
    "source": "Google News · running shoe biomechanics midsole",
    "title": "Finite element analysis of a layered shoe sole under biomechanical plantar pressure loading - Nature",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UNnlZZFEwQmZsd0ZqUk9qZVNvVlp5VHVoWjd2OFB2MnA1eDYteUtHaGVuMXprNWFydW5YZzNWcUpFU2hwM0JfYWQ1SzZiZzB6S21tNFM5NzVGM2tzazdZ?oc=5",
@@ -1984,19 +1760,6 @@
    "abstract": "Finite element analysis of a layered shoe sole under biomechanical plantar pressure loading&nbsp;&nbsp;Nature",
    "title_zh": "分层鞋底在生物力学足底压力载荷下的有限元分析 - 《自然》",
    "abstract_zh": "分层鞋底在生物力学足底压力载荷下的有限元分析  《自然》",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 运动品牌 科技创新",
-   "title": "从真实需求出发，迪卡侬亚洲创新中心以创新打破大众运动壁垒 - 新浪新闻_手机新浪网",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtQ2hvVUFBRGVSLWNxMmVCVmhyLWhRYmF6aTVVRUJBVFp3SUw0TzAwWExwaGFyOWtKbUVSekVYQVIwQV95XzY4VGJQdDA1SEJGbUZQOEQ3Z0lUX3hURFA0bjRLaE1GRFVIR3pfNFZzOEhqdDNob3pHbA?oc=5",
-   "date": "2026-09-21",
-   "abstract": "从真实需求出发，迪卡侬亚洲创新中心以创新打破大众运动壁垒&nbsp;&nbsp;新浪新闻_手机新浪网",
-   "title_zh": "从真实需求出发，迪卡侬亚洲创新中心以创新打破大众运动壁垒 - 新浪新闻_手机新浪网",
-   "abstract_zh": "从真实需求出发，迪卡侬亚洲创新中心以创新打破大众运动壁垒&nbsp;&nbsp;新浪新闻_手机新浪网",
    "brands": [
     "综合/其他"
    ]
@@ -2039,6 +1802,19 @@
    "brands": [
     "PUMA",
     "安踏"
+   ]
+  },
+  {
+   "type": "news",
+   "source": "Google News · 运动品牌 美通社 发布",
+   "title": "/稿件更正 -- FILA 斐乐/ - 美通社",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15Y1AzeWd1Nmk0c1dlNEVYUlRTMFM0b05WbC1RNGpGb1ZPZklSeThZMFkza0psZXEzX0FzUkNMTDJtYklJVnBJRzRDMEhiRk1JaTBpU1Eybw?oc=5",
+   "date": "2026-09-14",
+   "abstract": "/稿件更正 -- FILA 斐乐/&nbsp;&nbsp;美通社",
+   "title_zh": "/稿件更正 -- FILA 斐乐/ - 美通社",
+   "abstract_zh": "/稿件更正 -- FILA 斐乐/&nbsp;&nbsp;美通社",
+   "brands": [
+    "FILA"
    ]
   },
   {
@@ -2108,32 +1884,6 @@
   },
   {
    "type": "news",
-   "source": "Google News · 安踏 跑鞋 科技",
-   "title": "一双跑鞋背后的“科技账”：安踏如何在大众运动市场建立产品话语权 - Sohu",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vM1NSdnIwcVFvbVNVbTNHeWlENWplYWVrbU5DcGl3cjctM002a1ZTTDQ3WjcxUUJXdFM3R1ZkWF9wMnZPaVR4S21kQndHUzJnQ184?oc=5",
-   "date": "2026-09-04",
-   "abstract": "一双跑鞋背后的“科技账”：安踏如何在大众运动市场建立产品话语权&nbsp;&nbsp;Sohu",
-   "title_zh": "一双跑鞋背后的“科技账”：安踏如何在大众运动市场建立产品话语权 - Sohu",
-   "abstract_zh": "一双跑鞋背后的“科技账”：安踏如何在大众运动市场建立产品话语权&nbsp;&nbsp;Sohu",
-   "brands": [
-    "安踏"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · PEBA midsole running shoe",
-   "title": "Hoka Tecton X 4 Review: If the Shoe Fits… - Better Trail",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSUc1eDV6aFcydTdJRG5FSXNxNmgwSUlXUzcwNk81R1lmUG1XUVpFSnY5bFZta1NiOXpsN01JanFRcDgwQVVMVXh3SlpRbXd2M2JheHNFMWdwN2QtVW9JbWwydFJ6OVl1dGJBYVNqeGgzb0FzR0tyQXZodkxYTkZwT3ZqdVc?oc=5",
-   "date": "2026-09-02",
-   "abstract": "Hoka Tecton X 4 Review: If the Shoe Fits…&nbsp;&nbsp;Better Trail",
-   "title_zh": "",
-   "abstract_zh": "",
-   "brands": [
-    "HOKA"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · 超临界发泡 中底",
    "title": "跑鞋中底科技大揭秘：2026年减震跑鞋这样选才对 - 中华网",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhRW9YX3liZ1dVbW83OG9TazNwQkRkU3FZRXBwbDhyR2NpWGJVVkxRaWUwWVp6a3B1U3RvVDJPYVNwb1VCdkwzeldibUk1cnNKQ21ITG9JSEZxWTJaOVE?oc=5",
@@ -2147,91 +1897,13 @@
   },
   {
    "type": "news",
-   "source": "Google News · 中乔体育 跑鞋",
-   "title": "价格即将雪崩，跑鞋黄金五年结束 - CBNData-第一财经商业数据中心",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jSWtPRUQxdTJVb2I3b0c3bnVhdE1kZTJlTkpPOENqdlR4MGNyejRBNW9IOG1RTVlNN21XZ3IxWV9FeDBNUmsxbWlNU2ZDSktPUDJvNw?oc=5",
-   "date": "2026-08-31",
-   "abstract": "价格即将雪崩，跑鞋黄金五年结束&nbsp;&nbsp;CBNData-第一财经商业数据中心",
-   "title_zh": "价格即将雪崩，跑鞋黄金五年结束 - CBNData-第一财经商业数据中心",
-   "abstract_zh": "价格即将雪崩，跑鞋黄金五年结束&nbsp;&nbsp;CBNData-第一财经商业数据中心",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · super foam running shoe midsole",
-   "title": "Cut in half: New Balance SuperComp Rebel Review (2026) - RunRepeat",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwQmpUNFhoS2xCNGxQY3B6cEhwbjBpNVJBcjNGZ3JrZmpqb3Rtdk9pMEtGZ3ZBTmFTRldBUlpPZTRMclM1aTBDa0JZSWtYNzEwUmVLUy1ZVTNTc0JZNlBV?oc=5",
-   "date": "2026-08-29",
-   "abstract": "Cut in half: New Balance SuperComp Rebel Review (2026)&nbsp;&nbsp;RunRepeat",
-   "title_zh": "剖析：New Balance SuperComp Rebel评测（2026年）- RunRepeat",
-   "abstract_zh": "剖析：New Balance SuperComp Rebel评测（2026）  RunRepeat",
-   "brands": [
-    "New Balance"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · running shoe biomechanics midsole",
-   "title": "Biomechanical exploration of cushioning and stability in auxetic lattice midsoles during jump landing - Nature",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VMTl5ZlBFRG00QThzTFZQaXpjMjlxeGJFeVJvamlySEJzWjhxcWVSMU9YNWRZTlBqTkZHZlg0TFM4UzNjeEJIWGZzVWd6ZzgxdDJfNWxVVFM3dDVibjVz?oc=5",
-   "date": "2026-08-27",
-   "abstract": "Biomechanical exploration of cushioning and stability in auxetic lattice midsoles during jump landing&nbsp;&nbsp;Nature",
-   "title_zh": "跳跃落地时泊松比为负的网格中底的缓震和稳定性生物力学研究 - Nature",
-   "abstract_zh": "跳跃落地时织构中底的缓震和稳定性生物力学研究  《自然》",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 必迈 碳板跑鞋",
-   "title": "1000元一双的进口跑鞋，卖不动了！ - Sohu",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpRHVOQ1JoWGN2SXJzV2hmSUJLelJNLVBvWnJFRlhDSE1ZLTVBLWJCUUdGVzNyX1BDZzdHZ0tOcHpUUFNUMkp5b28xQUJ2c1Q1VkRZ?oc=5",
-   "date": "2026-08-27",
-   "abstract": "1000元一双的进口跑鞋，卖不动了！&nbsp;&nbsp;Sohu",
-   "title_zh": "1000元一双的进口跑鞋，卖不动了！ - Sohu",
-   "abstract_zh": "1000元一双的进口跑鞋，卖不动了！&nbsp;&nbsp;Sohu",
-   "brands": [
-    "综合/其他"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 特步 跑鞋 科技",
-   "title": "顶碳+顶缓双线进化，特步160X 8代与零云重新划定跑鞋科技坐标 - 凤凰网深圳",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1rRGZxTDhvbHBBQWlkLWNzNTZic1hXcUF3UnFTQWRXRzR0T3B4cS1sR0NhVnQ1cldDSlZsYWljY2V5d2k5NDVUdTRR?oc=5",
-   "date": "2026-08-24",
-   "abstract": "顶碳+顶缓双线进化，特步160X 8代与零云重新划定跑鞋科技坐标&nbsp;&nbsp;凤凰网深圳",
-   "title_zh": "顶碳+顶缓双线进化，特步160X 8代与零云重新划定跑鞋科技坐标 - 凤凰网深圳",
-   "abstract_zh": "顶碳+顶缓双线进化，特步160X 8代与零云重新划定跑鞋科技坐标&nbsp;&nbsp;凤凰网深圳",
-   "brands": [
-    "特步"
-   ]
-  },
-  {
-   "type": "news",
-   "source": "Google News · 特步 跑鞋 科技",
-   "title": "外媒刷屏、国内售罄，特步跑鞋实力出海！ - 中华网",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zbUk3X0ZWaVdLV2FoTXVfQXVPLWNfTXlIRGpVRFJ3WVZsc3oxVXRxYjZVODMtNDBEMURSdEFEcVN3dXcyc1dHTXhzNkltRVFZRW1uVEcwRGZFYlRTenlvc093Tl9HUDZiRGQyXzRn?oc=5",
-   "date": "2026-08-24",
-   "abstract": "外媒刷屏、国内售罄，特步跑鞋实力出海！&nbsp;&nbsp;中华网",
-   "title_zh": "外媒刷屏、国内售罄，特步跑鞋实力出海！ - 中华网",
-   "abstract_zh": "外媒刷屏、国内售罄，特步跑鞋实力出海！&nbsp;&nbsp;中华网",
-   "brands": [
-    "特步"
-   ]
-  },
-  {
-   "type": "news",
    "source": "Google News · 国产跑鞋 新品",
-   "title": "特步发布世界级双旗舰，引领中国跑鞋进入全场景新时代 - Jiemian.com",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QSG5abDRTU0tfZkpVSUxUcW9WNUZxaUVBdEpGSjlyVXFqSkpYRUdyVDFkbnF4LUdzSFRLbmxrNTl3MEhSU3dwc1g4T0FDV19nU2FIdFlB?oc=5",
-   "date": "2026-08-24",
-   "abstract": "特步发布世界级双旗舰，引领中国跑鞋进入全场景新时代&nbsp;&nbsp;Jiemian.com",
-   "title_zh": "特步发布世界级双旗舰，引领中国跑鞋进入全场景新时代 - Jiemian.com",
-   "abstract_zh": "特步发布世界级双旗舰，引领中国跑鞋进入全场景新时代&nbsp;&nbsp;Jiemian.com",
+   "title": "从竞速引领到全场景突破，特步世界级双旗舰在下一盘什么棋？ - Sohu",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZOFFNVW9iWVpVUkpyYkxFMktDX2ZaeG1JcHFxOXk5a243LUZMaHdZM2ZYYW43NEI4M3F1TkZwYU9MczhIaWZxVzZlX1VtZ2U5VDlz?oc=5",
+   "date": "2026-08-31",
+   "abstract": "从竞速引领到全场景突破，特步世界级双旗舰在下一盘什么棋？&nbsp;&nbsp;Sohu",
+   "title_zh": "从竞速引领到全场景突破，特步世界级双旗舰在下一盘什么棋？ - Sohu",
+   "abstract_zh": "从竞速引领到全场景突破，特步世界级双旗舰在下一盘什么棋？&nbsp;&nbsp;Sohu",
    "brands": [
     "特步"
    ]
